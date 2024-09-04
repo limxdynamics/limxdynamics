@@ -71,7 +71,20 @@ Committed to disruptive innovation of robotics to address the key challenges in 
         <td><img alt="Stars" src="https://img.shields.io/github/stars/limxdynamics/pointfoot-legged-gym?style=flat-square"/></td>
         <td><img alt="Forks" src="https://img.shields.io/github/forks/limxdynamics/pointfoot-legged-gym?style=flat-square"/></td>
     </tr>
-    
+    <tr>
+        <td align="center" ><a href="https://github.com/limxdynamics/robot-visualization"> robot-visualization </a></td>
+        <td> Provides a set of visualization and debugging tools suitable for both simulation and actual robot deployment. 
+        These tools include RViz and Plotjuggler for intuitive data presentation. </td>
+        <td><img alt="Stars" src="https://img.shields.io/github/stars/limxdynamics/robot-visualization?style=flat-square"/></td>
+        <td><img alt="Forks" src="https://img.shields.io/github/forks/limxdynamics/robot-visualization?style=flat-square"/></td>
+    </tr>
+    <tr>
+        <td align="center" ><a href="https://github.com/limxdynamics/pointfoot-sdk-highlevel"> pointfoot-sdk-highlevel </a></td>
+        <td> A high-level application development interface for Pointfoot robots, providing direct control over robot movements. 
+        Through this interface, you can develop custom high-level application algorithms such as localization and navigation. </td>
+        <td><img alt="Stars" src="https://img.shields.io/github/stars/limxdynamics/pointfoot-sdk-highlevel?style=flat-square"/></td>
+        <td><img alt="Forks" src="https://img.shields.io/github/forks/limxdynamics/pointfoot-sdk-highlevel?style=flat-square"/></td>
+    </tr>
     </tbody>
 </table>
 
