@@ -36,8 +36,7 @@ Committed to disruptive innovation of robotics to address the key challenges in 
     </tr>
     <tr>
         <td align="center" ><a href="https://github.com/limxdynamics/pointfoot-sdk-lowlevel"> pointfoot-sdk-lowlevel </a></td>
-        <td>  The Pointfoot robot's motion control interface supports developing custom algorithms in <br>
-        ROS1/ROS2 or non-ROS environments and offers C++/Python interfaces. </td>
+        <td>  The Pointfoot robot's motion control interface supports developing custom algorithms in ROS1/ROS2 or non-ROS environments and offers C++/Python interfaces. </td>
         <td><img alt="Stars" src="https://img.shields.io/github/stars/limxdynamics/pointfoot-sdk-lowlevel?style=flat-square"/></td>
         <td><img alt="Forks" src="https://img.shields.io/github/forks/limxdynamics/pointfoot-sdk-lowlevel?style=flat-square"/></td>
     </tr>
