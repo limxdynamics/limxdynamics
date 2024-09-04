@@ -36,31 +36,31 @@ Committed to disruptive innovation of robotics to address the key challenges in 
     </tr>
     <tr>
         <td align="center" ><a href="https://github.com/limxdynamics/pointfoot-sdk-lowlevel"> pointfoot-sdk-lowlevel </a></td>
-        <td> The Pointfoot robot's motion control interface supports developing custom algorithms in ROS1/ROS2 or non-ROS environments and offers C++/Python interfaces. </td>
+        <td> The Pointfoot robot's motion control interface supports developing custom algorithms in <a href="https://www.ros.org"> ROS1/ROS2 </a> or non-ROS environments and offers C++/Python interfaces. </td>
         <td><img alt="Stars" src="https://img.shields.io/github/stars/limxdynamics/pointfoot-sdk-lowlevel?style=flat-square"/></td>
         <td><img alt="Forks" src="https://img.shields.io/github/forks/limxdynamics/pointfoot-sdk-lowlevel?style=flat-square"/></td>
     </tr>
     <tr>
         <td align="center" ><a href="https://github.com/limxdynamics/rl-deploy-ros-cpp"> rl-deploy-ros-cpp </a></td>
-        <td> It is a reinforcement learning deployment framework based on ROS1 that helps you quickly deploy your trained models. </td>
+        <td> It is a reinforcement learning deployment framework based on <a href="https://www.ros.org"> ROS1 </a> that helps you quickly deploy your trained models. </td>
         <td><img alt="Stars" src="https://img.shields.io/github/stars/limxdynamics/rl-deploy-ros-cpp?style=flat-square"/></td>
         <td><img alt="Forks" src="https://img.shields.io/github/forks/limxdynamics/rl-deploy-ros-cpp?style=flat-square"/></td>
     </tr>
     <tr>
         <td align="center" ><a href="https://github.com/limxdynamics/rl-deploy-ros2-cpp"> rl-deploy-ros2-cpp </a></td>
-        <td> It is a reinforcement learning deployment framework based on ROS2 that helps you quickly deploy your trained models. </td>
+        <td> It is a reinforcement learning deployment framework based on <a href="https://www.ros.org"> ROS2 </a> that helps you quickly deploy your trained models. </td>
         <td><img alt="Stars" src="https://img.shields.io/github/stars/limxdynamics/rl-deploy-ros2-cpp?style=flat-square"/></td>
         <td><img alt="Forks" src="https://img.shields.io/github/forks/limxdynamics/rl-deploy-ros2-cpp?style=flat-square"/></td>
     </tr>
     <tr>
         <td align="center" ><a href="https://github.com/limxdynamics/pointfoot-gazebo-ros"> pointfoot-gazebo-ros </a></td>
-        <td> A ROS1-based simulation tool for the Pointfoot robot that supports quick Sim-to-Real validation and deployment of robot algorithms. </td>
+        <td> A <a href="https://www.ros.org"> ROS1-based </a> simulation tool for the Pointfoot robot that supports quick Sim-to-Real validation and deployment of robot algorithms. </td>
         <td><img alt="Stars" src="https://img.shields.io/github/stars/limxdynamics/pointfoot-gazebo-ros?style=flat-square"/></td>
         <td><img alt="Forks" src="https://img.shields.io/github/forks/limxdynamics/pointfoot-gazebo-ros?style=flat-square"/></td>
     </tr>
     <tr>
         <td align="center" ><a href="https://github.com/limxdynamics/pointfoot-gazebo-ros2"> pointfoot-gazebo-ros2 </a></td>
-        <td> A ROS2-based simulation tool for the Pointfoot robot that supports quick Sim-to-Real validation and deployment of robot algorithms. </td>
+        <td> A <a href="https://www.ros.org"> ROS2-based </a> simulation tool for the Pointfoot robot that supports quick Sim-to-Real validation and deployment of robot algorithms. </td>
         <td><img alt="Stars" src="https://img.shields.io/github/stars/limxdynamics/pointfoot-gazebo-ros2?style=flat-square"/></td>
         <td><img alt="Forks" src="https://img.shields.io/github/forks/limxdynamics/pointfoot-gazebo-ros2?style=flat-square"/></td>
     </tr>
@@ -74,7 +74,7 @@ Committed to disruptive innovation of robotics to address the key challenges in 
     <tr>
         <td align="center" ><a href="https://github.com/limxdynamics/robot-visualization"> robot-visualization </a></td>
         <td> Provides a set of visualization and debugging tools suitable for both simulation and actual robot deployment. 
-        These tools include RViz and Plotjuggler for intuitive data presentation. </td>
+        These tools include <a href="https://wiki.ros.org/rviz"> RViz </a> and <a href="https://plotjuggler.io"> Plotjuggler </a> for intuitive data presentation. </td>
         <td><img alt="Stars" src="https://img.shields.io/github/stars/limxdynamics/robot-visualization?style=flat-square"/></td>
         <td><img alt="Forks" src="https://img.shields.io/github/forks/limxdynamics/robot-visualization?style=flat-square"/></td>
     </tr>
