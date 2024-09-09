@@ -1,10 +1,8 @@
 <img src="doc/title.png" width="255" height="64" style="float: left; margin-right: 10px;">
 
-LimX Dynamics is a general-purpose robot company. We are devoted to the research, development, and manufacturing of general-purpose robots empowered by Embodied AI with a product lineup of humanoid robots, wheeled quadruped robots, biped robots as well as robotic software and hardware solutions. They are widely applied in sectors such as smart manufacturing, industrial inspections, logistics and distribution, special operations and household services catering to both B2B and B2C markets.
+LimX Dynamics is a general-purpose robotics company, focusing on full-size humanoid robots and have developed innovative products such as biped and quadruped robots.
 
-Since 2005, we have been collaborating with renowned scholars and authoritative institutions worldwide, conducting cutting-edge research in robotics, software algorithms, and AI.
-
-Committed to disruptive innovation of robotics to address the key challenges in the industry, our achievement of general robot capable of all-terrain mobility and general mobile manipulation will unleash the true value of technology advancement to the society and break the human-robot boundaries to empower human beings. 
+LimX Dynamics is dedicated to disruptive innovations by Embodied AI. The goal is to unleash the generalization of Artificial General Intelligence (AGI) in the physical world. Based on revolutionizing core software and hardware technologies, and building first-of-its-kind foundation model for humanoid robots, we aim to achieving loco-manipulation robotics platform and Embodied AI tool kits for innovators and integrators. We promote the widespread applications of Embodied AI across B2B & B2C sectors, including R&D, manufacturing, business and households services. 
 
 [![YouTube](https://img.shields.io/badge/YouTube-ff0000?style=flat&logo=youtube&logoColor=white)](https://www.youtube.com/@LimXDynamics/featured)
 [![Bilibili](https://img.shields.io/badge/-bilibili-ff69b4?style=flat&labelColor=ff69b4&logo=bilibili&logoColor=white)](https://space.bilibili.com/1172054289)
