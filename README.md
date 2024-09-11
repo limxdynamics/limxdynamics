@@ -63,6 +63,12 @@ LimX Dynamics is dedicated to disruptive innovations by Embodied AI. The goal is
         <td><img alt="Forks" src="https://img.shields.io/github/forks/limxdynamics/pointfoot-gazebo-ros2?style=flat-square"/></td>
     </tr>
     <tr>
+        <td align="center" ><a href="https://github.com/limxdynamics/pointfoot-mujoco-sim.git"> pointfoot-mujoco-sim </a></td>
+        <td> A <a href="https://mujoco.org"> MuJoCo </a> simulation tool for the Pointfoot robot that supports quick Sim-to-Real validation and deployment of robot algorithms. </td>
+        <td><img alt="Stars" src="https://img.shields.io/github/stars/limxdynamics/pointfoot-mujoco-sim?style=flat-square"/></td>
+        <td><img alt="Forks" src="https://img.shields.io/github/forks/limxdynamics/pointfoot-mujoco-sim?style=flat-square"/></td>
+    </tr>
+    <tr>
         <td align="center" ><a href="https://github.com/limxdynamics/pointfoot-legged-gym"> pointfoot-legged-gym </a></td>
         <td> A reinforcement learning training framework designed specifically for PointFoot robots, 
         providing comprehensive tools for simulation and training, and supporting reinforcement learning in various environments. </td>
@@ -85,4 +91,3 @@ LimX Dynamics is dedicated to disruptive innovations by Embodied AI. The goal is
     </tr>
     </tbody>
 </table>
-
