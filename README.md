@@ -51,6 +51,12 @@ LimX Dynamics is dedicated to disruptive innovations by Embodied AI. The goal is
         <td><img alt="Forks" src="https://img.shields.io/github/forks/limxdynamics/rl-deploy-ros2-cpp?style=flat-square"/></td>
     </tr>
     <tr>
+        <td align="center" ><a href="https://github.com/limxdynamics/rl-deploy-with-python"> rl-deploy-with-python </a></td>
+        <td> It is a reinforcement learning deployment algorithm that leverages Python to streamline the deployment of your trained models. </td>
+        <td><img alt="Stars" src="https://img.shields.io/github/stars/limxdynamics/rl-deploy-with-python?style=flat-square"/></td>
+        <td><img alt="Forks" src="https://img.shields.io/github/forks/limxdynamics/rl-deploy-with-python?style=flat-square"/></td>
+    </tr>
+    <tr>
         <td align="center" ><a href="https://github.com/limxdynamics/pointfoot-gazebo-ros"> pointfoot-gazebo-ros </a></td>
         <td> A <a href="https://www.ros.org"> ROS1-based </a> simulation tool for the Pointfoot robot that supports quick Sim-to-Real validation and deployment of robot algorithms. </td>
         <td><img alt="Stars" src="https://img.shields.io/github/stars/limxdynamics/pointfoot-gazebo-ros?style=flat-square"/></td>
