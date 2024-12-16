@@ -26,6 +26,7 @@ LimX Dynamics is dedicated to disruptive innovations by Embodied AI. The goal is
 <table class="table table-striped table-bordered table-vcenter"/>
     <tbody>
     <tr><th> Title </th> <th>Description</th> <th>Stars</th> <th>Forks</th></tr>
+    <tr><td colspan="4" align="center"><b>The Tron1 Robot</b></td></tr>
     <tr>
         <td align="center" ><a href="https://github.com/limxdynamics/tutorial-docs"> tutorial-docs </a></td>
         <td> Stores technical guides for robot development, offering clear workflows and practical guidance. </td>
