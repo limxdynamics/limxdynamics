@@ -39,8 +39,8 @@ LimX Dynamics is dedicated to disruptive innovations by Embodied AI. The goal is
         <td><a href="https://github.com/limxdynamics/robot-description"><img alt="Forks" src="https://img.shields.io/github/forks/limxdynamics/robot-description?style=flat-square"/></a></td>
     </tr>
     <tr>
-        <td align="center" ><a href="https://github.com/limxdynamics/pointfoot-sdk-lowlevel"> pointfoot-sdk-lowlevel </a></td>
-        <td> The Pointfoot robot's motion control interface supports developing custom algorithms in <a href="https://www.ros.org"> ROS1/ROS2 </a> or non-ROS environments and offers C++/Python interfaces. </td>
+        <td align="center" ><a href="https://github.com/limxdynamics/pointfoot-sdk-lowlevel"> tron1-sdk-lowlevel </a></td>
+        <td> The Tron1 robot's motion control interface supports developing custom algorithms in <a href="https://www.ros.org"> ROS1/ROS2 </a> or non-ROS environments and offers C++/Python interfaces. </td>
         <td><a href="https://github.com/limxdynamics/pointfoot-sdk-lowlevel"><img alt="Stars" src="https://img.shields.io/github/stars/limxdynamics/pointfoot-sdk-lowlevel?style=flat-square"/></a></td>
         <td><a href="https://github.com/limxdynamics/pointfoot-sdk-lowlevel"><img alt="Forks" src="https://img.shields.io/github/forks/limxdynamics/pointfoot-sdk-lowlevel?style=flat-square"/></a></td>
     </tr>
@@ -63,26 +63,26 @@ LimX Dynamics is dedicated to disruptive innovations by Embodied AI. The goal is
         <td><a href="https://github.com/limxdynamics/rl-deploy-with-python"><img alt="Forks" src="https://img.shields.io/github/forks/limxdynamics/rl-deploy-with-python?style=flat-square"/></a></td>
     </tr>
     <tr>
-        <td align="center" ><a href="https://github.com/limxdynamics/pointfoot-gazebo-ros"> pointfoot-gazebo-ros </a></td>
-        <td> A <a href="https://www.ros.org"> ROS1-based </a> simulation tool for the Pointfoot robot that supports quick Sim-to-Real validation and deployment of robot algorithms. </td>
+        <td align="center" ><a href="https://github.com/limxdynamics/pointfoot-gazebo-ros"> tron1-gazebo-ros </a></td>
+        <td> A <a href="https://www.ros.org"> ROS1-based </a> simulation tool for the Tron1 robot that supports quick Sim-to-Real validation and deployment of robot algorithms. </td>
         <td><a href="https://github.com/limxdynamics/pointfoot-gazebo-ros"><img alt="Stars" src="https://img.shields.io/github/stars/limxdynamics/pointfoot-gazebo-ros?style=flat-square"/></a></td>
         <td><a href="https://github.com/limxdynamics/pointfoot-gazebo-ros"><img alt="Forks" src="https://img.shields.io/github/forks/limxdynamics/pointfoot-gazebo-ros?style=flat-square"/></a></td>
     </tr>
     <tr>
-        <td align="center" ><a href="https://github.com/limxdynamics/pointfoot-gazebo-ros2"> pointfoot-gazebo-ros2 </a></td>
-        <td> A <a href="https://www.ros.org"> ROS2-based </a> simulation tool for the Pointfoot robot that supports quick Sim-to-Real validation and deployment of robot algorithms. </td>
+        <td align="center" ><a href="https://github.com/limxdynamics/pointfoot-gazebo-ros2"> tron1-gazebo-ros2 </a></td>
+        <td> A <a href="https://www.ros.org"> ROS2-based </a> simulation tool for the Tron1 robot that supports quick Sim-to-Real validation and deployment of robot algorithms. </td>
         <td><a href="https://github.com/limxdynamics/pointfoot-gazebo-ros2"><img alt="Stars" src="https://img.shields.io/github/stars/limxdynamics/pointfoot-gazebo-ros2?style=flat-square"/></a></td>
         <td><a href="https://github.com/limxdynamics/pointfoot-gazebo-ros2"><img alt="Forks" src="https://img.shields.io/github/forks/limxdynamics/pointfoot-gazebo-ros2?style=flat-square"/></a></td>
     </tr>
     <tr>
-        <td align="center" ><a href="https://github.com/limxdynamics/pointfoot-mujoco-sim.git"> pointfoot-mujoco-sim </a></td>
-        <td> A <a href="https://mujoco.org"> MuJoCo </a> simulation tool for the Pointfoot robot that supports quick Sim-to-Real validation and deployment of robot algorithms. </td>
+        <td align="center" ><a href="https://github.com/limxdynamics/pointfoot-mujoco-sim.git"> tron1-mujoco-sim </a></td>
+        <td> A <a href="https://mujoco.org"> MuJoCo </a> simulation tool for the Tron1 robot that supports quick Sim-to-Real validation and deployment of robot algorithms. </td>
         <td><a href="https://github.com/limxdynamics/pointfoot-mujoco-sim.git"><img alt="Stars" src="https://img.shields.io/github/stars/limxdynamics/pointfoot-mujoco-sim?style=flat-square"/></a></td>
         <td><a href="https://github.com/limxdynamics/pointfoot-mujoco-sim.git"><img alt="Forks" src="https://img.shields.io/github/forks/limxdynamics/pointfoot-mujoco-sim?style=flat-square"/></a></td>
     </tr>
     <tr>
-        <td align="center" ><a href="https://github.com/limxdynamics/pointfoot-legged-gym"> pointfoot-legged-gym </a></td>
-        <td> A reinforcement learning training framework designed specifically for PointFoot robots, 
+        <td align="center" ><a href="https://github.com/limxdynamics/pointfoot-legged-gym"> tron1-legged-gym </a></td>
+        <td> A reinforcement learning training framework designed specifically for Tron1 robots, 
         providing comprehensive tools for simulation and training, and supporting reinforcement learning in various environments. </td>
         <td><a href="https://github.com/limxdynamics/pointfoot-legged-gym"><img alt="Stars" src="https://img.shields.io/github/stars/limxdynamics/pointfoot-legged-gym?style=flat-square"/></a></td>
         <td><a href="https://github.com/limxdynamics/pointfoot-legged-gym"><img alt="Forks" src="https://img.shields.io/github/forks/limxdynamics/pointfoot-legged-gym?style=flat-square"/></a></td>
@@ -95,8 +95,8 @@ LimX Dynamics is dedicated to disruptive innovations by Embodied AI. The goal is
         <td><a href="https://github.com/limxdynamics/robot-visualization"><img alt="Forks" src="https://img.shields.io/github/forks/limxdynamics/robot-visualization?style=flat-square"/></a></td>
     </tr>
     <tr>
-        <td align="center" ><a href="https://github.com/limxdynamics/pointfoot-sdk-highlevel"> pointfoot-sdk-highlevel </a></td>
-        <td> A high-level application development interface for Pointfoot robots, providing direct control over robot movements. 
+        <td align="center" ><a href="https://github.com/limxdynamics/pointfoot-sdk-highlevel"> tron1-sdk-highlevel </a></td>
+        <td> A high-level application development interface for Tron1 robots, providing direct control over robot movements. 
         Through this interface, you can develop custom high-level application algorithms such as localization and navigation. </td>
         <td><a href="https://github.com/limxdynamics/pointfoot-sdk-highlevel"><img alt="Stars" src="https://img.shields.io/github/stars/limxdynamics/pointfoot-sdk-highlevel?style=flat-square"/></a></td>
         <td><a href="https://github.com/limxdynamics/pointfoot-sdk-highlevel"><img alt="Forks" src="https://img.shields.io/github/forks/limxdynamics/pointfoot-sdk-highlevel?style=flat-square"/></a></td>
