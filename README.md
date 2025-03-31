@@ -94,12 +94,5 @@ LimX Dynamics is dedicated to disruptive innovations by Embodied AI. The goal is
         <td><a href="https://github.com/limxdynamics/robot-visualization"><img alt="Stars" src="https://img.shields.io/github/stars/limxdynamics/robot-visualization?style=flat-square"/></a></td>
         <td><a href="https://github.com/limxdynamics/robot-visualization"><img alt="Forks" src="https://img.shields.io/github/forks/limxdynamics/robot-visualization?style=flat-square"/></a></td>
     </tr>
-    <tr>
-        <td align="center" ><a href="https://github.com/limxdynamics/pointfoot-sdk-highlevel"> tron1-sdk-highlevel </a></td>
-        <td> A high-level application development interface for Tron1 robots, providing direct control over robot movements. 
-        Through this interface, you can develop custom high-level application algorithms such as localization and navigation. </td>
-        <td><a href="https://github.com/limxdynamics/pointfoot-sdk-highlevel"><img alt="Stars" src="https://img.shields.io/github/stars/limxdynamics/pointfoot-sdk-highlevel?style=flat-square"/></a></td>
-        <td><a href="https://github.com/limxdynamics/pointfoot-sdk-highlevel"><img alt="Forks" src="https://img.shields.io/github/forks/limxdynamics/pointfoot-sdk-highlevel?style=flat-square"/></a></td>
-    </tr>
     </tbody>
 </table>
