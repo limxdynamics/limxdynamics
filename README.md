@@ -27,12 +27,6 @@ LimX Dynamics is dedicated to disruptive innovations by Embodied AI. The goal is
     <tbody>
     <tr><th> Title </th> <th>Description</th> <th>Stars</th> <th>Forks</th></tr>
     <tr>
-        <td align="center" ><a href="https://github.com/limxdynamics/tutorial-docs"> tutorial-docs </a></td>
-        <td> Stores technical guides for robot development, offering clear workflows and practical guidance. </td>
-        <td><a href="https://github.com/limxdynamics/tutorial-docs"><img alt="Stars" src="https://img.shields.io/github/stars/limxdynamics/tutorial-docs?style=flat-square"/></a></td>
-        <td><a href="https://github.com/limxdynamics/tutorial-docs"><img alt="Forks" src="https://img.shields.io/github/forks/limxdynamics/tutorial-docs?style=flat-square"/></a></td>
-    </tr>
-    <tr>
         <td align="center" ><a href="https://github.com/limxdynamics/robot-description"> robot-description </a></td>
         <td> Stores URDF and Xacro files for defining robot models, which are used in robotics simulations and robot control applications. </td>
         <td><a href="https://github.com/limxdynamics/robot-description"><img alt="Stars" src="https://img.shields.io/github/stars/limxdynamics/robot-description?style=flat-square"/></a></td>
