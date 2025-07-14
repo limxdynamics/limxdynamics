@@ -75,7 +75,7 @@ LimX Dynamics is dedicated to disruptive innovations by Embodied AI. The goal is
         <td><a href="https://github.com/limxdynamics/pointfoot-mujoco-sim.git"><img alt="Forks" src="https://img.shields.io/github/forks/limxdynamics/pointfoot-mujoco-sim?style=flat-square"/></a></td>
     </tr>
     <tr>
-        <td align="center" ><a href="https://github.com/limxdynamics/pointfoot-legged-gym"> tron1-legged-gym </a></td>
+        <td align="center" ><a href="https://github.com/limxdynamics/pointfoot-legged-isaacgym"> tron1-legged-isaacgym </a></td>
         <td> A reinforcement learning training framework designed specifically for Tron1 robots, 
         providing comprehensive tools for simulation and training, and supporting reinforcement learning in various environments. </td>
         <td><a href="https://github.com/limxdynamics/pointfoot-legged-gym"><img alt="Stars" src="https://img.shields.io/github/stars/limxdynamics/pointfoot-legged-gym?style=flat-square"/></a></td>
