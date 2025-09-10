@@ -25,8 +25,46 @@ LimX Dynamics is dedicated to disruptive innovations by Embodied AI. The goal is
 
 <table class="table table-striped table-bordered table-vcenter"/>
     <tbody>
-    <tr><th> Title </th> <th>Description</th> <th>Stars</th> <th>Forks</th></tr>
+    <tr><th>Category</th><th> Title </th> <th>Description</th> <th>Stars</th> <th>Forks</th></tr>
     <tr>
+        <td rowspan="6" class="font-weight-bold">Oli</td>
+        <td align="center" ><a href="https://github.com/limxdynamics/humanoid-description"> humanoid-description </a></td>
+        <td> Robot model files, including URDF, USD, and XML model files. Can be used for simulation, training, etc. </td>
+        <td><a href="https://github.com/limxdynamics/humanoid-description"><img alt="Stars" src="https://img.shields.io/github/stars/limxdynamics/humanoid-description?style=flat-square"/></a></td>
+        <td><a href="https://github.com/limxdynamics/humanoid-description"><img alt="Forks" src="https://img.shields.io/github/forks/limxdynamics/humanoid-description?style=flat-square"/></a></td>
+    </tr>
+    <tr>
+        <td align="center" ><a href="https://github.com/limxdynamics/humanoid-mujoco-sim"> humanoid-mujoco-sim </a></td>
+        <td> A <a href="https://mujoco.org"> MuJoCo </a> simulation tool for the Oli robot that supports quick Sim-to-Real validation and deployment of robot algorithms. </td>
+        <td><a href="https://github.com/limxdynamics/humanoid-mujoco-sim"><img alt="Stars" src="https://img.shields.io/github/stars/limxdynamics/humanoid-mujoco-sim?style=flat-square"/></a></td>
+        <td><a href="https://github.com/limxdynamics/humanoid-mujoco-sim"><img alt="Forks" src="https://img.shields.io/github/forks/limxdynamics/humanoid-mujoco-sim?style=flat-square"/></a></td>
+    </tr>
+    <tr>
+        <td align="center" ><a href="https://github.com/limxdynamics/humanoid-rl-deploy-python"> humanoid-rl-deploy-python </a></td>
+        <td> This is a Python-based reinforcement learning deployment algorithm that streamlines the process of deploying trained models on Oli robots. </td>
+        <td><a href="https://github.com/limxdynamics/humanoid-rl-deploy-python"><img alt="Stars" src="https://img.shields.io/github/stars/limxdynamics/humanoid-rl-deploy-python?style=flat-square"/></a></td>
+        <td><a href="https://github.com/limxdynamics/humanoid-rl-deploy-python"><img alt="Forks" src="https://img.shields.io/github/forks/limxdynamics/humanoid-rl-deploy-python?style=flat-square"/></a></td>
+    </tr> 
+    <tr>
+        <td align="center" ><a href="https://github.com/limxdynamics/humanoid-rl-deploy-cpp"> humanoid-rl-deploy-cpp </a></td>
+        <td> This is a lightweight algorithm framework implemented in standard C++. It enables rapid deployment of trained models when ROS1/ROS2 is not required. </td>
+        <td><a href="https://github.com/limxdynamics/humanoid-rl-deploy-cpp"><img alt="Stars" src="https://img.shields.io/github/stars/limxdynamics/humanoid-rl-deploy-cpp?style=flat-square"/></a></td>
+        <td><a href="https://github.com/limxdynamics/humanoid-rl-deploy-cpp"><img alt="Forks" src="https://img.shields.io/github/forks/limxdynamics/humanoid-rl-deploy-cpp?style=flat-square"/></a></td>
+    </tr> 
+    <tr>
+        <td align="center" ><a href="https://github.com/limxdynamics/humanoid-rl-deploy-ros2"> humanoid-rl-deploy-ros2 </a></td>
+        <td> This is a reinforcement learning deployment framework based on <a href="https://www.ros.org">ROS2</a> that enables rapid deployment of trained models on Oli robots. </td>
+        <td><a href="https://github.com/limxdynamics/humanoid-rl-deploy-ros2"><img alt="Stars" src="https://img.shields.io/github/stars/limxdynamics/humanoid-rl-deploy-ros2?style=flat-square"/></a></td>
+        <td><a href="https://github.com/limxdynamics/humanoid-rl-deploy-ros2"><img alt="Forks" src="https://img.shields.io/github/forks/limxdynamics/humanoid-rl-deploy-ros2?style=flat-square"/></a></td>
+    </tr> 
+    <tr>
+        <td align="center" ><a href="https://github.com/limxdynamics/humanoid-rl-deploy-ros"> humanoid-rl-deploy-ros </a></td>
+        <td> This is a reinforcement learning deployment framework based on <a href="https://www.ros.org">ROS1</a> that enables rapid deployment of trained models on Oli robots. </td>
+        <td><a href="https://github.com/limxdynamics/humanoid-rl-deploy-ros"><img alt="Stars" src="https://img.shields.io/github/stars/limxdynamics/humanoid-rl-deploy-ros?style=flat-square"/></a></td>
+        <td><a href="https://github.com/limxdynamics/humanoid-rl-deploy-ros"><img alt="Forks" src="https://img.shields.io/github/forks/limxdynamics/humanoid-rl-deploy-ros?style=flat-square"/></a></td>
+    </tr>
+    <tr>
+        <td rowspan="8" class="font-weight-bold">TRON1</td>
         <td align="center" ><a href="https://github.com/limxdynamics/tron1-rl-isaaclab"> tron1-rl-isaaclab </a></td>
         <td> A reinforcement learning training framework designed specifically for Tron1 robots, 
         providing comprehensive tools for simulation and training, and supporting reinforcement learning in various environments. </td>
@@ -75,19 +113,6 @@ LimX Dynamics is dedicated to disruptive innovations by Embodied AI. The goal is
         <td> A <a href="https://mujoco.org"> MuJoCo </a> simulation tool for the Tron1 robot that supports quick Sim-to-Real validation and deployment of robot algorithms. </td>
         <td><a href="https://github.com/limxdynamics/tron1-mujoco-sim.git"><img alt="Stars" src="https://img.shields.io/github/stars/limxdynamics/tron1-mujoco-sim?style=flat-square"/></a></td>
         <td><a href="https://github.com/limxdynamics/tron1-mujoco-sim.git"><img alt="Forks" src="https://img.shields.io/github/forks/limxdynamics/tron1-mujoco-sim?style=flat-square"/></a></td>
-    </tr>
-    <tr>
-        <td align="center" ><a href="https://github.com/limxdynamics/limxsdk-lowlevel"> limxsdk-lowlevel </a></td>
-        <td> The Tron1 robot's motion control interface supports developing custom algorithms in <a href="https://www.ros.org"> ROS1/ROS2 </a> or non-ROS environments and offers C++/Python interfaces. </td>
-        <td><a href="https://github.com/limxdynamics/limxsdk-lowlevel"><img alt="Stars" src="https://img.shields.io/github/stars/limxdynamics/limxsdk-lowlevel?style=flat-square"/></a></td>
-        <td><a href="https://github.com/limxdynamics/limxsdk-lowlevel"><img alt="Forks" src="https://img.shields.io/github/forks/limxdynamics/limxsdk-lowlevel?style=flat-square"/></a></td>
-    </tr>
-    <tr>
-        <td align="center" ><a href="https://github.com/limxdynamics/robot-visualization"> robot-visualization </a></td>
-        <td> Provides a set of visualization and debugging tools suitable for both simulation and actual robot deployment. 
-        These tools include <a href="https://wiki.ros.org/rviz"> RViz </a> and <a href="https://plotjuggler.io"> Plotjuggler </a> for intuitive data presentation. </td>
-        <td><a href="https://github.com/limxdynamics/robot-visualization"><img alt="Stars" src="https://img.shields.io/github/stars/limxdynamics/robot-visualization?style=flat-square"/></a></td>
-        <td><a href="https://github.com/limxdynamics/robot-visualization"><img alt="Forks" src="https://img.shields.io/github/forks/limxdynamics/robot-visualization?style=flat-square"/></a></td>
     </tr>
     </tbody>
 </table>
