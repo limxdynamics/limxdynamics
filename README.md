@@ -27,6 +27,49 @@ LimX Dynamics is dedicated to disruptive innovations by Embodied AI. The goal is
     <tbody>
     <tr><th>Category</th><th> Title </th> <th>Description</th> <th>Stars</th> <th>Forks</th></tr>
     <tr>
+        <td rowspan="7" class="font-weight-bold">TRON2</td>
+        <td align="center" ><a href="https://github.com/limx-tron2/robot-description"> robot-description </a></td>
+        <td> Robot model files for TRON2 variants, including URDF/xacro, MuJoCo XML, meshes, and optional USD assets for simulation, visualization, and downstream tooling. </td>
+        <td><a href="https://github.com/limx-tron2/robot-description"><img alt="Stars" src="https://img.shields.io/github/stars/limx-tron2/robot-description?style=flat-square"/></a></td>
+        <td><a href="https://github.com/limx-tron2/robot-description"><img alt="Forks" src="https://img.shields.io/github/forks/limx-tron2/robot-description?style=flat-square"/></a></td>
+    </tr>
+    <tr>
+        <td align="center" ><a href="https://github.com/limx-tron2/tron2_rl_lab"> tron2_rl_lab </a></td>
+        <td> An <a href="https://isaac-sim.github.io/IsaacLab/"> Isaac Lab </a> reinforcement learning training stack for TRON2 robots, supporting SF/WF and SFYG/WFYG robot variants. </td>
+        <td><a href="https://github.com/limx-tron2/tron2_rl_lab"><img alt="Stars" src="https://img.shields.io/github/stars/limx-tron2/tron2_rl_lab?style=flat-square"/></a></td>
+        <td><a href="https://github.com/limx-tron2/tron2_rl_lab"><img alt="Forks" src="https://img.shields.io/github/forks/limx-tron2/tron2_rl_lab?style=flat-square"/></a></td>
+    </tr>
+    <tr>
+        <td align="center" ><a href="https://github.com/limx-tron2/TRON2_YG_LAB"> TRON2_YG_LAB </a></td>
+        <td> An Isaac Lab reinforcement learning training stack for TRON2 robots with 6-DoF arm and gripper variants, designed for locomotion policy training and play. </td>
+        <td><a href="https://github.com/limx-tron2/TRON2_YG_LAB"><img alt="Stars" src="https://img.shields.io/github/stars/limx-tron2/TRON2_YG_LAB?style=flat-square"/></a></td>
+        <td><a href="https://github.com/limx-tron2/TRON2_YG_LAB"><img alt="Forks" src="https://img.shields.io/github/forks/limx-tron2/TRON2_YG_LAB?style=flat-square"/></a></td>
+    </tr>
+    <tr>
+        <td align="center" ><a href="https://github.com/limx-tron2/tron2_rl_deploy_python"> tron2_rl_deploy_python </a></td>
+        <td> A Python-based reinforcement learning deployment demo for TRON2 robots that runs ONNX policies and supports MuJoCo simulation and real-world deployment. </td>
+        <td><a href="https://github.com/limx-tron2/tron2_rl_deploy_python"><img alt="Stars" src="https://img.shields.io/github/stars/limx-tron2/tron2_rl_deploy_python?style=flat-square"/></a></td>
+        <td><a href="https://github.com/limx-tron2/tron2_rl_deploy_python"><img alt="Forks" src="https://img.shields.io/github/forks/limx-tron2/tron2_rl_deploy_python?style=flat-square"/></a></td>
+    </tr>
+    <tr>
+        <td align="center" ><a href="https://github.com/limx-tron2/tron2_rl_deploy_ros"> tron2_rl_deploy_ros </a></td>
+        <td> A ROS Noetic reinforcement learning deployment workspace for TRON2 robots, including hardware, controller, and ONNX runtime packages for simulation and real robots. </td>
+        <td><a href="https://github.com/limx-tron2/tron2_rl_deploy_ros"><img alt="Stars" src="https://img.shields.io/github/stars/limx-tron2/tron2_rl_deploy_ros?style=flat-square"/></a></td>
+        <td><a href="https://github.com/limx-tron2/tron2_rl_deploy_ros"><img alt="Forks" src="https://img.shields.io/github/forks/limx-tron2/tron2_rl_deploy_ros?style=flat-square"/></a></td>
+    </tr>
+    <tr>
+        <td align="center" ><a href="https://github.com/limx-tron2/tron2_gazebo_ros"> tron2_gazebo_ros </a></td>
+        <td> A ROS Noetic and Gazebo simulation workspace for TRON2 robots that supports controller integration, Sim-to-Real validation, and deployment workflows. </td>
+        <td><a href="https://github.com/limx-tron2/tron2_gazebo_ros"><img alt="Stars" src="https://img.shields.io/github/stars/limx-tron2/tron2_gazebo_ros?style=flat-square"/></a></td>
+        <td><a href="https://github.com/limx-tron2/tron2_gazebo_ros"><img alt="Forks" src="https://img.shields.io/github/forks/limx-tron2/tron2_gazebo_ros?style=flat-square"/></a></td>
+    </tr>
+    <tr>
+        <td align="center" ><a href="https://github.com/limx-tron2/tron2_mujoco_sim"> tron2_mujoco_sim </a></td>
+        <td> A <a href="https://mujoco.org"> MuJoCo </a> simulation tool for TRON2 robots that supports SF/WF robot types and controller deployment through the LimX SDK. </td>
+        <td><a href="https://github.com/limx-tron2/tron2_mujoco_sim"><img alt="Stars" src="https://img.shields.io/github/stars/limx-tron2/tron2_mujoco_sim?style=flat-square"/></a></td>
+        <td><a href="https://github.com/limx-tron2/tron2_mujoco_sim"><img alt="Forks" src="https://img.shields.io/github/forks/limx-tron2/tron2_mujoco_sim?style=flat-square"/></a></td>
+    </tr>
+    <tr>
         <td rowspan="6" class="font-weight-bold">Oli</td>
         <td align="center" ><a href="https://github.com/limxdynamics/humanoid-description"> humanoid-description </a></td>
         <td> Robot model files, including URDF, USD, and XML model files. Can be used for simulation, training, etc. </td>
