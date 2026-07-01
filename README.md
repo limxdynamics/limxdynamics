@@ -26,6 +26,8 @@ LimX Dynamics is dedicated to disruptive innovations by Embodied AI. The goal is
 <table class="table table-striped table-bordered table-vcenter"/>
     <tbody>
     <tr><th>Category</th><th> Title </th> <th>Description</th> <th>Stars</th> <th>Forks</th></tr>
+    <!-- Empty rows keep rowspan category cells on the default white stripe. -->
+    <tr></tr>
     <tr>
         <td rowspan="7" class="font-weight-bold">TRON2</td>
         <td align="center" ><a href="https://github.com/limx-tron2/robot-description"> robot-description </a></td>
@@ -69,6 +71,7 @@ LimX Dynamics is dedicated to disruptive innovations by Embodied AI. The goal is
         <td><a href="https://github.com/limx-tron2/tron2_mujoco_sim"><img alt="Stars" src="https://img.shields.io/github/stars/limx-tron2/tron2_mujoco_sim?style=flat-square"/></a></td>
         <td><a href="https://github.com/limx-tron2/tron2_mujoco_sim"><img alt="Forks" src="https://img.shields.io/github/forks/limx-tron2/tron2_mujoco_sim?style=flat-square"/></a></td>
     </tr>
+    <tr></tr>
     <tr>
         <td rowspan="6" class="font-weight-bold">Oli</td>
         <td align="center" ><a href="https://github.com/limxdynamics/humanoid-description"> humanoid-description </a></td>
