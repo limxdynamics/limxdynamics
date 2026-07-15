@@ -6,6 +6,9 @@ LimX Dynamics is dedicated to disruptive innovations by Embodied AI. The goal is
 
 [![YouTube](https://img.shields.io/badge/YouTube-ff0000?style=flat&logo=youtube&logoColor=white)](https://www.youtube.com/@LimXDynamics/featured)
 [![Bilibili](https://img.shields.io/badge/-bilibili-ff69b4?style=flat&labelColor=ff69b4&logo=bilibili&logoColor=white)](https://space.bilibili.com/1172054289)
+[![Douyin](https://img.shields.io/badge/Douyin-000000?style=flat&logo=tiktok&logoColor=white)](https://www.douyin.com/user/MS4wLjABAAAAi4WtqIxdAP5iqbT4BSEgUWPu6g9h_Pl7VXaQOLfDeFK1LgZo5O4IbIknTVeL6Zq-?from_tab_name=main&relation=0&vid=7654443992867786011)
+[![Xiaohongshu](https://img.shields.io/badge/Xiaohongshu-FF2442?style=flat&logo=xiaohongshu&logoColor=white)](https://www.xiaohongshu.com/user/profile/66e44fa8000000001d020784?xsec_token=ABnTSjc077y0Y9d7LrDkVdpR_IwBO36Dm_4eHTx1mXBE0=&xsec_source=pc_note)
+[![Kuaishou](https://img.shields.io/badge/Kuaishou-FF4906?style=flat&logo=kuaishou&logoColor=white)](https://www.kuaishou.com/profile/3xvskq6dkc4puq6)
 <a href="https://github.com/limxdynamics">
 <img src="https://badges.strrl.dev/years/limxdynamics?style=flat-square&logo=github">
 </a>
