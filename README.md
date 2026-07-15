@@ -9,9 +9,6 @@ LimX Dynamics is dedicated to disruptive innovations by Embodied AI. The goal is
 <a href="https://github.com/limxdynamics">
 <img src="https://badges.strrl.dev/years/limxdynamics?style=flat-square&logo=github">
 </a>
-<a href="https://github.com/limxdynamics?tab=repositories">
-<img src="https://badges.strrl.dev/repos/limxdynamics?style=flat-square&logo=github">
-</a>
 
 
 <table><tbody>
