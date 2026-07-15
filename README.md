@@ -29,7 +29,7 @@ LimX Dynamics is dedicated to disruptive innovations by Embodied AI. The goal is
     <!-- Empty rows keep rowspan category cells on the default white stripe. -->
     <tr></tr>
     <tr>
-        <td rowspan="7" class="font-weight-bold">TRON2</td>
+        <td rowspan="9" class="font-weight-bold">TRON2</td>
         <td align="center" ><a href="https://github.com/limx-tron2/robot-description"> robot-description </a></td>
         <td> Robot model files for TRON2 variants, including URDF/xacro, MuJoCo XML, meshes, and optional USD assets for simulation, visualization, and downstream tooling. </td>
         <td><a href="https://github.com/limx-tron2/robot-description"><img alt="Stars" src="https://img.shields.io/github/stars/limx-tron2/robot-description?style=flat-square"/></a></td>
@@ -46,6 +46,18 @@ LimX Dynamics is dedicated to disruptive innovations by Embodied AI. The goal is
         <td> An Isaac Lab reinforcement learning training stack for TRON2 robots with 6-DoF arm and gripper variants, designed for locomotion policy training and play. </td>
         <td><a href="https://github.com/limx-tron2/TRON2_YG_LAB"><img alt="Stars" src="https://img.shields.io/github/stars/limx-tron2/TRON2_YG_LAB?style=flat-square"/></a></td>
         <td><a href="https://github.com/limx-tron2/TRON2_YG_LAB"><img alt="Forks" src="https://img.shields.io/github/forks/limx-tron2/TRON2_YG_LAB?style=flat-square"/></a></td>
+    </tr>
+    <tr>
+        <td align="center" ><a href="https://github.com/limx-tron2/tron2_env"> tron2_env </a></td>
+        <td> A public TRON2 runtime package for OpenPI deployment, providing WebSocket robot communication, motion execution, observation collection, and RTC helper utilities for real-robot manipulation. </td>
+        <td><a href="https://github.com/limx-tron2/tron2_env"><img alt="Stars" src="https://img.shields.io/github/stars/limx-tron2/tron2_env?style=flat-square"/></a></td>
+        <td><a href="https://github.com/limx-tron2/tron2_env"><img alt="Forks" src="https://img.shields.io/github/forks/limx-tron2/tron2_env?style=flat-square"/></a></td>
+    </tr>
+    <tr>
+        <td align="center" ><a href="https://github.com/limx-tron2/tron2_openpi"> tron2_openpi </a></td>
+        <td> A TRON2 deployment-focused derivative of OpenPI that adds TRON2 policy transforms, deployment configuration templates, pi0/pi0.5 policy serving, and real-robot client examples. </td>
+        <td><a href="https://github.com/limx-tron2/tron2_openpi"><img alt="Stars" src="https://img.shields.io/github/stars/limx-tron2/tron2_openpi?style=flat-square"/></a></td>
+        <td><a href="https://github.com/limx-tron2/tron2_openpi"><img alt="Forks" src="https://img.shields.io/github/forks/limx-tron2/tron2_openpi?style=flat-square"/></a></td>
     </tr>
     <tr>
         <td align="center" ><a href="https://github.com/limx-tron2/tron2_rl_deploy_python"> tron2_rl_deploy_python </a></td>
