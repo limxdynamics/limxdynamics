@@ -47,7 +47,7 @@ LimX Dynamics is dedicated to disruptive innovations by Embodied AI. The goal is
     </tr>
     <tr>
         <td align="center" ><a href="https://github.com/limxdynamics/tron2_rl_lab"> tron2_rl_lab </a></td>
-        <td> An <a href="https://isaac-sim.github.io/IsaacLab/"> Isaac Lab </a> reinforcement learning training stack for TRON2 robots, supporting SF/WF and SFYG/WFYG robot variants. </td>
+        <td> An <a href="https://isaac-sim.github.io/IsaacLab/"> Isaac Lab </a> reinforcement learning training stack for TRON2 robots, supporting SF/WF (sole-foot and wheel-foot) variants. </td>
         <td><a href="https://github.com/limxdynamics/tron2_rl_lab"><img alt="Stars" src="https://img.shields.io/github/stars/limxdynamics/tron2_rl_lab?style=flat-square"/></a></td>
         <td><a href="https://github.com/limxdynamics/tron2_rl_lab"><img alt="Forks" src="https://img.shields.io/github/forks/limxdynamics/tron2_rl_lab?style=flat-square"/></a></td>
     </tr>
