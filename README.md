@@ -27,7 +27,7 @@ LimX Dynamics is dedicated to disruptive innovations by Embodied AI. The goal is
     <!-- Empty rows keep rowspan category cells on the default white stripe. -->
     <tr></tr>
     <tr>
-        <td rowspan="12" class="font-weight-bold">TRON2</td>
+        <td rowspan="9" class="font-weight-bold">TRON2</td>
         <td align="center" ><a href="https://github.com/limxdynamics/tron2-robot-description"> robot-description </a></td>
         <td> Robot model files for TRON2 variants, including URDF/xacro, MuJoCo XML, meshes, and optional USD assets for simulation, visualization, and downstream tooling. </td>
         <td><a href="https://github.com/limxdynamics/tron2-robot-description"><img alt="Stars" src="https://img.shields.io/github/stars/limxdynamics/tron2-robot-description?style=flat-square"/></a></td>
@@ -81,7 +81,9 @@ LimX Dynamics is dedicated to disruptive innovations by Embodied AI. The goal is
         <td><a href="https://github.com/limxdynamics/tron2_openpi"><img alt="Stars" src="https://img.shields.io/github/stars/limxdynamics/tron2_openpi?style=flat-square"/></a></td>
         <td><a href="https://github.com/limxdynamics/tron2_openpi"><img alt="Forks" src="https://img.shields.io/github/forks/limxdynamics/tron2_openpi?style=flat-square"/></a></td>
     </tr>
+    <tr></tr>
     <tr>
+        <td rowspan="3" class="font-weight-bold">TronCamp</td>
         <td align="center" ><a href="https://github.com/limxdynamics/troncamp-mani"> troncamp-mani </a></td>
         <td> TronCamp ACT 4-task contestant kit — self-contained package (Tron2 dual-arm / RoboTwin / single-GPU ACT) with setup, starter, and eval for four increasingly difficult manipulation tasks. </td>
         <td><a href="https://github.com/limxdynamics/troncamp-mani"><img alt="Stars" src="https://img.shields.io/github/stars/limxdynamics/troncamp-mani?style=flat-square"/></a></td>
