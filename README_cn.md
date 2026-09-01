@@ -2,7 +2,7 @@
 
 <img src="doc/logo.png" width="255" height="64" style="float: left; margin-right: 10px;">
 
-LimX Dynamics (北京加速进化科技有限公司) 是一家通用机器人公司，专注于全尺寸人形机器人，并已研发出双足、四足等系列创新产品。
+LimX Dynamics（逐际动力）是一家通用机器人公司，专注于全尺寸人形机器人，并已研发出双足、四足等系列创新产品。
 
 LimX Dynamics 致力于以具身智能（Embodied AI）驱动颠覆式创新。我们的目标是让人工智能（AGI）的泛化能力在物理世界充分释放。基于革命性的核心软硬件技术，并为机器人构建首个基础模型（foundation model），我们希望为创新者与集成商提供可操作（loco-manipulation）的机器人平台与具身智能工具集，推动具身智能在 B2B 与 B2C 领域（包括研发、制造、商务与家庭服务）的广泛应用。
 
