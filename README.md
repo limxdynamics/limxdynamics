@@ -1,3 +1,5 @@
+English | [中文](README_cn.md)
+
 <img src="doc/logo.png" width="255" height="64" style="float: left; margin-right: 10px;">
 
 LimX Dynamics is a general-purpose robotics company, focusing on full-size humanoid robots and have developed innovative products such as biped and quadruped robots.
