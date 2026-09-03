@@ -87,6 +87,7 @@ def badge(label, value, color):
 
 LINE = "#dd4528"
 AXIS = "#000000"
+AXIS_DARK = "#c9d1d9"
 _MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
            "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
 
@@ -208,7 +209,7 @@ def monotone_path(pts):
     return " ".join(parts)
 
 
-def render_svg(rows):
+def render_svg(rows, axis_color=AXIS):
     if not rows:
         return "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 533'></svg>"
 
@@ -256,21 +257,21 @@ def render_svg(rows):
     yticks = _y_ticks(vmax, 5)
     yunit = _number_unit(next((v for v in yticks if v > 0), 1))
     parts.append("<line x1='%d' y1='%d' x2='%d' y2='%d' stroke='%s' stroke-width='2' "
-                 "filter='url(#xkcdify)'/>" % (M_LEFT, M_TOP, M_LEFT, baseline, AXIS))
+                 "filter='url(#xkcdify)'/>" % (M_LEFT, M_TOP, M_LEFT, baseline, axis_color))
     for v in yticks:
         yy = y(v)
         parts.append("<line x1='%d' y1='%.1f' x2='%d' y2='%.1f' stroke='%s'/>"
-                     % (M_LEFT - 4, yy, M_LEFT, yy, AXIS))
+                     % (M_LEFT - 4, yy, M_LEFT, yy, axis_color))
         label = "" if v == 0 else _fmt_number(v, yunit)
         if label:
             parts.append("<text x='%d' y='%.1f' fill='%s' font-size='16' "
-                         "text-anchor='end'>%s</text>" % (M_LEFT - 8, yy + 6, AXIS, label))
+                         "text-anchor='end'>%s</text>" % (M_LEFT - 8, yy + 6, axis_color, label))
 
     parts.append("<line x1='%d' y1='%d' x2='%d' y2='%d' stroke='%s' stroke-width='2' "
-                 "filter='url(#xkcdify)'/>" % (M_LEFT, baseline, W - M_RIGHT, baseline, AXIS))
+                 "filter='url(#xkcdify)'/>" % (M_LEFT, baseline, W - M_RIGHT, baseline, axis_color))
     for idx in _x_ticks(n, 5):
         parts.append("<text x='%.1f' y='%d' fill='%s' font-size='16' text-anchor='middle'>%s</text>"
-                     % (x(idx), baseline + 24, AXIS, _fmt_date(dates[idx])))
+                     % (x(idx), baseline + 24, axis_color, _fmt_date(dates[idx])))
 
     pts = [(x(i), y(v)) for i, v in enumerate(vals)]
     d = monotone_path(pts)
@@ -386,11 +387,13 @@ def main():
     with open("data/stars_history.json", "w", encoding="utf-8") as f:
         json.dump(payload, f, indent=2, ensure_ascii=False)
 
-    svg = render_svg(rows)
     with open("stars.svg", "w", encoding="utf-8") as f:
-        f.write(svg)
+        f.write(render_svg(rows))
 
-    print("series_points=%d total_stars=%d -> stars.svg" % (len(rows), stars))
+    with open("stars-dark.svg", "w", encoding="utf-8") as f:
+        f.write(render_svg(rows, axis_color=AXIS_DARK))
+
+    print("series_points=%d total_stars=%d -> stars.svg / stars-dark.svg" % (len(rows), stars))
 
 
 if __name__ == "__main__":
