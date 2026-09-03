@@ -270,8 +270,13 @@ def render_svg(rows, axis_color=AXIS):
     parts.append("<line x1='%d' y1='%d' x2='%d' y2='%d' stroke='%s' stroke-width='2' "
                  "filter='url(#xkcdify)'/>" % (M_LEFT, baseline, W - M_RIGHT, baseline, axis_color))
     for idx in _x_ticks(n, 5):
-        parts.append("<text x='%.1f' y='%d' fill='%s' font-size='16' text-anchor='middle'>%s</text>"
-                     % (x(idx), baseline + 24, axis_color, _fmt_date(dates[idx])))
+        anchor = "middle"
+        if idx == 0:
+            anchor = "start"
+        elif idx == n - 1:
+            anchor = "end"
+        parts.append("<text x='%.1f' y='%d' fill='%s' font-size='16' text-anchor='%s'>%s</text>"
+                     % (x(idx), baseline + 24, axis_color, anchor, _fmt_date(dates[idx])))
 
     pts = [(x(i), y(v)) for i, v in enumerate(vals)]
     d = monotone_path(pts)
