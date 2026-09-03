@@ -18,11 +18,6 @@ LimX Dynamics is dedicated to disruptive innovations by Embodied AI. The goal is
 </a>
 
 
-<div>
-    <img src="https://149753425.v2.pressablecdn.com/wp-content/uploads/2009/06/osi_symbol_100X100_0.png" width="20" height="20" style="display:inline-block; vertical-align:top;">
-    <span style="display:inline-block; vertical-align:top;">Open source projects</span> 
-</div>
-
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/limxdynamics/limxdynamics/main/stars-dark.svg">
@@ -30,6 +25,11 @@ LimX Dynamics is dedicated to disruptive innovations by Embodied AI. The goal is
     <img src="https://raw.githubusercontent.com/limxdynamics/limxdynamics/main/stars.svg" alt="Total stars across all projects" width="720">
   </picture>
 </p>
+
+<div>
+    <img src="https://149753425.v2.pressablecdn.com/wp-content/uploads/2009/06/osi_symbol_100X100_0.png" width="20" height="20" style="display:inline-block; vertical-align:top;">
+    <span style="display:inline-block; vertical-align:top;">Open source projects</span> 
+</div>
 
 <!-- <tr><td colspan="1" rowspan="4"> -->
 
