@@ -23,6 +23,10 @@ LimX Dynamics is dedicated to disruptive innovations by Embodied AI. The goal is
     <span style="display:inline-block; vertical-align:top;">Open source projects</span> 
 </div>
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/limxdynamics/limxdynamics/main/stars.svg" alt="Total stars across all projects" width="720">
+</p>
+
 <!-- <tr><td colspan="1" rowspan="4"> -->
 
 <table class="table table-striped table-bordered table-vcenter"/>
