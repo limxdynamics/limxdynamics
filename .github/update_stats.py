@@ -366,6 +366,17 @@ def main():
         running += buckets[dt]
         rows.append({"date": dt, "total_stars": running})
 
+    # Idempotency: if the series is unchanged from the last run, skip rewriting
+    # the chart/history so the daily Action does not create a no-op commit.
+    try:
+        with open("data/stars_history.json", "r", encoding="utf-8") as f:
+            prev_series = json.load(f).get("series", [])
+    except (OSError, ValueError):
+        prev_series = None
+    if prev_series == rows:
+        print("series unchanged (%d points); skipping chart/history write" % len(rows))
+        return
+
     payload = {
         "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "repo_count": len(repos),
