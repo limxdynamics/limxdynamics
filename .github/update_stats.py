@@ -293,6 +293,20 @@ def render_svg(rows, axis_color=AXIS):
 # Main
 # --------------------------------------------------------------------------
 
+def bump_readme_cache_bust(path, token):
+    """Rewrite the `?v=` cache-bust on chart URLs so GitHub's image proxy
+    re-fetches the freshly generated SVG. raw.githubusercontent.com itself
+    ignores the query string, but the proxy keys its cache on the full URL,
+    so a new `?v=` value forces a fresh fetch."""
+    with open(path, "r", encoding="utf-8") as f:
+        t = f.read()
+    new = re.sub(r'(stars(?:-dark)?\.svg)(?:\?v=[^"\']*)?', r"\1?v=" + token, t)
+    if new != t:
+        with open(path, "w", encoding="utf-8") as f:
+            f.write(new)
+    return new != t
+
+
 def main():
     with open("README.md", "r", encoding="utf-8") as f:
         text = f.read()
@@ -397,6 +411,12 @@ def main():
 
     with open("stars-dark.svg", "w", encoding="utf-8") as f:
         f.write(render_svg(rows, axis_color=AXIS_DARK))
+
+    # Bump the cache-bust query on the README chart URLs so GitHub's image
+    # proxy re-fetches the new SVG instead of serving a stale cached copy.
+    ts = datetime.now(timezone.utc).strftime("%Y%m%d%H%M")
+    for p in ("README.md", "README_cn.md"):
+        bump_readme_cache_bust(p, ts)
 
     print("series_points=%d total_stars=%d -> stars.svg / stars-dark.svg" % (len(rows), stars))
 

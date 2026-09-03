@@ -30,6 +30,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add badges/stars.json badges/forks.json data/stars_history.json stars.svg stars-dark.svg
+          git add badges/stars.json badges/forks.json data/stars_history.json stars.svg stars-dark.svg README.md README_cn.md
           git diff --cached --quiet || git commit -m "chore: refresh stars/forks badge & total-star chart (auto)"
           git push
