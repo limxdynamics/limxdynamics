@@ -1,10 +1,1426 @@
 {
-  "generated_at": "2026-09-04T05:52:02Z",
+  "generated_at": "2026-09-04T07:28:46Z",
   "repo_count": 41,
   "series": [
     {
-      "date": "2026-09-04",
+      "date": "2024-05-28",
+      "total_stars": 1
+    },
+    {
+      "date": "2024-06-24",
+      "total_stars": 2
+    },
+    {
+      "date": "2024-07-07",
+      "total_stars": 3
+    },
+    {
+      "date": "2024-07-10",
+      "total_stars": 4
+    },
+    {
+      "date": "2024-07-22",
+      "total_stars": 5
+    },
+    {
+      "date": "2024-08-15",
+      "total_stars": 6
+    },
+    {
+      "date": "2024-08-19",
+      "total_stars": 8
+    },
+    {
+      "date": "2024-08-31",
+      "total_stars": 9
+    },
+    {
+      "date": "2024-09-13",
+      "total_stars": 14
+    },
+    {
+      "date": "2024-09-14",
+      "total_stars": 16
+    },
+    {
+      "date": "2024-09-15",
+      "total_stars": 17
+    },
+    {
+      "date": "2024-09-19",
+      "total_stars": 18
+    },
+    {
+      "date": "2024-09-21",
+      "total_stars": 19
+    },
+    {
+      "date": "2024-09-22",
+      "total_stars": 20
+    },
+    {
+      "date": "2024-10-02",
+      "total_stars": 21
+    },
+    {
+      "date": "2024-10-10",
+      "total_stars": 22
+    },
+    {
+      "date": "2024-10-12",
+      "total_stars": 24
+    },
+    {
+      "date": "2024-10-13",
+      "total_stars": 26
+    },
+    {
+      "date": "2024-10-16",
+      "total_stars": 28
+    },
+    {
+      "date": "2024-10-22",
+      "total_stars": 29
+    },
+    {
+      "date": "2024-10-23",
+      "total_stars": 30
+    },
+    {
+      "date": "2024-10-25",
+      "total_stars": 31
+    },
+    {
+      "date": "2024-11-11",
+      "total_stars": 34
+    },
+    {
+      "date": "2024-11-13",
+      "total_stars": 35
+    },
+    {
+      "date": "2024-12-05",
+      "total_stars": 36
+    },
+    {
+      "date": "2024-12-08",
+      "total_stars": 38
+    },
+    {
+      "date": "2024-12-09",
+      "total_stars": 39
+    },
+    {
+      "date": "2024-12-13",
+      "total_stars": 40
+    },
+    {
+      "date": "2024-12-14",
+      "total_stars": 41
+    },
+    {
+      "date": "2024-12-19",
+      "total_stars": 42
+    },
+    {
+      "date": "2024-12-22",
+      "total_stars": 43
+    },
+    {
+      "date": "2025-01-02",
+      "total_stars": 44
+    },
+    {
+      "date": "2025-01-06",
+      "total_stars": 46
+    },
+    {
+      "date": "2025-01-08",
+      "total_stars": 48
+    },
+    {
+      "date": "2025-01-23",
+      "total_stars": 50
+    },
+    {
+      "date": "2025-02-10",
+      "total_stars": 51
+    },
+    {
+      "date": "2025-02-14",
+      "total_stars": 52
+    },
+    {
+      "date": "2025-02-22",
+      "total_stars": 53
+    },
+    {
+      "date": "2025-02-24",
+      "total_stars": 54
+    },
+    {
+      "date": "2025-02-26",
+      "total_stars": 55
+    },
+    {
+      "date": "2025-02-27",
+      "total_stars": 57
+    },
+    {
+      "date": "2025-03-04",
+      "total_stars": 59
+    },
+    {
+      "date": "2025-03-05",
+      "total_stars": 60
+    },
+    {
+      "date": "2025-03-12",
+      "total_stars": 61
+    },
+    {
+      "date": "2025-03-14",
+      "total_stars": 62
+    },
+    {
+      "date": "2025-03-15",
+      "total_stars": 63
+    },
+    {
+      "date": "2025-03-17",
+      "total_stars": 64
+    },
+    {
+      "date": "2025-03-19",
+      "total_stars": 65
+    },
+    {
+      "date": "2025-03-26",
+      "total_stars": 66
+    },
+    {
+      "date": "2025-03-30",
+      "total_stars": 67
+    },
+    {
+      "date": "2025-04-01",
+      "total_stars": 68
+    },
+    {
+      "date": "2025-04-03",
+      "total_stars": 69
+    },
+    {
+      "date": "2025-04-07",
+      "total_stars": 72
+    },
+    {
+      "date": "2025-04-08",
+      "total_stars": 75
+    },
+    {
+      "date": "2025-04-12",
+      "total_stars": 76
+    },
+    {
+      "date": "2025-04-13",
+      "total_stars": 77
+    },
+    {
+      "date": "2025-04-14",
+      "total_stars": 78
+    },
+    {
+      "date": "2025-04-15",
+      "total_stars": 80
+    },
+    {
+      "date": "2025-04-18",
+      "total_stars": 83
+    },
+    {
+      "date": "2025-04-20",
+      "total_stars": 84
+    },
+    {
+      "date": "2025-04-21",
+      "total_stars": 85
+    },
+    {
+      "date": "2025-04-22",
+      "total_stars": 86
+    },
+    {
+      "date": "2025-04-24",
+      "total_stars": 87
+    },
+    {
+      "date": "2025-04-30",
+      "total_stars": 88
+    },
+    {
+      "date": "2025-05-02",
+      "total_stars": 91
+    },
+    {
+      "date": "2025-05-05",
+      "total_stars": 92
+    },
+    {
+      "date": "2025-05-06",
+      "total_stars": 93
+    },
+    {
+      "date": "2025-05-07",
+      "total_stars": 94
+    },
+    {
+      "date": "2025-05-08",
+      "total_stars": 95
+    },
+    {
+      "date": "2025-05-09",
+      "total_stars": 98
+    },
+    {
+      "date": "2025-05-12",
+      "total_stars": 100
+    },
+    {
+      "date": "2025-05-15",
+      "total_stars": 101
+    },
+    {
+      "date": "2025-05-16",
+      "total_stars": 102
+    },
+    {
+      "date": "2025-05-20",
+      "total_stars": 103
+    },
+    {
+      "date": "2025-05-21",
+      "total_stars": 104
+    },
+    {
+      "date": "2025-05-22",
+      "total_stars": 106
+    },
+    {
+      "date": "2025-05-24",
+      "total_stars": 107
+    },
+    {
+      "date": "2025-05-26",
+      "total_stars": 108
+    },
+    {
+      "date": "2025-05-27",
+      "total_stars": 110
+    },
+    {
+      "date": "2025-05-28",
+      "total_stars": 111
+    },
+    {
+      "date": "2025-06-02",
+      "total_stars": 112
+    },
+    {
+      "date": "2025-06-06",
+      "total_stars": 114
+    },
+    {
+      "date": "2025-06-07",
+      "total_stars": 115
+    },
+    {
+      "date": "2025-06-10",
+      "total_stars": 117
+    },
+    {
+      "date": "2025-06-11",
+      "total_stars": 121
+    },
+    {
+      "date": "2025-06-12",
+      "total_stars": 123
+    },
+    {
+      "date": "2025-06-17",
+      "total_stars": 124
+    },
+    {
+      "date": "2025-06-18",
+      "total_stars": 126
+    },
+    {
+      "date": "2025-06-21",
+      "total_stars": 127
+    },
+    {
+      "date": "2025-06-24",
+      "total_stars": 129
+    },
+    {
+      "date": "2025-06-25",
+      "total_stars": 130
+    },
+    {
+      "date": "2025-07-01",
+      "total_stars": 136
+    },
+    {
+      "date": "2025-07-03",
+      "total_stars": 138
+    },
+    {
+      "date": "2025-07-05",
+      "total_stars": 139
+    },
+    {
+      "date": "2025-07-09",
+      "total_stars": 146
+    },
+    {
+      "date": "2025-07-10",
+      "total_stars": 147
+    },
+    {
+      "date": "2025-07-14",
+      "total_stars": 148
+    },
+    {
+      "date": "2025-07-15",
+      "total_stars": 156
+    },
+    {
+      "date": "2025-07-16",
+      "total_stars": 159
+    },
+    {
+      "date": "2025-07-17",
+      "total_stars": 160
+    },
+    {
+      "date": "2025-07-20",
+      "total_stars": 161
+    },
+    {
+      "date": "2025-07-21",
+      "total_stars": 162
+    },
+    {
+      "date": "2025-07-22",
+      "total_stars": 172
+    },
+    {
+      "date": "2025-07-23",
+      "total_stars": 174
+    },
+    {
+      "date": "2025-07-24",
+      "total_stars": 175
+    },
+    {
+      "date": "2025-07-25",
+      "total_stars": 176
+    },
+    {
+      "date": "2025-07-29",
+      "total_stars": 177
+    },
+    {
+      "date": "2025-07-30",
+      "total_stars": 180
+    },
+    {
+      "date": "2025-07-31",
+      "total_stars": 181
+    },
+    {
+      "date": "2025-08-02",
+      "total_stars": 182
+    },
+    {
+      "date": "2025-08-05",
+      "total_stars": 184
+    },
+    {
+      "date": "2025-08-09",
+      "total_stars": 186
+    },
+    {
+      "date": "2025-08-11",
+      "total_stars": 188
+    },
+    {
+      "date": "2025-08-13",
+      "total_stars": 190
+    },
+    {
+      "date": "2025-08-16",
+      "total_stars": 191
+    },
+    {
+      "date": "2025-08-17",
+      "total_stars": 192
+    },
+    {
+      "date": "2025-08-18",
+      "total_stars": 195
+    },
+    {
+      "date": "2025-08-19",
+      "total_stars": 196
+    },
+    {
+      "date": "2025-08-20",
+      "total_stars": 197
+    },
+    {
+      "date": "2025-08-21",
+      "total_stars": 199
+    },
+    {
+      "date": "2025-08-25",
+      "total_stars": 200
+    },
+    {
+      "date": "2025-08-28",
+      "total_stars": 201
+    },
+    {
+      "date": "2025-08-29",
+      "total_stars": 202
+    },
+    {
+      "date": "2025-08-30",
+      "total_stars": 203
+    },
+    {
+      "date": "2025-09-01",
+      "total_stars": 204
+    },
+    {
+      "date": "2025-09-02",
+      "total_stars": 205
+    },
+    {
+      "date": "2025-09-03",
+      "total_stars": 207
+    },
+    {
+      "date": "2025-09-05",
+      "total_stars": 208
+    },
+    {
+      "date": "2025-09-08",
+      "total_stars": 210
+    },
+    {
+      "date": "2025-09-10",
+      "total_stars": 214
+    },
+    {
+      "date": "2025-09-11",
+      "total_stars": 219
+    },
+    {
+      "date": "2025-09-13",
+      "total_stars": 220
+    },
+    {
+      "date": "2025-09-14",
+      "total_stars": 222
+    },
+    {
+      "date": "2025-09-15",
+      "total_stars": 226
+    },
+    {
+      "date": "2025-09-16",
+      "total_stars": 227
+    },
+    {
+      "date": "2025-09-19",
+      "total_stars": 228
+    },
+    {
+      "date": "2025-09-20",
+      "total_stars": 229
+    },
+    {
+      "date": "2025-09-22",
+      "total_stars": 230
+    },
+    {
+      "date": "2025-09-23",
+      "total_stars": 231
+    },
+    {
+      "date": "2025-09-29",
+      "total_stars": 232
+    },
+    {
+      "date": "2025-09-30",
+      "total_stars": 234
+    },
+    {
+      "date": "2025-10-04",
+      "total_stars": 238
+    },
+    {
+      "date": "2025-10-09",
+      "total_stars": 240
+    },
+    {
+      "date": "2025-10-10",
+      "total_stars": 243
+    },
+    {
+      "date": "2025-10-15",
+      "total_stars": 244
+    },
+    {
+      "date": "2025-10-16",
+      "total_stars": 247
+    },
+    {
+      "date": "2025-10-17",
+      "total_stars": 249
+    },
+    {
+      "date": "2025-10-19",
+      "total_stars": 250
+    },
+    {
+      "date": "2025-10-20",
+      "total_stars": 251
+    },
+    {
+      "date": "2025-10-21",
+      "total_stars": 252
+    },
+    {
+      "date": "2025-10-23",
+      "total_stars": 253
+    },
+    {
+      "date": "2025-10-25",
+      "total_stars": 255
+    },
+    {
+      "date": "2025-10-28",
+      "total_stars": 256
+    },
+    {
+      "date": "2025-10-29",
+      "total_stars": 259
+    },
+    {
+      "date": "2025-10-30",
+      "total_stars": 260
+    },
+    {
+      "date": "2025-11-04",
+      "total_stars": 261
+    },
+    {
+      "date": "2025-11-05",
+      "total_stars": 262
+    },
+    {
+      "date": "2025-11-06",
+      "total_stars": 263
+    },
+    {
+      "date": "2025-11-07",
+      "total_stars": 265
+    },
+    {
+      "date": "2025-11-08",
+      "total_stars": 266
+    },
+    {
+      "date": "2025-11-11",
+      "total_stars": 268
+    },
+    {
+      "date": "2025-11-12",
+      "total_stars": 270
+    },
+    {
+      "date": "2025-11-15",
+      "total_stars": 271
+    },
+    {
+      "date": "2025-11-16",
+      "total_stars": 273
+    },
+    {
+      "date": "2025-11-17",
+      "total_stars": 275
+    },
+    {
+      "date": "2025-11-18",
+      "total_stars": 277
+    },
+    {
+      "date": "2025-11-19",
+      "total_stars": 279
+    },
+    {
+      "date": "2025-11-23",
+      "total_stars": 280
+    },
+    {
+      "date": "2025-11-24",
+      "total_stars": 281
+    },
+    {
+      "date": "2025-12-01",
+      "total_stars": 282
+    },
+    {
+      "date": "2025-12-02",
+      "total_stars": 285
+    },
+    {
+      "date": "2025-12-04",
+      "total_stars": 286
+    },
+    {
+      "date": "2025-12-07",
+      "total_stars": 287
+    },
+    {
+      "date": "2025-12-08",
+      "total_stars": 290
+    },
+    {
+      "date": "2025-12-09",
+      "total_stars": 292
+    },
+    {
+      "date": "2025-12-15",
+      "total_stars": 293
+    },
+    {
+      "date": "2025-12-20",
+      "total_stars": 295
+    },
+    {
+      "date": "2025-12-24",
+      "total_stars": 296
+    },
+    {
+      "date": "2025-12-25",
+      "total_stars": 297
+    },
+    {
+      "date": "2025-12-28",
+      "total_stars": 298
+    },
+    {
+      "date": "2025-12-29",
+      "total_stars": 299
+    },
+    {
+      "date": "2025-12-30",
+      "total_stars": 300
+    },
+    {
+      "date": "2026-01-02",
+      "total_stars": 301
+    },
+    {
+      "date": "2026-01-04",
+      "total_stars": 303
+    },
+    {
+      "date": "2026-01-07",
+      "total_stars": 305
+    },
+    {
+      "date": "2026-01-10",
+      "total_stars": 307
+    },
+    {
+      "date": "2026-01-14",
+      "total_stars": 309
+    },
+    {
+      "date": "2026-01-15",
+      "total_stars": 311
+    },
+    {
+      "date": "2026-01-16",
+      "total_stars": 312
+    },
+    {
+      "date": "2026-01-18",
+      "total_stars": 313
+    },
+    {
+      "date": "2026-01-19",
+      "total_stars": 315
+    },
+    {
+      "date": "2026-01-20",
+      "total_stars": 317
+    },
+    {
+      "date": "2026-01-23",
+      "total_stars": 318
+    },
+    {
+      "date": "2026-01-25",
+      "total_stars": 319
+    },
+    {
+      "date": "2026-01-30",
+      "total_stars": 321
+    },
+    {
+      "date": "2026-02-03",
+      "total_stars": 326
+    },
+    {
+      "date": "2026-02-04",
+      "total_stars": 328
+    },
+    {
+      "date": "2026-02-05",
+      "total_stars": 329
+    },
+    {
+      "date": "2026-02-06",
+      "total_stars": 330
+    },
+    {
+      "date": "2026-02-09",
+      "total_stars": 331
+    },
+    {
+      "date": "2026-02-14",
+      "total_stars": 332
+    },
+    {
+      "date": "2026-02-16",
+      "total_stars": 333
+    },
+    {
+      "date": "2026-02-17",
+      "total_stars": 334
+    },
+    {
+      "date": "2026-02-24",
+      "total_stars": 335
+    },
+    {
+      "date": "2026-02-25",
+      "total_stars": 336
+    },
+    {
+      "date": "2026-03-02",
+      "total_stars": 338
+    },
+    {
+      "date": "2026-03-03",
+      "total_stars": 339
+    },
+    {
+      "date": "2026-03-04",
+      "total_stars": 342
+    },
+    {
+      "date": "2026-03-06",
+      "total_stars": 343
+    },
+    {
+      "date": "2026-03-07",
+      "total_stars": 344
+    },
+    {
+      "date": "2026-03-12",
+      "total_stars": 347
+    },
+    {
+      "date": "2026-03-19",
+      "total_stars": 348
+    },
+    {
+      "date": "2026-03-20",
+      "total_stars": 349
+    },
+    {
+      "date": "2026-03-23",
+      "total_stars": 351
+    },
+    {
+      "date": "2026-03-24",
+      "total_stars": 352
+    },
+    {
+      "date": "2026-03-25",
+      "total_stars": 353
+    },
+    {
+      "date": "2026-03-26",
+      "total_stars": 354
+    },
+    {
+      "date": "2026-03-29",
+      "total_stars": 355
+    },
+    {
+      "date": "2026-04-01",
+      "total_stars": 356
+    },
+    {
+      "date": "2026-04-02",
+      "total_stars": 357
+    },
+    {
+      "date": "2026-04-03",
+      "total_stars": 364
+    },
+    {
+      "date": "2026-04-05",
+      "total_stars": 366
+    },
+    {
+      "date": "2026-04-06",
+      "total_stars": 367
+    },
+    {
+      "date": "2026-04-07",
+      "total_stars": 419
+    },
+    {
+      "date": "2026-04-08",
+      "total_stars": 479
+    },
+    {
+      "date": "2026-04-09",
+      "total_stars": 528
+    },
+    {
+      "date": "2026-04-10",
+      "total_stars": 540
+    },
+    {
+      "date": "2026-04-11",
+      "total_stars": 544
+    },
+    {
+      "date": "2026-04-12",
+      "total_stars": 546
+    },
+    {
+      "date": "2026-04-13",
+      "total_stars": 547
+    },
+    {
+      "date": "2026-04-14",
+      "total_stars": 554
+    },
+    {
+      "date": "2026-04-15",
+      "total_stars": 566
+    },
+    {
+      "date": "2026-04-16",
+      "total_stars": 601
+    },
+    {
+      "date": "2026-04-17",
+      "total_stars": 621
+    },
+    {
+      "date": "2026-04-18",
+      "total_stars": 625
+    },
+    {
+      "date": "2026-04-19",
+      "total_stars": 629
+    },
+    {
+      "date": "2026-04-20",
+      "total_stars": 647
+    },
+    {
+      "date": "2026-04-21",
+      "total_stars": 657
+    },
+    {
+      "date": "2026-04-22",
+      "total_stars": 662
+    },
+    {
+      "date": "2026-04-23",
+      "total_stars": 663
+    },
+    {
+      "date": "2026-04-24",
+      "total_stars": 666
+    },
+    {
+      "date": "2026-04-26",
+      "total_stars": 667
+    },
+    {
+      "date": "2026-04-27",
+      "total_stars": 671
+    },
+    {
+      "date": "2026-04-28",
+      "total_stars": 682
+    },
+    {
+      "date": "2026-04-29",
+      "total_stars": 701
+    },
+    {
+      "date": "2026-04-30",
+      "total_stars": 709
+    },
+    {
+      "date": "2026-05-02",
+      "total_stars": 713
+    },
+    {
+      "date": "2026-05-03",
+      "total_stars": 716
+    },
+    {
+      "date": "2026-05-04",
+      "total_stars": 719
+    },
+    {
+      "date": "2026-05-05",
+      "total_stars": 722
+    },
+    {
+      "date": "2026-05-06",
+      "total_stars": 725
+    },
+    {
+      "date": "2026-05-07",
+      "total_stars": 728
+    },
+    {
+      "date": "2026-05-08",
+      "total_stars": 732
+    },
+    {
+      "date": "2026-05-09",
+      "total_stars": 735
+    },
+    {
+      "date": "2026-05-11",
+      "total_stars": 736
+    },
+    {
+      "date": "2026-05-13",
+      "total_stars": 739
+    },
+    {
+      "date": "2026-05-14",
+      "total_stars": 743
+    },
+    {
+      "date": "2026-05-15",
+      "total_stars": 749
+    },
+    {
+      "date": "2026-05-18",
+      "total_stars": 753
+    },
+    {
+      "date": "2026-05-19",
+      "total_stars": 762
+    },
+    {
+      "date": "2026-05-20",
+      "total_stars": 767
+    },
+    {
+      "date": "2026-05-21",
+      "total_stars": 770
+    },
+    {
+      "date": "2026-05-22",
+      "total_stars": 776
+    },
+    {
+      "date": "2026-05-23",
+      "total_stars": 781
+    },
+    {
+      "date": "2026-05-24",
+      "total_stars": 790
+    },
+    {
+      "date": "2026-05-25",
+      "total_stars": 796
+    },
+    {
+      "date": "2026-05-26",
+      "total_stars": 806
+    },
+    {
+      "date": "2026-05-27",
+      "total_stars": 809
+    },
+    {
+      "date": "2026-05-28",
+      "total_stars": 818
+    },
+    {
+      "date": "2026-05-29",
+      "total_stars": 837
+    },
+    {
+      "date": "2026-05-31",
+      "total_stars": 839
+    },
+    {
+      "date": "2026-06-01",
+      "total_stars": 842
+    },
+    {
+      "date": "2026-06-02",
+      "total_stars": 847
+    },
+    {
+      "date": "2026-06-03",
+      "total_stars": 854
+    },
+    {
+      "date": "2026-06-04",
+      "total_stars": 855
+    },
+    {
+      "date": "2026-06-05",
+      "total_stars": 857
+    },
+    {
+      "date": "2026-06-06",
+      "total_stars": 858
+    },
+    {
+      "date": "2026-06-08",
+      "total_stars": 860
+    },
+    {
+      "date": "2026-06-09",
+      "total_stars": 861
+    },
+    {
+      "date": "2026-06-10",
+      "total_stars": 871
+    },
+    {
+      "date": "2026-06-11",
+      "total_stars": 874
+    },
+    {
+      "date": "2026-06-12",
+      "total_stars": 875
+    },
+    {
+      "date": "2026-06-15",
+      "total_stars": 879
+    },
+    {
+      "date": "2026-06-16",
+      "total_stars": 882
+    },
+    {
+      "date": "2026-06-17",
+      "total_stars": 885
+    },
+    {
+      "date": "2026-06-18",
+      "total_stars": 886
+    },
+    {
+      "date": "2026-06-20",
+      "total_stars": 889
+    },
+    {
+      "date": "2026-06-21",
+      "total_stars": 891
+    },
+    {
+      "date": "2026-06-22",
+      "total_stars": 895
+    },
+    {
+      "date": "2026-06-23",
+      "total_stars": 898
+    },
+    {
+      "date": "2026-06-25",
+      "total_stars": 900
+    },
+    {
+      "date": "2026-06-26",
+      "total_stars": 904
+    },
+    {
+      "date": "2026-06-27",
+      "total_stars": 907
+    },
+    {
+      "date": "2026-06-29",
+      "total_stars": 926
+    },
+    {
+      "date": "2026-06-30",
+      "total_stars": 933
+    },
+    {
+      "date": "2026-07-01",
+      "total_stars": 937
+    },
+    {
+      "date": "2026-07-02",
+      "total_stars": 942
+    },
+    {
+      "date": "2026-07-04",
+      "total_stars": 944
+    },
+    {
+      "date": "2026-07-06",
+      "total_stars": 949
+    },
+    {
+      "date": "2026-07-07",
+      "total_stars": 952
+    },
+    {
+      "date": "2026-07-08",
+      "total_stars": 960
+    },
+    {
+      "date": "2026-07-09",
+      "total_stars": 966
+    },
+    {
+      "date": "2026-07-10",
+      "total_stars": 971
+    },
+    {
+      "date": "2026-07-11",
+      "total_stars": 976
+    },
+    {
+      "date": "2026-07-12",
+      "total_stars": 979
+    },
+    {
+      "date": "2026-07-13",
+      "total_stars": 982
+    },
+    {
+      "date": "2026-07-14",
+      "total_stars": 989
+    },
+    {
+      "date": "2026-07-15",
+      "total_stars": 995
+    },
+    {
+      "date": "2026-07-16",
+      "total_stars": 1000
+    },
+    {
+      "date": "2026-07-17",
+      "total_stars": 1007
+    },
+    {
+      "date": "2026-07-18",
+      "total_stars": 1009
+    },
+    {
+      "date": "2026-07-19",
+      "total_stars": 1024
+    },
+    {
+      "date": "2026-07-20",
+      "total_stars": 1028
+    },
+    {
+      "date": "2026-07-21",
+      "total_stars": 1032
+    },
+    {
+      "date": "2026-07-22",
+      "total_stars": 1037
+    },
+    {
+      "date": "2026-07-23",
+      "total_stars": 1043
+    },
+    {
+      "date": "2026-07-24",
+      "total_stars": 1046
+    },
+    {
+      "date": "2026-07-25",
+      "total_stars": 1049
+    },
+    {
+      "date": "2026-07-26",
+      "total_stars": 1053
+    },
+    {
+      "date": "2026-07-27",
+      "total_stars": 1057
+    },
+    {
+      "date": "2026-07-28",
+      "total_stars": 1061
+    },
+    {
+      "date": "2026-07-29",
+      "total_stars": 1066
+    },
+    {
+      "date": "2026-07-30",
+      "total_stars": 1067
+    },
+    {
+      "date": "2026-07-31",
+      "total_stars": 1078
+    },
+    {
+      "date": "2026-08-02",
+      "total_stars": 1079
+    },
+    {
+      "date": "2026-08-03",
+      "total_stars": 1089
+    },
+    {
+      "date": "2026-08-04",
+      "total_stars": 1094
+    },
+    {
+      "date": "2026-08-05",
+      "total_stars": 1097
+    },
+    {
+      "date": "2026-08-06",
+      "total_stars": 1101
+    },
+    {
+      "date": "2026-08-07",
+      "total_stars": 1104
+    },
+    {
+      "date": "2026-08-08",
+      "total_stars": 1108
+    },
+    {
+      "date": "2026-08-10",
+      "total_stars": 1109
+    },
+    {
+      "date": "2026-08-11",
+      "total_stars": 1119
+    },
+    {
+      "date": "2026-08-12",
+      "total_stars": 1124
+    },
+    {
+      "date": "2026-08-13",
+      "total_stars": 1128
+    },
+    {
+      "date": "2026-08-14",
+      "total_stars": 1132
+    },
+    {
+      "date": "2026-08-15",
+      "total_stars": 1133
+    },
+    {
+      "date": "2026-08-16",
+      "total_stars": 1138
+    },
+    {
+      "date": "2026-08-17",
+      "total_stars": 1141
+    },
+    {
+      "date": "2026-08-18",
+      "total_stars": 1146
+    },
+    {
+      "date": "2026-08-19",
+      "total_stars": 1149
+    },
+    {
+      "date": "2026-08-20",
+      "total_stars": 1151
+    },
+    {
+      "date": "2026-08-21",
+      "total_stars": 1156
+    },
+    {
+      "date": "2026-08-24",
+      "total_stars": 1160
+    },
+    {
+      "date": "2026-08-25",
+      "total_stars": 1162
+    },
+    {
+      "date": "2026-08-26",
+      "total_stars": 1164
+    },
+    {
+      "date": "2026-08-27",
+      "total_stars": 1167
+    },
+    {
+      "date": "2026-08-28",
+      "total_stars": 1169
+    },
+    {
+      "date": "2026-08-29",
+      "total_stars": 1171
+    },
+    {
+      "date": "2026-08-30",
+      "total_stars": 1173
+    },
+    {
+      "date": "2026-08-31",
+      "total_stars": 1176
+    },
+    {
+      "date": "2026-09-01",
+      "total_stars": 1181
+    },
+    {
+      "date": "2026-09-02",
+      "total_stars": 1185
+    },
+    {
+      "date": "2026-09-03",
       "total_stars": 1187
+    },
+    {
+      "date": "2026-09-04",
+      "total_stars": 1188
     }
   ]
 }

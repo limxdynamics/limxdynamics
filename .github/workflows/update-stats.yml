@@ -24,7 +24,7 @@ jobs:
       - name: Compute stars/forks and total-star history
         run: python .github/update_stats.py
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.LIMX_STATS_TOKEN }}
 
       - name: Commit & push if changed
         run: |
