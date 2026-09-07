@@ -20,9 +20,9 @@ LimX Dynamics 致力于以具身智能（Embodied AI）驱动颠覆式创新。�
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/limxdynamics/limxdynamics/main/stars-dark.svg?v=202609070704">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/limxdynamics/limxdynamics/main/stars.svg?v=202609070704">
-    <img src="https://raw.githubusercontent.com/limxdynamics/limxdynamics/main/stars.svg?v=202609070704" alt="全部项目总 Star 数" width="720">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/limxdynamics/limxdynamics/main/stars-dark.svg?v=202609070850">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/limxdynamics/limxdynamics/main/stars.svg?v=202609070850">
+    <img src="https://raw.githubusercontent.com/limxdynamics/limxdynamics/main/stars.svg?v=202609070850" alt="全部项目总 Star 数" width="720">
   </picture>
 </p>
 
@@ -306,6 +306,14 @@ LimX Dynamics 致力于以具身智能（Embodied AI）驱动颠覆式创新。�
         <td> TronCamp 运动（locomotion）赛道的网页配套站点，面向 TRON2 机器人。 </td>
         <td><a href="https://github.com/limxdynamics/troncamp-web-locomotion"><img alt="Stars" src="https://img.shields.io/github/stars/limxdynamics/troncamp-web-locomotion?style=flat-square"/></a></td>
         <td><a href="https://github.com/limxdynamics/troncamp-web-locomotion"><img alt="Forks" src="https://img.shields.io/github/forks/limxdynamics/troncamp-web-locomotion?style=flat-square"/></a></td>
+    </tr>
+    <tr></tr>
+    <tr>
+        <td rowspan="1" class="font-weight-bold">Profile</td>
+        <td align="center" ><a href="https://github.com/limxdynamics/limxdynamics/tree/main"> limxdynamics </a></td>
+        <td> LimX Dynamics GitHub 主页仓库——本 README 仓库总览与每日自动更新的总 star / forks 增长曲线。 </td>
+        <td><a href="https://github.com/limxdynamics/limxdynamics"><img alt="Stars" src="https://img.shields.io/github/stars/limxdynamics/limxdynamics?style=flat-square"/></a></td>
+        <td><a href="https://github.com/limxdynamics/limxdynamics"><img alt="Forks" src="https://img.shields.io/github/forks/limxdynamics/limxdynamics?style=flat-square"/></a></td>
     </tr>
     </tbody>
 </table>

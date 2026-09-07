@@ -20,9 +20,9 @@ LimX Dynamics is dedicated to disruptive innovations by Embodied AI. The goal is
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/limxdynamics/limxdynamics/main/stars-dark.svg?v=202609070704">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/limxdynamics/limxdynamics/main/stars.svg?v=202609070704">
-    <img src="https://raw.githubusercontent.com/limxdynamics/limxdynamics/main/stars.svg?v=202609070704" alt="Total stars across all projects" width="720">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/limxdynamics/limxdynamics/main/stars-dark.svg?v=202609070850">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/limxdynamics/limxdynamics/main/stars.svg?v=202609070850">
+    <img src="https://raw.githubusercontent.com/limxdynamics/limxdynamics/main/stars.svg?v=202609070850" alt="Total stars across all projects" width="720">
   </picture>
 </p>
 
@@ -308,6 +308,14 @@ LimX Dynamics is dedicated to disruptive innovations by Embodied AI. The goal is
         <td> TronCamp locomotion track web companion for the TRON2 robot. </td>
         <td><a href="https://github.com/limxdynamics/troncamp-web-locomotion"><img alt="Stars" src="https://img.shields.io/github/stars/limxdynamics/troncamp-web-locomotion?style=flat-square"/></a></td>
         <td><a href="https://github.com/limxdynamics/troncamp-web-locomotion"><img alt="Forks" src="https://img.shields.io/github/forks/limxdynamics/troncamp-web-locomotion?style=flat-square"/></a></td>
+    </tr>
+    <tr></tr>
+    <tr>
+        <td rowspan="1" class="font-weight-bold">Profile</td>
+        <td align="center" ><a href="https://github.com/limxdynamics/limxdynamics/tree/main"> limxdynamics </a></td>
+        <td> GitHub profile page for LimX Dynamics — this README overview plus auto-updating total-star / forks growth charts. </td>
+        <td><a href="https://github.com/limxdynamics/limxdynamics"><img alt="Stars" src="https://img.shields.io/github/stars/limxdynamics/limxdynamics?style=flat-square"/></a></td>
+        <td><a href="https://github.com/limxdynamics/limxdynamics"><img alt="Forks" src="https://img.shields.io/github/forks/limxdynamics/limxdynamics?style=flat-square"/></a></td>
     </tr>
     </tbody>
 </table>
