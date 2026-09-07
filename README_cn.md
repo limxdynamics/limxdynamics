@@ -40,7 +40,7 @@ LimX Dynamics 致力于以具身智能（Embodied AI）驱动颠覆式创新。�
     <tr></tr>
     <tr>
         <td rowspan="9" class="font-weight-bold">TRON2</td>
-        <td align="center" ><a href="https://github.com/limxdynamics/tron2-robot-description"> robot-description </a></td>
+        <td align="center" ><a href="https://github.com/limxdynamics/tron2-robot-description"> tron2-robot-description </a></td>
         <td> TRON2 各型号的机器人模型文件，包括 URDF/xacro、MuJoCo XML、网格（mesh）以及可选的 USD 资源，用于仿真、可视化与下游工具。 </td>
         <td><a href="https://github.com/limxdynamics/tron2-robot-description"><img alt="Stars" src="https://img.shields.io/github/stars/limxdynamics/tron2-robot-description?style=flat-square"/></a></td>
         <td><a href="https://github.com/limxdynamics/tron2-robot-description"><img alt="Forks" src="https://img.shields.io/github/forks/limxdynamics/tron2-robot-description?style=flat-square"/></a></td>
@@ -153,7 +153,7 @@ LimX Dynamics 致力于以具身智能（Embodied AI）驱动颠覆式创新。�
     </tr>
     <tr>
         <td rowspan="12" class="font-weight-bold">TRON1</td>
-        <td align="center" ><a href="https://github.com/limxdynamics/tron1-robot-description"> robot-description </a></td>
+        <td align="center" ><a href="https://github.com/limxdynamics/tron1-robot-description"> tron1-robot-description </a></td>
         <td> TRON1 各型号的机器人模型文件，包括 URDF/xacro、MuJoCo XML 与网格文件，适用于点足与轮腿机器人。 </td>
         <td><a href="https://github.com/limxdynamics/tron1-robot-description"><img alt="Stars" src="https://img.shields.io/github/stars/limxdynamics/tron1-robot-description?style=flat-square"/></a></td>
         <td><a href="https://github.com/limxdynamics/tron1-robot-description"><img alt="Forks" src="https://img.shields.io/github/forks/limxdynamics/tron1-robot-description?style=flat-square"/></a></td>

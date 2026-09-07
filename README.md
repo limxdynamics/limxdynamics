@@ -40,7 +40,7 @@ LimX Dynamics is dedicated to disruptive innovations by Embodied AI. The goal is
     <tr></tr>
     <tr>
         <td rowspan="9" class="font-weight-bold">TRON2</td>
-        <td align="center" ><a href="https://github.com/limxdynamics/tron2-robot-description"> robot-description </a></td>
+        <td align="center" ><a href="https://github.com/limxdynamics/tron2-robot-description"> tron2-robot-description </a></td>
         <td> Robot model files for TRON2 variants, including URDF/xacro, MuJoCo XML, meshes, and optional USD assets for simulation, visualization, and downstream tooling. </td>
         <td><a href="https://github.com/limxdynamics/tron2-robot-description"><img alt="Stars" src="https://img.shields.io/github/stars/limxdynamics/tron2-robot-description?style=flat-square"/></a></td>
         <td><a href="https://github.com/limxdynamics/tron2-robot-description"><img alt="Forks" src="https://img.shields.io/github/forks/limxdynamics/tron2-robot-description?style=flat-square"/></a></td>
@@ -153,7 +153,7 @@ LimX Dynamics is dedicated to disruptive innovations by Embodied AI. The goal is
     </tr>
     <tr>
         <td rowspan="12" class="font-weight-bold">TRON1</td>
-        <td align="center" ><a href="https://github.com/limxdynamics/tron1-robot-description"> robot-description </a></td>
+        <td align="center" ><a href="https://github.com/limxdynamics/tron1-robot-description"> tron1-robot-description </a></td>
         <td> Robot model files for TRON1 variants, including URDF/xacro, MuJoCo XML, and meshes for point-foot and wheel-legged robots. </td>
         <td><a href="https://github.com/limxdynamics/tron1-robot-description"><img alt="Stars" src="https://img.shields.io/github/stars/limxdynamics/tron1-robot-description?style=flat-square"/></a></td>
         <td><a href="https://github.com/limxdynamics/tron1-robot-description"><img alt="Forks" src="https://img.shields.io/github/forks/limxdynamics/tron1-robot-description?style=flat-square"/></a></td>
