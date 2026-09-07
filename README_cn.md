@@ -20,9 +20,9 @@ LimX Dynamics 致力于以具身智能（Embodied AI）驱动颠覆式创新。�
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/limxdynamics/limxdynamics/main/stars-dark.svg?v=202609070605">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/limxdynamics/limxdynamics/main/stars.svg?v=202609070605">
-    <img src="https://raw.githubusercontent.com/limxdynamics/limxdynamics/main/stars.svg?v=202609070605" alt="全部项目总 Star 数" width="720">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/limxdynamics/limxdynamics/main/stars-dark.svg?v=202609070704">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/limxdynamics/limxdynamics/main/stars.svg?v=202609070704">
+    <img src="https://raw.githubusercontent.com/limxdynamics/limxdynamics/main/stars.svg?v=202609070704" alt="全部项目总 Star 数" width="720">
   </picture>
 </p>
 
@@ -95,26 +95,6 @@ LimX Dynamics 致力于以具身智能（Embodied AI）驱动颠覆式创新。�
     </tr>
     <tr></tr>
     <tr>
-        <td rowspan="3" class="font-weight-bold">TronCamp</td>
-        <td align="center" ><a href="https://github.com/limxdynamics/troncamp-mani"> troncamp-mani </a></td>
-        <td> TronCamp ACT 4 任务参赛包 — 自包含软件包（Tron2 双臂 / RoboTwin / 单卡 ACT），包含环境搭建、入门示例与评分脚本，覆盖由易到难的四个操作任务。 </td>
-        <td><a href="https://github.com/limxdynamics/troncamp-mani"><img alt="Stars" src="https://img.shields.io/github/stars/limxdynamics/troncamp-mani?style=flat-square"/></a></td>
-        <td><a href="https://github.com/limxdynamics/troncamp-mani"><img alt="Forks" src="https://img.shields.io/github/forks/limxdynamics/troncamp-mani?style=flat-square"/></a></td>
-    </tr>
-    <tr>
-        <td align="center" ><a href="https://github.com/limxdynamics/troncamp-web-mani"> troncamp-web-mani </a></td>
-        <td> TronCamp 黑客松公开站点，提供任务说明、T1–T4 自主度阶梯、过程评估与匿名积分榜。 </td>
-        <td><a href="https://github.com/limxdynamics/troncamp-web-mani"><img alt="Stars" src="https://img.shields.io/github/stars/limxdynamics/troncamp-web-mani?style=flat-square"/></a></td>
-        <td><a href="https://github.com/limxdynamics/troncamp-web-mani"><img alt="Forks" src="https://img.shields.io/github/forks/limxdynamics/troncamp-web-mani?style=flat-square"/></a></td>
-    </tr>
-    <tr>
-        <td align="center" ><a href="https://github.com/limxdynamics/troncamp-web-locomotion"> troncamp-web-locomotion </a></td>
-        <td> TronCamp 运动（locomotion）赛道的网页配套站点，面向 TRON2 机器人。 </td>
-        <td><a href="https://github.com/limxdynamics/troncamp-web-locomotion"><img alt="Stars" src="https://img.shields.io/github/stars/limxdynamics/troncamp-web-locomotion?style=flat-square"/></a></td>
-        <td><a href="https://github.com/limxdynamics/troncamp-web-locomotion"><img alt="Forks" src="https://img.shields.io/github/forks/limxdynamics/troncamp-web-locomotion?style=flat-square"/></a></td>
-    </tr>
-    <tr></tr>
-    <tr>
         <td rowspan="7" class="font-weight-bold">Oli</td>
         <td align="center" ><a href="https://github.com/limxdynamics/humanoid-description"> humanoid-description </a></td>
         <td> 机器人模型文件，包括 URDF、USD 与 XML 模型文件，可用于仿真、训练等。 </td>
@@ -156,6 +136,20 @@ LimX Dynamics 致力于以具身智能（Embodied AI）驱动颠覆式创新。�
         <td> 基于 <a href="https://www.ros.org">ROS1</a> 的强化学习部署框架，支持在 Oli 机器人上快速部署已训练模型。 </td>
         <td><a href="https://github.com/limxdynamics/humanoid-rl-deploy-ros"><img alt="Stars" src="https://img.shields.io/github/stars/limxdynamics/humanoid-rl-deploy-ros?style=flat-square"/></a></td>
         <td><a href="https://github.com/limxdynamics/humanoid-rl-deploy-ros"><img alt="Forks" src="https://img.shields.io/github/forks/limxdynamics/humanoid-rl-deploy-ros?style=flat-square"/></a></td>
+    </tr>
+    <tr></tr>
+    <tr>
+        <td rowspan="2" class="font-weight-bold">Luna</td>
+        <td align="center" ><a href="https://github.com/limxdynamics/luna-description"> luna-description </a></td>
+        <td> LimX Luna 人形机器人的模型文件 — URDF、MuJoCo MJCF 与 NVIDIA USD（含闭环并联版本），可用于仿真、可视化与下游工具。 </td>
+        <td><a href="https://github.com/limxdynamics/luna-description"><img alt="Stars" src="https://img.shields.io/github/stars/limxdynamics/luna-description?style=flat-square"/></a></td>
+        <td><a href="https://github.com/limxdynamics/luna-description"><img alt="Forks" src="https://img.shields.io/github/forks/limxdynamics/luna-description?style=flat-square"/></a></td>
+    </tr>
+    <tr>
+        <td align="center" ><a href="https://github.com/limxdynamics/luna-beyondmimic"> luna-beyondmimic </a></td>
+        <td> 基于 BeyondMimic 的全身动作学习框架，教会 LimX Luna 人形机器人跳舞 — 从人类舞蹈动作到可在 Isaac Lab 上部署的策略。 </td>
+        <td><a href="https://github.com/limxdynamics/luna-beyondmimic"><img alt="Stars" src="https://img.shields.io/github/stars/limxdynamics/luna-beyondmimic?style=flat-square"/></a></td>
+        <td><a href="https://github.com/limxdynamics/luna-beyondmimic"><img alt="Forks" src="https://img.shields.io/github/forks/limxdynamics/luna-beyondmimic?style=flat-square"/></a></td>
     </tr>
     <tr>
         <td rowspan="12" class="font-weight-bold">TRON1</td>
@@ -292,6 +286,26 @@ LimX Dynamics 致力于以具身智能（Embodied AI）驱动颠覆式创新。�
         <td> 面向 LimX 机器人的 GradMotion 全身运动生成 CLI 工具，支持对接 AI 智能体。 </td>
         <td><a href="https://github.com/limxdynamics/gradmotion-cli"><img alt="Stars" src="https://img.shields.io/github/stars/limxdynamics/gradmotion-cli?style=flat-square"/></a></td>
         <td><a href="https://github.com/limxdynamics/gradmotion-cli"><img alt="Forks" src="https://img.shields.io/github/forks/limxdynamics/gradmotion-cli?style=flat-square"/></a></td>
+    </tr>
+    <tr></tr>
+    <tr>
+        <td rowspan="3" class="font-weight-bold">TronCamp</td>
+        <td align="center" ><a href="https://github.com/limxdynamics/troncamp-mani"> troncamp-mani </a></td>
+        <td> TronCamp ACT 4 任务参赛包 — 自包含软件包（Tron2 双臂 / RoboTwin / 单卡 ACT），包含环境搭建、入门示例与评分脚本，覆盖由易到难的四个操作任务。 </td>
+        <td><a href="https://github.com/limxdynamics/troncamp-mani"><img alt="Stars" src="https://img.shields.io/github/stars/limxdynamics/troncamp-mani?style=flat-square"/></a></td>
+        <td><a href="https://github.com/limxdynamics/troncamp-mani"><img alt="Forks" src="https://img.shields.io/github/forks/limxdynamics/troncamp-mani?style=flat-square"/></a></td>
+    </tr>
+    <tr>
+        <td align="center" ><a href="https://github.com/limxdynamics/troncamp-web-mani"> troncamp-web-mani </a></td>
+        <td> TronCamp 黑客松公开站点，提供任务说明、T1–T4 自主度阶梯、过程评估与匿名积分榜。 </td>
+        <td><a href="https://github.com/limxdynamics/troncamp-web-mani"><img alt="Stars" src="https://img.shields.io/github/stars/limxdynamics/troncamp-web-mani?style=flat-square"/></a></td>
+        <td><a href="https://github.com/limxdynamics/troncamp-web-mani"><img alt="Forks" src="https://img.shields.io/github/forks/limxdynamics/troncamp-web-mani?style=flat-square"/></a></td>
+    </tr>
+    <tr>
+        <td align="center" ><a href="https://github.com/limxdynamics/troncamp-web-locomotion"> troncamp-web-locomotion </a></td>
+        <td> TronCamp 运动（locomotion）赛道的网页配套站点，面向 TRON2 机器人。 </td>
+        <td><a href="https://github.com/limxdynamics/troncamp-web-locomotion"><img alt="Stars" src="https://img.shields.io/github/stars/limxdynamics/troncamp-web-locomotion?style=flat-square"/></a></td>
+        <td><a href="https://github.com/limxdynamics/troncamp-web-locomotion"><img alt="Forks" src="https://img.shields.io/github/forks/limxdynamics/troncamp-web-locomotion?style=flat-square"/></a></td>
     </tr>
     </tbody>
 </table>

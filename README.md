@@ -20,9 +20,9 @@ LimX Dynamics is dedicated to disruptive innovations by Embodied AI. The goal is
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/limxdynamics/limxdynamics/main/stars-dark.svg?v=202609070605">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/limxdynamics/limxdynamics/main/stars.svg?v=202609070605">
-    <img src="https://raw.githubusercontent.com/limxdynamics/limxdynamics/main/stars.svg?v=202609070605" alt="Total stars across all projects" width="720">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/limxdynamics/limxdynamics/main/stars-dark.svg?v=202609070704">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/limxdynamics/limxdynamics/main/stars.svg?v=202609070704">
+    <img src="https://raw.githubusercontent.com/limxdynamics/limxdynamics/main/stars.svg?v=202609070704" alt="Total stars across all projects" width="720">
   </picture>
 </p>
 
@@ -95,26 +95,6 @@ LimX Dynamics is dedicated to disruptive innovations by Embodied AI. The goal is
     </tr>
     <tr></tr>
     <tr>
-        <td rowspan="3" class="font-weight-bold">TronCamp</td>
-        <td align="center" ><a href="https://github.com/limxdynamics/troncamp-mani"> troncamp-mani </a></td>
-        <td> TronCamp ACT 4-task contestant kit — self-contained package (Tron2 dual-arm / RoboTwin / single-GPU ACT) with setup, starter, and eval for four increasingly difficult manipulation tasks. </td>
-        <td><a href="https://github.com/limxdynamics/troncamp-mani"><img alt="Stars" src="https://img.shields.io/github/stars/limxdynamics/troncamp-mani?style=flat-square"/></a></td>
-        <td><a href="https://github.com/limxdynamics/troncamp-mani"><img alt="Forks" src="https://img.shields.io/github/forks/limxdynamics/troncamp-mani?style=flat-square"/></a></td>
-    </tr>
-    <tr>
-        <td align="center" ><a href="https://github.com/limxdynamics/troncamp-web-mani"> troncamp-web-mani </a></td>
-        <td> TronCamp hackathon public site with task briefs, T1-T4 freedom ladder, in-process evaluation, and token-anonymous leaderboard. </td>
-        <td><a href="https://github.com/limxdynamics/troncamp-web-mani"><img alt="Stars" src="https://img.shields.io/github/stars/limxdynamics/troncamp-web-mani?style=flat-square"/></a></td>
-        <td><a href="https://github.com/limxdynamics/troncamp-web-mani"><img alt="Forks" src="https://img.shields.io/github/forks/limxdynamics/troncamp-web-mani?style=flat-square"/></a></td>
-    </tr>
-    <tr>
-        <td align="center" ><a href="https://github.com/limxdynamics/troncamp-web-locomotion"> troncamp-web-locomotion </a></td>
-        <td> TronCamp locomotion track web companion for the TRON2 robot. </td>
-        <td><a href="https://github.com/limxdynamics/troncamp-web-locomotion"><img alt="Stars" src="https://img.shields.io/github/stars/limxdynamics/troncamp-web-locomotion?style=flat-square"/></a></td>
-        <td><a href="https://github.com/limxdynamics/troncamp-web-locomotion"><img alt="Forks" src="https://img.shields.io/github/forks/limxdynamics/troncamp-web-locomotion?style=flat-square"/></a></td>
-    </tr>
-    <tr></tr>
-    <tr>
         <td rowspan="7" class="font-weight-bold">Oli</td>
         <td align="center" ><a href="https://github.com/limxdynamics/humanoid-description"> humanoid-description </a></td>
         <td> Robot model files, including URDF, USD, and XML model files. Can be used for simulation, training, etc. </td>
@@ -156,6 +136,20 @@ LimX Dynamics is dedicated to disruptive innovations by Embodied AI. The goal is
         <td> A reinforcement learning deployment framework based on <a href="https://www.ros.org">ROS1</a> that enables rapid deployment of trained models on Oli robots. </td>
         <td><a href="https://github.com/limxdynamics/humanoid-rl-deploy-ros"><img alt="Stars" src="https://img.shields.io/github/stars/limxdynamics/humanoid-rl-deploy-ros?style=flat-square"/></a></td>
         <td><a href="https://github.com/limxdynamics/humanoid-rl-deploy-ros"><img alt="Forks" src="https://img.shields.io/github/forks/limxdynamics/humanoid-rl-deploy-ros?style=flat-square"/></a></td>
+    </tr>
+    <tr></tr>
+    <tr>
+        <td rowspan="2" class="font-weight-bold">Luna</td>
+        <td align="center" ><a href="https://github.com/limxdynamics/luna-description"> luna-description </a></td>
+        <td> Robot model files for the LimX Luna humanoid — URDF, MuJoCo MJCF, and NVIDIA USD (closed-loop variant) for simulation, visualization, and downstream tooling. </td>
+        <td><a href="https://github.com/limxdynamics/luna-description"><img alt="Stars" src="https://img.shields.io/github/stars/limxdynamics/luna-description?style=flat-square"/></a></td>
+        <td><a href="https://github.com/limxdynamics/luna-description"><img alt="Forks" src="https://img.shields.io/github/forks/limxdynamics/luna-description?style=flat-square"/></a></td>
+    </tr>
+    <tr>
+        <td align="center" ><a href="https://github.com/limxdynamics/luna-beyondmimic"> luna-beyondmimic </a></td>
+        <td> A BeyondMimic-based whole-body motion learning framework that teaches the LimX Luna humanoid to dance — from human dance motions to deployable policies on Isaac Lab. </td>
+        <td><a href="https://github.com/limxdynamics/luna-beyondmimic"><img alt="Stars" src="https://img.shields.io/github/stars/limxdynamics/luna-beyondmimic?style=flat-square"/></a></td>
+        <td><a href="https://github.com/limxdynamics/luna-beyondmimic"><img alt="Forks" src="https://img.shields.io/github/forks/limxdynamics/luna-beyondmimic?style=flat-square"/></a></td>
     </tr>
     <tr>
         <td rowspan="12" class="font-weight-bold">TRON1</td>
@@ -294,6 +288,26 @@ LimX Dynamics is dedicated to disruptive innovations by Embodied AI. The goal is
         <td> CLI tool for GradMotion whole-body motion generation on LimX robots with AI Agent integration support. </td>
         <td><a href="https://github.com/limxdynamics/gradmotion-cli"><img alt="Stars" src="https://img.shields.io/github/stars/limxdynamics/gradmotion-cli?style=flat-square"/></a></td>
         <td><a href="https://github.com/limxdynamics/gradmotion-cli"><img alt="Forks" src="https://img.shields.io/github/forks/limxdynamics/gradmotion-cli?style=flat-square"/></a></td>
+    </tr>
+    <tr></tr>
+    <tr>
+        <td rowspan="3" class="font-weight-bold">TronCamp</td>
+        <td align="center" ><a href="https://github.com/limxdynamics/troncamp-mani"> troncamp-mani </a></td>
+        <td> TronCamp ACT 4-task contestant kit — self-contained package (Tron2 dual-arm / RoboTwin / single-GPU ACT) with setup, starter, and eval for four increasingly difficult manipulation tasks. </td>
+        <td><a href="https://github.com/limxdynamics/troncamp-mani"><img alt="Stars" src="https://img.shields.io/github/stars/limxdynamics/troncamp-mani?style=flat-square"/></a></td>
+        <td><a href="https://github.com/limxdynamics/troncamp-mani"><img alt="Forks" src="https://img.shields.io/github/forks/limxdynamics/troncamp-mani?style=flat-square"/></a></td>
+    </tr>
+    <tr>
+        <td align="center" ><a href="https://github.com/limxdynamics/troncamp-web-mani"> troncamp-web-mani </a></td>
+        <td> TronCamp hackathon public site with task briefs, T1-T4 freedom ladder, in-process evaluation, and token-anonymous leaderboard. </td>
+        <td><a href="https://github.com/limxdynamics/troncamp-web-mani"><img alt="Stars" src="https://img.shields.io/github/stars/limxdynamics/troncamp-web-mani?style=flat-square"/></a></td>
+        <td><a href="https://github.com/limxdynamics/troncamp-web-mani"><img alt="Forks" src="https://img.shields.io/github/forks/limxdynamics/troncamp-web-mani?style=flat-square"/></a></td>
+    </tr>
+    <tr>
+        <td align="center" ><a href="https://github.com/limxdynamics/troncamp-web-locomotion"> troncamp-web-locomotion </a></td>
+        <td> TronCamp locomotion track web companion for the TRON2 robot. </td>
+        <td><a href="https://github.com/limxdynamics/troncamp-web-locomotion"><img alt="Stars" src="https://img.shields.io/github/stars/limxdynamics/troncamp-web-locomotion?style=flat-square"/></a></td>
+        <td><a href="https://github.com/limxdynamics/troncamp-web-locomotion"><img alt="Forks" src="https://img.shields.io/github/forks/limxdynamics/troncamp-web-locomotion?style=flat-square"/></a></td>
     </tr>
     </tbody>
 </table>
