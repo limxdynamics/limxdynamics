@@ -39,7 +39,7 @@ LimX Dynamics is dedicated to disruptive innovations by Embodied AI. The goal is
     <!-- Empty rows keep rowspan category cells on the default white stripe. -->
     <tr></tr>
     <tr>
-        <td rowspan="9" class="font-weight-bold">TRON2</td>
+        <td rowspan="10" class="font-weight-bold">TRON2</td>
         <td align="center" ><a href="https://github.com/limxdynamics/tron2-robot-description"> tron2-robot-description </a></td>
         <td> Robot model files for TRON2 variants, including URDF/xacro, MuJoCo XML, meshes, and optional USD assets for simulation, visualization, and downstream tooling. </td>
         <td><a href="https://github.com/limxdynamics/tron2-robot-description"><img alt="Stars" src="https://img.shields.io/github/stars/limxdynamics/tron2-robot-description?style=flat-square"/></a></td>
@@ -92,6 +92,12 @@ LimX Dynamics is dedicated to disruptive innovations by Embodied AI. The goal is
         <td> A TRON2 deployment-focused derivative of OpenPI that adds TRON2 policy transforms, deployment configuration templates, pi0/pi0.5 policy serving, and real-robot client examples. </td>
         <td><a href="https://github.com/limxdynamics/tron2_openpi"><img alt="Stars" src="https://img.shields.io/github/stars/limxdynamics/tron2_openpi?style=flat-square"/></a></td>
         <td><a href="https://github.com/limxdynamics/tron2_openpi"><img alt="Forks" src="https://img.shields.io/github/forks/limxdynamics/tron2_openpi?style=flat-square"/></a></td>
+    </tr>
+    <tr>
+        <td align="center" ><a href="https://github.com/limxdynamics/tron2_manipulation_controller"> tron2_manipulation_controller </a></td>
+        <td> A local simulation and SDK validation workspace for the TRON2 dual-arm robot, pairing a <a href="https://mujoco.org"> MuJoCo </a> motor-level simulator with the controller runtime and WebSocket SDK, and including VLA trajectory replay and limit checking. </td>
+        <td><a href="https://github.com/limxdynamics/tron2_manipulation_controller"><img alt="Stars" src="https://img.shields.io/github/stars/limxdynamics/tron2_manipulation_controller?style=flat-square"/></a></td>
+        <td><a href="https://github.com/limxdynamics/tron2_manipulation_controller"><img alt="Forks" src="https://img.shields.io/github/forks/limxdynamics/tron2_manipulation_controller?style=flat-square"/></a></td>
     </tr>
     <tr></tr>
     <tr>

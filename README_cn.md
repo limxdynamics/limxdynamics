@@ -39,7 +39,7 @@ LimX Dynamics 致力于以具身智能（Embodied AI）驱动颠覆式创新。�
     <!-- 空的占位行用于让跨行分类单元格保持默认的白色条纹。 -->
     <tr></tr>
     <tr>
-        <td rowspan="9" class="font-weight-bold">TRON2</td>
+        <td rowspan="10" class="font-weight-bold">TRON2</td>
         <td align="center" ><a href="https://github.com/limxdynamics/tron2-robot-description"> tron2-robot-description </a></td>
         <td> TRON2 各型号的机器人模型文件，包括 URDF/xacro、MuJoCo XML、网格（mesh）以及可选的 USD 资源，用于仿真、可视化与下游工具。 </td>
         <td><a href="https://github.com/limxdynamics/tron2-robot-description"><img alt="Stars" src="https://img.shields.io/github/stars/limxdynamics/tron2-robot-description?style=flat-square"/></a></td>
@@ -92,6 +92,12 @@ LimX Dynamics 致力于以具身智能（Embodied AI）驱动颠覆式创新。�
         <td> 基于 OpenPI 衍生的 TRON2 部署版，新增 TRON2 策略变换、部署配置模板、pi0/pi0.5 策略服务与真机客户端示例。 </td>
         <td><a href="https://github.com/limxdynamics/tron2_openpi"><img alt="Stars" src="https://img.shields.io/github/stars/limxdynamics/tron2_openpi?style=flat-square"/></a></td>
         <td><a href="https://github.com/limxdynamics/tron2_openpi"><img alt="Forks" src="https://img.shields.io/github/forks/limxdynamics/tron2_openpi?style=flat-square"/></a></td>
+    </tr>
+    <tr>
+        <td align="center" ><a href="https://github.com/limxdynamics/tron2_manipulation_controller"> tron2_manipulation_controller </a></td>
+        <td> TRON2 双臂机器人的本地仿真与 SDK 验证工作区：在一台机器上拉起 <a href="https://mujoco.org"> MuJoCo </a> 电机级仿真器、控制器运行包与 WebSocket SDK，并支持 VLA 轨迹回放与限位校验。 </td>
+        <td><a href="https://github.com/limxdynamics/tron2_manipulation_controller"><img alt="Stars" src="https://img.shields.io/github/stars/limxdynamics/tron2_manipulation_controller?style=flat-square"/></a></td>
+        <td><a href="https://github.com/limxdynamics/tron2_manipulation_controller"><img alt="Forks" src="https://img.shields.io/github/forks/limxdynamics/tron2_manipulation_controller?style=flat-square"/></a></td>
     </tr>
     <tr></tr>
     <tr>
