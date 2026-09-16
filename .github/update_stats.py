@@ -11,6 +11,13 @@ Two outputs:
    * data/stars_history.json -- daily cumulative total-star series
    * stars.svg               -- xkcd-style hand-drawn chart embedded by README.md
 
+The chart carries a star glyph plus the current total in its bottom-left corner,
+so the headline number is readable without cross-referencing the badge. The plot
+geometry (margins, baseline, tick positions) is untouched: the legend lives in a
+strip appended below the x-axis labels. ``CHART_VERSION`` is bumped whenever the
+rendered markup changes, so the idempotency guard in ``main()`` does not mistake
+a renderer-only change for "nothing to do".
+
 Repos are discovered dynamically by scanning README.md for ``github.com/owner/repo``
 links, so the chart always stays in sync with what the README actually lists.
 
@@ -88,6 +95,10 @@ def badge(label, value, color):
 LINE = "#dd4528"
 AXIS = "#000000"
 AXIS_DARK = "#c9d1d9"
+STAR = "#dd4528"       # same accent as the curve: ties the legend to the line
+LEGEND_STRIP = 36      # px appended below the x-axis labels for the legend
+LEGEND_FONT = 20       # a touch larger than the 16px axis labels, for emphasis
+CHART_VERSION = 2      # bump when the rendered markup changes (see main())
 _MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
            "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
 
@@ -209,12 +220,32 @@ def monotone_path(pts):
     return " ".join(parts)
 
 
+def _star_path(cx, cy, r_out, inner_ratio=0.382):
+    """Return a 5-pointed star outline centred on (cx, cy).
+
+    ``inner_ratio`` 0.382 is the regular-pentagram ratio, so the glyph reads as
+    a proper star rather than a spiky blob. Rendered through the same
+    ``xkcdify`` displacement filter as the axes, it picks up the hand-drawn
+    wobble of the rest of the chart.
+    """
+    import math
+    pts = []
+    for k in range(10):
+        ang = -math.pi / 2 + k * math.pi / 5
+        rr = r_out if k % 2 == 0 else r_out * inner_ratio
+        pts.append((cx + rr * math.cos(ang), cy + rr * math.sin(ang)))
+    return "M" + " L".join("%.2f,%.2f" % p for p in pts) + " Z"
+
+
 def render_svg(rows, axis_color=AXIS):
     if not rows:
-        return "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 533'></svg>"
+        return ("<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 %d'>"
+                "</svg>" % (533 + LEGEND_STRIP))
 
-    W, H = 800, 533
-    M_TOP, M_RIGHT, M_BOTTOM, M_LEFT = 50, 30, 50, 62
+    W = 800
+    M_TOP, M_RIGHT, M_LEFT = 50, 30, 62
+    M_BOTTOM = 50 + LEGEND_STRIP   # keeps the baseline at y=483, as before
+    H = 533 + LEGEND_STRIP
     plot_w = W - M_LEFT - M_RIGHT
     plot_h = H - M_TOP - M_BOTTOM
 
@@ -284,6 +315,18 @@ def render_svg(rows, axis_color=AXIS):
         parts.append("<path d='%s' fill='none' stroke='%s' stroke-width='3' "
                      "stroke-linejoin='round' stroke-linecap='round' filter='url(#xkcdify)'/>"
                      % (d, LINE))
+
+    # Bottom-left legend: hand-drawn star glyph + current total. Same xkcd
+    # font as every other label, the curve's accent colour for the glyph and the
+    # axis colour for the text -- i.e. the chart's own palette, nothing new.
+    legend_y = baseline + 24 + 30
+    star_r = 13
+    parts.append("<path d='%s' fill='%s' stroke='%s' stroke-width='1.5' "
+                 "stroke-linejoin='round' filter='url(#xkcdify)'/>"
+                 % (_star_path(M_LEFT + star_r, legend_y, star_r), STAR, STAR))
+    parts.append("<text x='%d' y='%.1f' fill='%s' font-size='%d'>%s</text>"
+                 % (M_LEFT + 2 * star_r + 10, legend_y + 7, axis_color,
+                    LEGEND_FONT, str(int(vals[-1]))))
 
     parts.append("</svg>")
     return "".join(parts)
@@ -390,16 +433,18 @@ def main():
     # the chart/history so the daily Action does not create a no-op commit.
     try:
         with open("data/stars_history.json", "r", encoding="utf-8") as f:
-            prev_series = json.load(f).get("series", [])
+            prev = json.load(f)
     except (OSError, ValueError):
-        prev_series = None
-    if prev_series == rows:
-        print("series unchanged (%d points); skipping chart/history write" % len(rows))
+        prev = {}
+    if prev.get("series") == rows and prev.get("chart_version") == CHART_VERSION:
+        print("series unchanged (%d points) and chart already v%d; "
+              "skipping chart/history write" % (len(rows), CHART_VERSION))
         return
 
     payload = {
         "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "repo_count": len(repos),
+        "chart_version": CHART_VERSION,
         "series": rows,
     }
     os.makedirs("data", exist_ok=True)
