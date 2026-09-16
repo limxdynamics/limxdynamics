@@ -11,10 +11,11 @@ Two outputs:
    * data/stars_history.json -- daily cumulative total-star series
    * stars.svg               -- xkcd-style hand-drawn chart embedded by README.md
 
-The chart carries a star glyph plus the current total in its bottom-left corner,
-so the headline number is readable without cross-referencing the badge. The plot
-geometry (margins, baseline, tick positions) is untouched: the legend lives in a
-strip appended below the x-axis labels. ``CHART_VERSION`` is bumped whenever the
+The chart carries a star glyph plus the current total in its TOP-RIGHT corner,
+right-aligned to the plot's right edge, so the headline number is readable without
+cross-referencing the badge. The plot area itself keeps its original proportions
+(433px tall): the legend lives in a strip reserved above the y-axis, which shifts
+the whole plot down without rescaling it. ``CHART_VERSION`` is bumped whenever the
 rendered markup changes, so the idempotency guard in ``main()`` does not mistake
 a renderer-only change for "nothing to do".
 
@@ -96,9 +97,14 @@ LINE = "#dd4528"
 AXIS = "#000000"
 AXIS_DARK = "#c9d1d9"
 STAR = "#dd4528"       # same accent as the curve: ties the legend to the line
-LEGEND_STRIP = 36      # px appended below the x-axis labels for the legend
+LEGEND_STRIP = 36      # px reserved above the y-axis for the legend
 LEGEND_FONT = 20       # a touch larger than the 16px axis labels, for emphasis
-CHART_VERSION = 2      # bump when the rendered markup changes (see main())
+LEGEND_GAP = 12        # px between the star glyph and the count
+# Advance width of one digit in the embedded xkcd font, in em. Measured from the
+# woff itself (every digit is 55.5px at font-size:100px, i.e. exactly additive),
+# so the right-aligned label needs no font-metrics library at run time.
+DIGIT_ADV = 0.555
+CHART_VERSION = 3      # bump when the rendered markup changes (see main())
 _MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
            "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
 
@@ -243,9 +249,9 @@ def render_svg(rows, axis_color=AXIS):
                 "</svg>" % (533 + LEGEND_STRIP))
 
     W = 800
-    M_TOP, M_RIGHT, M_LEFT = 50, 30, 62
-    M_BOTTOM = 50 + LEGEND_STRIP   # keeps the baseline at y=483, as before
-    H = 533 + LEGEND_STRIP
+    M_TOP, M_RIGHT, M_LEFT = 50 + LEGEND_STRIP, 30, 62
+    M_BOTTOM = 50
+    H = 533 + LEGEND_STRIP         # strip reserved at the top for the legend
     plot_w = W - M_LEFT - M_RIGHT
     plot_h = H - M_TOP - M_BOTTOM
 
@@ -316,17 +322,23 @@ def render_svg(rows, axis_color=AXIS):
                      "stroke-linejoin='round' stroke-linecap='round' filter='url(#xkcdify)'/>"
                      % (d, LINE))
 
-    # Bottom-left legend: hand-drawn star glyph + current total. Same xkcd
-    # font as every other label, the curve's accent colour for the glyph and the
-    # axis colour for the text -- i.e. the chart's own palette, nothing new.
-    legend_y = baseline + 24 + 30
+    # Top-right legend: hand-drawn star glyph + current total, right-aligned to
+    # the plot's right edge. Same xkcd font as every other label, the curve's
+    # accent colour for the glyph and the axis colour for the count -- i.e. the
+    # chart's own palette, nothing new. The glyph sits left of the count; the pair
+    # is placed from DIGIT_ADV so the label stays flush with the axis edge however
+    # many digits the total grows to.
+    label = str(int(vals[-1]))
+    legend_y = M_TOP - 30
     star_r = 13
+    text_w = len(label) * DIGIT_ADV * LEGEND_FONT
     parts.append("<path d='%s' fill='%s' stroke='%s' stroke-width='1.5' "
                  "stroke-linejoin='round' filter='url(#xkcdify)'/>"
-                 % (_star_path(M_LEFT + star_r, legend_y, star_r), STAR, STAR))
-    parts.append("<text x='%d' y='%.1f' fill='%s' font-size='%d'>%s</text>"
-                 % (M_LEFT + 2 * star_r + 10, legend_y + 7, axis_color,
-                    LEGEND_FONT, str(int(vals[-1]))))
+                 % (_star_path(W - M_RIGHT - text_w - LEGEND_GAP - star_r,
+                               legend_y, star_r), STAR, STAR))
+    parts.append("<text x='%d' y='%.1f' fill='%s' font-size='%d' "
+                 "text-anchor='end'>%s</text>"
+                 % (W - M_RIGHT, legend_y + 7, axis_color, LEGEND_FONT, label))
 
     parts.append("</svg>")
     return "".join(parts)
