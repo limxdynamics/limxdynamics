@@ -20,9 +20,9 @@ LimX Dynamics is dedicated to disruptive innovations by Embodied AI. The goal is
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/limxdynamics/limxdynamics/main/stars-dark.svg?v=202609210618">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/limxdynamics/limxdynamics/main/stars.svg?v=202609210618">
-    <img src="https://raw.githubusercontent.com/limxdynamics/limxdynamics/main/stars.svg?v=202609210618" alt="Total stars across all projects" width="720">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/limxdynamics/limxdynamics/main/stars-dark.svg?v=202609220612">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/limxdynamics/limxdynamics/main/stars.svg?v=202609220612">
+    <img src="https://raw.githubusercontent.com/limxdynamics/limxdynamics/main/stars.svg?v=202609220612" alt="Total stars across all projects" width="720">
   </picture>
 </p>
 
