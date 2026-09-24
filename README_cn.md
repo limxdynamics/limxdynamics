@@ -39,7 +39,7 @@ LimX Dynamics 致力于以具身智能（Embodied AI）驱动颠覆式创新。�
     <!-- 空的占位行用于让跨行分类单元格保持默认的白色条纹。 -->
     <tr></tr>
     <tr>
-        <td rowspan="10" class="font-weight-bold">TRON2</td>
+        <td rowspan="13" class="font-weight-bold">TRON2</td>
         <td align="center" ><a href="https://github.com/limxdynamics/tron2-robot-description"> tron2-robot-description </a></td>
         <td> TRON2 各型号的机器人模型文件，包括 URDF/xacro、MuJoCo XML、网格（mesh）以及可选的 USD 资源，用于仿真、可视化与下游工具。 </td>
         <td><a href="https://github.com/limxdynamics/tron2-robot-description"><img alt="Stars" src="https://img.shields.io/github/stars/limxdynamics/tron2-robot-description?style=flat-square"/></a></td>
@@ -99,6 +99,24 @@ LimX Dynamics 致力于以具身智能（Embodied AI）驱动颠覆式创新。�
         <td><a href="https://github.com/limxdynamics/tron2_manipulation_controller"><img alt="Stars" src="https://img.shields.io/github/stars/limxdynamics/tron2_manipulation_controller?style=flat-square"/></a></td>
         <td><a href="https://github.com/limxdynamics/tron2_manipulation_controller"><img alt="Forks" src="https://img.shields.io/github/forks/limxdynamics/tron2_manipulation_controller?style=flat-square"/></a></td>
     </tr>
+    <tr>
+        <td align="center" ><a href="https://github.com/limxdynamics/tron2-navigation-ros2"> tron2-navigation-ros2 </a></td>
+        <td> 面向 TRON2 的 ROS 2 Humble 导航集成，包含生产级 SCAN-Planner 子集、RoboSense 激光雷达驱动与安全/部署工具；GPL 组件位于配套仓库中。 </td>
+        <td><a href="https://github.com/limxdynamics/tron2-navigation-ros2"><img alt="Stars" src="https://img.shields.io/github/stars/limxdynamics/tron2-navigation-ros2?style=flat-square"/></a></td>
+        <td><a href="https://github.com/limxdynamics/tron2-navigation-ros2"><img alt="Forks" src="https://img.shields.io/github/forks/limxdynamics/tron2-navigation-ros2?style=flat-square"/></a></td>
+    </tr>
+    <tr>
+        <td align="center" ><a href="https://github.com/limxdynamics/tron2-navigation-pct-gpl"> tron2-navigation-pct-gpl </a></td>
+        <td> tron2-navigation-ros2 的 PCT 规划器源码（GPL-2.0-or-later）。 </td>
+        <td><a href="https://github.com/limxdynamics/tron2-navigation-pct-gpl"><img alt="Stars" src="https://img.shields.io/github/stars/limxdynamics/tron2-navigation-pct-gpl?style=flat-square"/></a></td>
+        <td><a href="https://github.com/limxdynamics/tron2-navigation-pct-gpl"><img alt="Forks" src="https://img.shields.io/github/forks/limxdynamics/tron2-navigation-pct-gpl?style=flat-square"/></a></td>
+    </tr>
+    <tr>
+        <td align="center" ><a href="https://github.com/limxdynamics/tron2-navigation-fastlio-gpl"> tron2-navigation-fastlio-gpl </a></td>
+        <td> tron2-navigation-ros2 的 FAST-LIO ROS 2 源码（GPL-2.0-only）。 </td>
+        <td><a href="https://github.com/limxdynamics/tron2-navigation-fastlio-gpl"><img alt="Stars" src="https://img.shields.io/github/stars/limxdynamics/tron2-navigation-fastlio-gpl?style=flat-square"/></a></td>
+        <td><a href="https://github.com/limxdynamics/tron2-navigation-fastlio-gpl"><img alt="Forks" src="https://img.shields.io/github/forks/limxdynamics/tron2-navigation-fastlio-gpl?style=flat-square"/></a></td>
+    </tr>
     <tr></tr>
     <tr>
         <td rowspan="7" class="font-weight-bold">Oli</td>
@@ -145,7 +163,7 @@ LimX Dynamics 致力于以具身智能（Embodied AI）驱动颠覆式创新。�
     </tr>
     <tr></tr>
     <tr>
-        <td rowspan="2" class="font-weight-bold">Luna</td>
+        <td rowspan="3" class="font-weight-bold">Luna</td>
         <td align="center" ><a href="https://github.com/limxdynamics/luna-description"> luna-description </a></td>
         <td> LimX Luna 人形机器人的模型文件 — URDF、MuJoCo MJCF 与 NVIDIA USD（含闭环并联版本），可用于仿真、可视化与下游工具。 </td>
         <td><a href="https://github.com/limxdynamics/luna-description"><img alt="Stars" src="https://img.shields.io/github/stars/limxdynamics/luna-description?style=flat-square"/></a></td>
@@ -156,6 +174,12 @@ LimX Dynamics 致力于以具身智能（Embodied AI）驱动颠覆式创新。�
         <td> 基于 BeyondMimic 的全身动作学习框架，教会 LimX Luna 人形机器人跳舞 — 从人类舞蹈动作到可在 Isaac Lab 上部署的策略。 </td>
         <td><a href="https://github.com/limxdynamics/luna-beyondmimic"><img alt="Stars" src="https://img.shields.io/github/stars/limxdynamics/luna-beyondmimic?style=flat-square"/></a></td>
         <td><a href="https://github.com/limxdynamics/luna-beyondmimic"><img alt="Forks" src="https://img.shields.io/github/forks/limxdynamics/luna-beyondmimic?style=flat-square"/></a></td>
+    </tr>
+    <tr>
+        <td align="center" ><a href="https://github.com/limxdynamics/GMR"> GMR </a></td>
+        <td> LimX Dynamics 的 GMR（通用动作重定向）fork — 将人体动作（SMPL-X/BVH/Xsens/OptiTrack）实时重定向到 LimX 人形机器人（OLI EDU、Luna）及 17+ 种其他机器人，可在 CPU 上运行。 </td>
+        <td><a href="https://github.com/limxdynamics/GMR"><img alt="Stars" src="https://img.shields.io/github/stars/limxdynamics/GMR?style=flat-square"/></a></td>
+        <td><a href="https://github.com/limxdynamics/GMR"><img alt="Forks" src="https://img.shields.io/github/forks/limxdynamics/GMR?style=flat-square"/></a></td>
     </tr>
     <tr>
         <td rowspan="12" class="font-weight-bold">TRON1</td>

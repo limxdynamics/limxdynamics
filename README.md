@@ -39,7 +39,7 @@ LimX Dynamics is dedicated to disruptive innovations by Embodied AI. The goal is
     <!-- Empty rows keep rowspan category cells on the default white stripe. -->
     <tr></tr>
     <tr>
-        <td rowspan="10" class="font-weight-bold">TRON2</td>
+        <td rowspan="13" class="font-weight-bold">TRON2</td>
         <td align="center" ><a href="https://github.com/limxdynamics/tron2-robot-description"> tron2-robot-description </a></td>
         <td> Robot model files for TRON2 variants, including URDF/xacro, MuJoCo XML, meshes, and optional USD assets for simulation, visualization, and downstream tooling. </td>
         <td><a href="https://github.com/limxdynamics/tron2-robot-description"><img alt="Stars" src="https://img.shields.io/github/stars/limxdynamics/tron2-robot-description?style=flat-square"/></a></td>
@@ -99,6 +99,24 @@ LimX Dynamics is dedicated to disruptive innovations by Embodied AI. The goal is
         <td><a href="https://github.com/limxdynamics/tron2_manipulation_controller"><img alt="Stars" src="https://img.shields.io/github/stars/limxdynamics/tron2_manipulation_controller?style=flat-square"/></a></td>
         <td><a href="https://github.com/limxdynamics/tron2_manipulation_controller"><img alt="Forks" src="https://img.shields.io/github/forks/limxdynamics/tron2_manipulation_controller?style=flat-square"/></a></td>
     </tr>
+    <tr>
+        <td align="center" ><a href="https://github.com/limxdynamics/tron2-navigation-ros2"> tron2-navigation-ros2 </a></td>
+        <td> ROS 2 Humble navigation integration for TRON2, including the production SCAN-Planner subset, RoboSense LiDAR drivers, and safety/deployment tooling; GPL components live in companion repos. </td>
+        <td><a href="https://github.com/limxdynamics/tron2-navigation-ros2"><img alt="Stars" src="https://img.shields.io/github/stars/limxdynamics/tron2-navigation-ros2?style=flat-square"/></a></td>
+        <td><a href="https://github.com/limxdynamics/tron2-navigation-ros2"><img alt="Forks" src="https://img.shields.io/github/forks/limxdynamics/tron2-navigation-ros2?style=flat-square"/></a></td>
+    </tr>
+    <tr>
+        <td align="center" ><a href="https://github.com/limxdynamics/tron2-navigation-pct-gpl"> tron2-navigation-pct-gpl </a></td>
+        <td> GPL-2.0-or-later PCT planner sources for tron2-navigation-ros2. </td>
+        <td><a href="https://github.com/limxdynamics/tron2-navigation-pct-gpl"><img alt="Stars" src="https://img.shields.io/github/stars/limxdynamics/tron2-navigation-pct-gpl?style=flat-square"/></a></td>
+        <td><a href="https://github.com/limxdynamics/tron2-navigation-pct-gpl"><img alt="Forks" src="https://img.shields.io/github/forks/limxdynamics/tron2-navigation-pct-gpl?style=flat-square"/></a></td>
+    </tr>
+    <tr>
+        <td align="center" ><a href="https://github.com/limxdynamics/tron2-navigation-fastlio-gpl"> tron2-navigation-fastlio-gpl </a></td>
+        <td> GPL-2.0-only FAST-LIO ROS 2 sources for tron2-navigation-ros2. </td>
+        <td><a href="https://github.com/limxdynamics/tron2-navigation-fastlio-gpl"><img alt="Stars" src="https://img.shields.io/github/stars/limxdynamics/tron2-navigation-fastlio-gpl?style=flat-square"/></a></td>
+        <td><a href="https://github.com/limxdynamics/tron2-navigation-fastlio-gpl"><img alt="Forks" src="https://img.shields.io/github/forks/limxdynamics/tron2-navigation-fastlio-gpl?style=flat-square"/></a></td>
+    </tr>
     <tr></tr>
     <tr>
         <td rowspan="7" class="font-weight-bold">Oli</td>
@@ -145,7 +163,7 @@ LimX Dynamics is dedicated to disruptive innovations by Embodied AI. The goal is
     </tr>
     <tr></tr>
     <tr>
-        <td rowspan="2" class="font-weight-bold">Luna</td>
+        <td rowspan="3" class="font-weight-bold">Luna</td>
         <td align="center" ><a href="https://github.com/limxdynamics/luna-description"> luna-description </a></td>
         <td> Robot model files for the LimX Luna humanoid — URDF, MuJoCo MJCF, and NVIDIA USD (closed-loop variant) for simulation, visualization, and downstream tooling. </td>
         <td><a href="https://github.com/limxdynamics/luna-description"><img alt="Stars" src="https://img.shields.io/github/stars/limxdynamics/luna-description?style=flat-square"/></a></td>
@@ -156,6 +174,12 @@ LimX Dynamics is dedicated to disruptive innovations by Embodied AI. The goal is
         <td> A BeyondMimic-based whole-body motion learning framework that teaches the LimX Luna humanoid to dance — from human dance motions to deployable policies on Isaac Lab. </td>
         <td><a href="https://github.com/limxdynamics/luna-beyondmimic"><img alt="Stars" src="https://img.shields.io/github/stars/limxdynamics/luna-beyondmimic?style=flat-square"/></a></td>
         <td><a href="https://github.com/limxdynamics/luna-beyondmimic"><img alt="Forks" src="https://img.shields.io/github/forks/limxdynamics/luna-beyondmimic?style=flat-square"/></a></td>
+    </tr>
+    <tr>
+        <td align="center" ><a href="https://github.com/limxdynamics/GMR"> GMR </a></td>
+        <td> LimX Dynamics fork of GMR (General Motion Retargeting) — retarget human motion (SMPL-X/BVH/Xsens/OptiTrack) into LimX humanoids (OLI EDU, Luna) and 17+ other robots in real time on CPU. </td>
+        <td><a href="https://github.com/limxdynamics/GMR"><img alt="Stars" src="https://img.shields.io/github/stars/limxdynamics/GMR?style=flat-square"/></a></td>
+        <td><a href="https://github.com/limxdynamics/GMR"><img alt="Forks" src="https://img.shields.io/github/forks/limxdynamics/GMR?style=flat-square"/></a></td>
     </tr>
     <tr>
         <td rowspan="12" class="font-weight-bold">TRON1</td>
