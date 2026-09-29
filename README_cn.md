@@ -337,7 +337,7 @@ LimX Dynamics 致力于以具身智能（Embodied AI）驱动颠覆式创新。�
     <tr>
         <td align="center" >通信桥</td>
         <td align="center" ><a href="https://github.com/limxdynamics/ros2-bridger"> ros2-bridger </a></td>
-        <td> ROS2 通信桥（x86_64 与 aarch64，Foxy/Humble/Jazzy），用于将开发机接入 LimX 机器人网络。 </td>
+        <td> ROS2 通信桥（x86_64 与 aarch64，Foxy/Humble/Jazzy/Lyrical），用于将开发机接入 LimX 机器人网络。 </td>
         <td><a href="https://github.com/limxdynamics/ros2-bridger"><img alt="Stars" src="https://img.shields.io/github/stars/limxdynamics/ros2-bridger?style=flat-square"/></a></td>
         <td><a href="https://github.com/limxdynamics/ros2-bridger"><img alt="Forks" src="https://img.shields.io/github/forks/limxdynamics/ros2-bridger?style=flat-square"/></a></td>
     </tr>

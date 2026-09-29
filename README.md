@@ -339,7 +339,7 @@ LimX Dynamics is dedicated to disruptive innovations by Embodied AI. The goal is
     <tr>
         <td align="center" >Bridge</td>
         <td align="center" ><a href="https://github.com/limxdynamics/ros2-bridger"> ros2-bridger </a></td>
-        <td> ROS2 communication bridge (x86_64 & aarch64, Foxy/Humble/Jazzy) for connecting development machines to LimX robot networks. </td>
+        <td> ROS2 communication bridge (x86_64 & aarch64, Foxy/Humble/Jazzy/Lyrical) for connecting development machines to LimX robot networks. </td>
         <td><a href="https://github.com/limxdynamics/ros2-bridger"><img alt="Stars" src="https://img.shields.io/github/stars/limxdynamics/ros2-bridger?style=flat-square"/></a></td>
         <td><a href="https://github.com/limxdynamics/ros2-bridger"><img alt="Forks" src="https://img.shields.io/github/forks/limxdynamics/ros2-bridger?style=flat-square"/></a></td>
     </tr>
