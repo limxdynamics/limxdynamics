@@ -11,11 +11,16 @@ LimX Dynamics is dedicated to disruptive innovations by Embodied AI. The goal is
 [![Douyin](https://img.shields.io/badge/Douyin-000000?style=flat&logo=tiktok&logoColor=white)](https://www.douyin.com/user/MS4wLjABAAAAi4WtqIxdAP5iqbT4BSEgUWPu6g9h_Pl7VXaQOLfDeFK1LgZo5O4IbIknTVeL6Zq-?from_tab_name=main&relation=0&vid=7654443992867786011)
 [![Xiaohongshu](https://img.shields.io/badge/Xiaohongshu-FF2442?style=flat&logo=xiaohongshu&logoColor=white)](https://www.xiaohongshu.com/user/profile/66e44fa8000000001d020784?xsec_token=ABnTSjc077y0Y9d7LrDkVdpR_IwBO36Dm_4eHTx1mXBE0=&xsec_source=pc_note)
 [![Kuaishou](https://img.shields.io/badge/Kuaishou-FF4906?style=flat&logo=kuaishou&logoColor=white)](https://www.kuaishou.com/profile/3xvskq6dkc4puq6)
+[![X](https://img.shields.io/badge/X-000000?style=flat&logo=x&logoColor=white)](https://x.com/LimX_Dynamics)
 [![Stars](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Flimxdynamics%2Flimxdynamics%2Fmain%2Fbadges%2Fstars.json&style=flat&logo=github)](https://github.com/limxdynamics)
 [![Forks](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Flimxdynamics%2Flimxdynamics%2Fmain%2Fbadges%2Fforks.json&style=flat&logo=github)](https://github.com/limxdynamics)
 <a href="https://github.com/limxdynamics">
 <img src="https://badges.strrl.dev/years/limxdynamics?style=flat-square&logo=github">
 </a>
+<br>
+[![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat&logo=huggingface&logoColor=black)](https://huggingface.co/limxdynamics)
+[![ModelScope](https://img.shields.io/badge/ModelScope-000000?style=flat)](https://modelscope.cn/organization/LimXDynamics?tab=all)
+[![Community](https://img.shields.io/badge/Community-5865F2?style=flat)](https://landx.limxdynamics.com/)
 
 
 <p align="center">
