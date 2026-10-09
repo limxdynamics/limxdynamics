@@ -1,11 +1,14 @@
 [English](README.md) | 中文
 
-<img src="doc/logo.png" width="255" height="64" style="float: left; margin-right: 10px;">
+<p align="center">
+  <img src="doc/logo.png" width="255" height="64" alt="LimX Dynamics">
+</p>
 
 LimX Dynamics（逐际动力）是一家通用机器人公司，专注于全尺寸人形机器人，并已研发出双足、四足等系列创新产品。
 
 LimX Dynamics 致力于以具身智能（Embodied AI）驱动颠覆式创新。我们的目标是让人工智能（AGI）的泛化能力在物理世界充分释放。基于革命性的核心软硬件技术，并为机器人构建首个基础模型（foundation model），我们希望为创新者与集成商提供可操作（loco-manipulation）的机器人平台与具身智能工具集，推动具身智能在 B2B 与 B2C 领域（包括研发、制造、商务与家庭服务）的广泛应用。
 
+<div align="center">
 <table>
   <tbody>
     <tr><td valign="top"><b>社交媒体</b></td><td valign="top"><a href="https://www.youtube.com/@LimXDynamics/featured"><img src="https://img.shields.io/badge/YouTube-ff0000?style=flat&logo=youtube&logoColor=white" alt="YouTube" height="20"></a> <a href="https://space.bilibili.com/1172054289"><img src="https://img.shields.io/badge/-bilibili-ff69b4?style=flat&labelColor=ff69b4&logo=bilibili&logoColor=white" alt="Bilibili" height="20"></a> <a href="https://www.douyin.com/user/MS4wLjABAAAAi4WtqIxdAP5iqbT4BSEgUWPu6g9h_Pl7VXaQOLfDeFK1LgZo5O4IbIknTVeL6Zq-?from_tab_name=main&relation=0&vid=7654443992867786011"><img src="https://img.shields.io/badge/Douyin-000000?style=flat&logo=tiktok&logoColor=white" alt="Douyin" height="20"></a> <a href="https://www.xiaohongshu.com/user/profile/66e44fa8000000001d020784?xsec_token=ABnTSjc077y0Y9d7LrDkVdpR_IwBO36Dm_4eHTx1mXBE0=&xsec_source=pc_note"><img src="https://img.shields.io/badge/Xiaohongshu-FF2442?style=flat&logo=xiaohongshu&logoColor=white" alt="Xiaohongshu" height="20"></a> <a href="https://www.kuaishou.com/profile/3xvskq6dkc4puq6"><img src="https://img.shields.io/badge/Kuaishou-FF4906?style=flat&logo=kuaishou&logoColor=white" alt="Kuaishou" height="20"></a> <a href="https://x.com/LimX_Dynamics"><img src="https://img.shields.io/badge/X-000000?style=flat&logo=x&logoColor=white" alt="X" height="20"></a></td></tr>
@@ -13,6 +16,7 @@ LimX Dynamics 致力于以具身智能（Embodied AI）驱动颠覆式创新。�
     <tr><td valign="top"><b>GitHub 数据</b></td><td valign="top"><a href="https://github.com/limxdynamics"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Flimxdynamics%2Flimxdynamics%2Fmain%2Fbadges%2Fstars.json&style=flat&logo=github" alt="Stars" height="20"></a> <a href="https://github.com/limxdynamics"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Flimxdynamics%2Flimxdynamics%2Fmain%2Fbadges%2Fforks.json&style=flat&logo=github" alt="Forks" height="20"></a> <a href="https://github.com/limxdynamics"><img src="https://badges.strrl.dev/years/limxdynamics?style=flat-square&logo=github" alt="" height="20"></a></td></tr>
   </tbody>
 </table>
+</div>
 
 
 <p align="center">
