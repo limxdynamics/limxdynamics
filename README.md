@@ -41,6 +41,15 @@ LimX Dynamics is dedicated to disruptive innovations by Embodied AI. The goal is
     <!-- Empty rows keep rowspan category cells on the default white stripe. -->
     <tr></tr>
     <tr>
+        <td rowspan="1" class="font-weight-bold">Insights</td>
+        <td align="center" >Report</td>
+        <td align="center" ><a href="https://github.com/limxdynamics/embodied-ai-insights"> embodied-ai-insights </a></td>
+        <td> Monthly reports on the embodied AI open-source ecosystem, built from public GitHub data — tracking star growth, new repositories and community activity across leading robotics companies. </td>
+        <td><a href="https://github.com/limxdynamics/embodied-ai-insights"><img alt="Stars" src="https://img.shields.io/github/stars/limxdynamics/embodied-ai-insights?style=flat-square"/></a></td>
+        <td><a href="https://github.com/limxdynamics/embodied-ai-insights"><img alt="Forks" src="https://img.shields.io/github/forks/limxdynamics/embodied-ai-insights?style=flat-square"/></a></td>
+    </tr>
+    <tr></tr>
+    <tr>
         <td rowspan="13" class="font-weight-bold">TRON2</td>
         <td align="center" >Description</td>
         <td align="center" ><a href="https://github.com/limxdynamics/tron2-robot-description"> tron2-robot-description </a></td>

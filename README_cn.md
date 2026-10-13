@@ -41,6 +41,15 @@ LimX Dynamics 致力于以具身智能（Embodied AI）驱动颠覆式创新。�
     <!-- 空的占位行用于让跨行分类单元格保持默认的白色条纹。 -->
     <tr></tr>
     <tr>
+        <td rowspan="1" class="font-weight-bold">观察</td>
+        <td align="center" >月报</td>
+        <td align="center" ><a href="https://github.com/limxdynamics/embodied-ai-insights"> embodied-ai-insights </a></td>
+        <td> 基于 GitHub 公开数据的具身智能开源生态观察——逐月追踪各家机器人企业的 star 增长、新仓发布与社区活跃度，输出月报与专题分析。 </td>
+        <td><a href="https://github.com/limxdynamics/embodied-ai-insights"><img alt="Stars" src="https://img.shields.io/github/stars/limxdynamics/embodied-ai-insights?style=flat-square"/></a></td>
+        <td><a href="https://github.com/limxdynamics/embodied-ai-insights"><img alt="Forks" src="https://img.shields.io/github/forks/limxdynamics/embodied-ai-insights?style=flat-square"/></a></td>
+    </tr>
+    <tr></tr>
+    <tr>
         <td rowspan="13" class="font-weight-bold">TRON2</td>
         <td align="center" >描述</td>
         <td align="center" ><a href="https://github.com/limxdynamics/tron2-robot-description"> tron2-robot-description </a></td>
