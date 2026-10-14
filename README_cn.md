@@ -5,11 +5,7 @@
 </div>
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="doc/logo-white-v2.png">
-    <source media="(prefers-color-scheme: light)" srcset="doc/logo-black-v2.png">
-    <img src="doc/logo-black-v2.png" width="330" alt="LimX Dynamics">
-  </picture>
+  <img src="doc/logo.png" width="300" alt="LimX Dynamics">
 </p>
 
 LimX Dynamics（逐际动力）是一家通用机器人公司，专注于全尺寸人形机器人，并已研发出双足、四足等系列创新产品。
