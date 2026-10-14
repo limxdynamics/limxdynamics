@@ -6,9 +6,9 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="doc/logo-white.png?v=2">
-    <source media="(prefers-color-scheme: light)" srcset="doc/logo-black.png?v=2">
-    <img src="doc/logo-black.png?v=2" width="330" alt="LimX Dynamics">
+    <source media="(prefers-color-scheme: dark)" srcset="doc/logo-white-v2.png">
+    <source media="(prefers-color-scheme: light)" srcset="doc/logo-black-v2.png">
+    <img src="doc/logo-black-v2.png" width="330" alt="LimX Dynamics">
   </picture>
 </p>
 
