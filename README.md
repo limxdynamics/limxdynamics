@@ -5,7 +5,11 @@
 </div>
 
 <p align="center">
-  <img src="doc/logo.png" width="300" alt="LimX Dynamics">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="doc/logo-white-theme.png">
+    <source media="(prefers-color-scheme: light)" srcset="doc/logo-black-theme.png">
+    <img src="doc/logo-black-theme.png" width="300" alt="LimX Dynamics">
+  </picture>
 </p>
 
 LimX Dynamics is a general-purpose robotics company, focusing on full-size humanoid robots and have developed innovative products such as biped and quadruped robots.
