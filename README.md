@@ -24,7 +24,7 @@ LimX Dynamics is dedicated to disruptive innovations by Embodied AI. The goal is
   <a href="https://www.xiaohongshu.com/user/profile/66e44fa8000000001d020784?xsec_token=ABnTSjc077y0Y9d7LrDkVdpR_IwBO36Dm_4eHTx1mXBE0=&xsec_source=pc_note"><img src="https://img.shields.io/badge/Xiaohongshu-24292f?style=flat&logo=xiaohongshu&logoColor=white&logoSize=auto" alt="Xiaohongshu" height="24"></a>&nbsp;
   <a href="https://www.kuaishou.com/profile/3xvskq6dkc4puq6"><img src="https://img.shields.io/badge/Kuaishou-24292f?style=flat&logo=kuaishou&logoColor=white&logoSize=auto" alt="Kuaishou" height="24"></a>&nbsp;
   <a href="https://x.com/LimX_Dynamics"><img src="https://img.shields.io/badge/X-24292f?style=flat&logo=x&logoColor=white&logoSize=auto" alt="X" height="24"></a>&nbsp;
-  <a href="https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzYyMjAzMDI4MQ=="><img src="https://img.shields.io/badge/WeChat-24292f?style=flat&logo=wechat&logoColor=white&logoSize=auto" alt="WeChat" height="24"></a>
+  <a href="https://github.com/limxdynamics/limxdynamics/blob/main/doc/wechat_official_en.png"><img src="https://img.shields.io/badge/WeChat-24292f?style=flat&logo=wechat&logoColor=white&logoSize=auto" alt="WeChat" height="24"></a>
 </p>
 
 <p align="center">
@@ -48,7 +48,7 @@ LimX Dynamics is dedicated to disruptive innovations by Embodied AI. The goal is
   </picture>
 </p>
 
-<p align="center"><a href="https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzYyMjAzMDI4MQ=="><img src="https://img.shields.io/badge/Join%20Our%20WeChat%20Community-All%20Projects%20Welcome-07C160?style=for-the-badge&logo=wechat&logoColor=white" alt="WeChat Community"></a></p>
+<p align="center"><a href="https://github.com/limxdynamics/limxdynamics/blob/main/doc/wechat_official_en.png"><img src="https://img.shields.io/badge/Join%20Our%20WeChat%20Community-All%20Projects%20Welcome-07C160?style=for-the-badge&logo=wechat&logoColor=white" alt="WeChat Community"></a></p>
 
 <div>
     <img src="https://149753425.v2.pressablecdn.com/wp-content/uploads/2009/06/osi_symbol_100X100_0.png" width="20" height="20" style="display:inline-block; vertical-align:top;">
