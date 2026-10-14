@@ -384,6 +384,16 @@ def main():
             stars += st
             forks += fo
             ok += 1
+            # Per-repo star badge targeting the README table. README shows
+            # these via static badges/repos/*.json so shields.io only has to
+            # serve a cached JSON (no GitHub API call per request -> no
+            # random "invalid" from rate limiting).
+            owner_r = r.split("/", 1)
+            os.makedirs("badges/repos", exist_ok=True)
+            per_color = "yellow" if st >= 100 else "lightgrey"
+            with open("badges/repos/%s__%s.json" % (owner_r[0], owner_r[1]),
+                      "w", encoding="utf-8") as f:
+                json.dump(badge("Stars", st, per_color), f)
         except Exception as e:  # noqa: BLE001
             errors.append("%s: %s" % (r, e))
             continue
