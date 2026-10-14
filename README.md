@@ -95,10 +95,7 @@ python tron1-rl-deploy-python/main.py
 | Retarget human motion to a humanoid | [GMR](https://github.com/limxdynamics/GMR) → [luna-beyondmimic](https://github.com/limxdynamics/luna-beyondmimic) |
 | Follow the industry without writing code | [embodied-ai-insights](https://github.com/limxdynamics/embodied-ai-insights) monthly reports |
 
-<div>
-    <img src="https://149753425.v2.pressablecdn.com/wp-content/uploads/2009/06/osi_symbol_100X100_0.png" width="20" height="20" style="display:inline-block; vertical-align:top;">
-    <span style="display:inline-block; vertical-align:top;">Open source projects</span> 
-</div>
+## Open Source Projects
 
 <table class="table table-striped table-bordered table-vcenter"/>
     <tbody>

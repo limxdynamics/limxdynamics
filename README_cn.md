@@ -95,10 +95,7 @@ python tron1-rl-deploy-python/main.py
 | 把人体动作重定向到人形机器人 | [GMR](https://github.com/limxdynamics/GMR) → [luna-beyondmimic](https://github.com/limxdynamics/luna-beyondmimic) |
 | 不写代码，只关注行业动态 | [embodied-ai-insights](https://github.com/limxdynamics/embodied-ai-insights) 月度报告 |
 
-<div>
-    <img src="https://149753425.v2.pressablecdn.com/wp-content/uploads/2009/06/osi_symbol_100X100_0.png" width="20" height="20" style="display:inline-block; vertical-align:top;">
-    <span style="display:inline-block; vertical-align:top;">开源项目</span>
-</div>
+## 开源项目
 
 <table class="table table-striped table-bordered table-vcenter"/>
     <tbody>
