@@ -42,9 +42,9 @@ LimX Dynamics 致力于以具身智能（Embodied AI）驱动颠覆式创新。�
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/limxdynamics/limxdynamics/main/stars-dark.svg?v=202610140607">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/limxdynamics/limxdynamics/main/stars.svg?v=202610140607">
-    <img src="https://raw.githubusercontent.com/limxdynamics/limxdynamics/main/stars.svg?v=202610140607" alt="全部项目总 Star 数" width="720">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/limxdynamics/limxdynamics/main/stars-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/limxdynamics/limxdynamics/main/stars.svg">
+    <img src="https://raw.githubusercontent.com/limxdynamics/limxdynamics/main/stars.svg" alt="全部项目总 Star 数" width="720">
   </picture>
 </p>
 
@@ -54,8 +54,6 @@ LimX Dynamics 致力于以具身智能（Embodied AI）驱动颠覆式创新。�
     <img src="https://149753425.v2.pressablecdn.com/wp-content/uploads/2009/06/osi_symbol_100X100_0.png" width="20" height="20" style="display:inline-block; vertical-align:top;">
     <span style="display:inline-block; vertical-align:top;">开源项目</span>
 </div>
-
-<!-- <tr><td colspan="1" rowspan="4"> -->
 
 <table class="table table-striped table-bordered table-vcenter"/>
     <tbody>
