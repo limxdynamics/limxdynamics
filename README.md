@@ -8,7 +8,7 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="doc/logo-white.png">
     <source media="(prefers-color-scheme: light)" srcset="doc/logo-black.png">
-    <img src="doc/logo-black.png" width="255" height="64" alt="LimX Dynamics">
+    <img src="doc/logo-black.png" width="300" alt="LimX Dynamics">
   </picture>
 </p>
 
