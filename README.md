@@ -57,7 +57,7 @@ LimX Dynamics is dedicated to disruptive innovations by Embodied AI. The goal is
 New here? Pick a path that fits you:
 
 - **TronCamp** — hands-on tracks for learning LimX manipulation and locomotion. The browser-friendly web companions, [troncamp-web-locomotion](https://github.com/limxdynamics/troncamp-web-locomotion) and [troncamp-web-mani](https://github.com/limxdynamics/troncamp-web-mani), are a great low-barrier starting point.
-- **TRON2** — our flagship humanoid robotics platform. Start with the [TRON2 robot description](https://github.com/limxdynamics/tron2-robot-description), then explore [training](https://github.com/limxdynamics/tron2_rl_lab) or [deployment](https://github.com/limxdynamics/tron2_env) as you go deeper.
+- **TRON2** — a modular robotics platform for learning and realizing legged motion. Start with the [TRON2 robot description](https://github.com/limxdynamics/tron2-robot-description), then explore [training](https://github.com/limxdynamics/tron2_rl_lab) or [deployment](https://github.com/limxdynamics/tron2_env) as you go deeper.
 - **Embodied AI Insights** — tracking the industry without writing code. Monthly ecosystem reports live in [embodied-ai-insights](https://github.com/limxdynamics/embodied-ai-insights).
 
 <div>
