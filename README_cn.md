@@ -24,7 +24,7 @@ LimX Dynamics 致力于以具身智能（Embodied AI）驱动颠覆式创新。�
   <a href="https://www.xiaohongshu.com/user/profile/66e44fa8000000001d020784?xsec_token=ABnTSjc077y0Y9d7LrDkVdpR_IwBO36Dm_4eHTx1mXBE0=&xsec_source=pc_note"><img src="https://img.shields.io/badge/Xiaohongshu-24292f?style=flat&logo=xiaohongshu&logoColor=white&logoSize=auto" alt="Xiaohongshu" height="24"></a>&nbsp;
   <a href="https://www.kuaishou.com/profile/3xvskq6dkc4puq6"><img src="https://img.shields.io/badge/Kuaishou-24292f?style=flat&logo=kuaishou&logoColor=white&logoSize=auto" alt="Kuaishou" height="24"></a>&nbsp;
   <a href="https://x.com/LimX_Dynamics"><img src="https://img.shields.io/badge/X-24292f?style=flat&logo=x&logoColor=white&logoSize=auto" alt="X" height="24"></a>&nbsp;
-  <a href="https://github.com/limxdynamics/limxdynamics/blob/main/doc/wechat_qr.png"><img src="https://img.shields.io/badge/WeChat-24292f?style=flat&logo=wechat&logoColor=white&logoSize=auto" alt="微信" height="24"></a>
+  <a href="https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzYyMjAzMDI4MQ=="><img src="https://img.shields.io/badge/WeChat-24292f?style=flat&logo=wechat&logoColor=white&logoSize=auto" alt="微信" height="24"></a>
 </p>
 
 <p align="center">
@@ -48,7 +48,7 @@ LimX Dynamics 致力于以具身智能（Embodied AI）驱动颠覆式创新。�
   </picture>
 </p>
 
-<p align="center"><a href="https://github.com/limxdynamics/limxdynamics/blob/main/doc/wechat_qr.png"><img src="https://img.shields.io/badge/%E5%BE%AE%E4%BF%A1%E5%BC%80%E5%8F%91%E8%80%85%E7%BE%A4-%E6%89%AB%E7%A0%81%E5%8A%A0%E5%85%A5%20%C2%B7%20%E8%A6%86%E7%9B%96%E5%85%A8%E9%83%A8%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE-07C160?style=for-the-badge&logo=wechat&logoColor=white" alt="微信开发者社区"></a></p>
+<p align="center"><a href="https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzYyMjAzMDI4MQ=="><img src="https://img.shields.io/badge/%E5%BE%AE%E4%BF%A1%E5%BC%80%E5%8F%91%E8%80%85%E7%BE%A4-%E6%89%AB%E7%A0%81%E5%8A%A0%E5%85%A5%20%C2%B7%20%E8%A6%86%E7%9B%96%E5%85%A8%E9%83%A8%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE-07C160?style=for-the-badge&logo=wechat&logoColor=white" alt="微信开发者社区"></a></p>
 
 <div>
     <img src="https://149753425.v2.pressablecdn.com/wp-content/uploads/2009/06/osi_symbol_100X100_0.png" width="20" height="20" style="display:inline-block; vertical-align:top;">
