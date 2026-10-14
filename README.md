@@ -1,4 +1,8 @@
-English | [中文](README_cn.md)
+<div align="center">
+
+<a href="README.md"><img src="https://img.shields.io/badge/English-ff0000?style=for-the-badge&logo=youtube&logoColor=white" alt="English"></a>&nbsp;&nbsp;<a href="README_cn.md"><img src="https://img.shields.io/badge/中文-181717?style=for-the-badge&logo=bilibili&logoColor=ff69b4" alt="中文"></a>
+
+</div>
 
 <p align="center">
   <img src="doc/logo.png" width="255" height="64" alt="LimX Dynamics">
