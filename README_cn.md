@@ -14,13 +14,29 @@ LimX Dynamics 致力于以具身智能（Embodied AI）驱动颠覆式创新。�
 
 <div align="center">
   <p><a href="https://github.com/limxdynamics/limxdynamics/blob/main/doc/wechat_qr.png"><img src="https://img.shields.io/badge/%E5%BE%AE%E4%BF%A1%E5%BC%80%E5%8F%91%E8%80%85%E7%BE%A4-%E6%89%AB%E7%A0%81%E5%8A%A0%E5%85%A5%20%C2%B7%20%E8%A6%86%E7%9B%96%E5%85%A8%E9%83%A8%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE-07C160?style=for-the-badge&logo=wechat&logoColor=white" alt="WeChat Community"></a></p>
-<table>
-  <tbody>
-    <tr><td valign="top"><b>社交媒体</b></td><td valign="top"><a href="https://www.youtube.com/@LimXDynamics/featured"><img src="https://img.shields.io/badge/YouTube-ff0000?style=flat&logo=youtube&logoColor=white" alt="YouTube" height="20"></a> <a href="https://space.bilibili.com/1172054289"><img src="https://img.shields.io/badge/-bilibili-ff69b4?style=flat&labelColor=ff69b4&logo=bilibili&logoColor=white" alt="Bilibili" height="20"></a> <a href="https://www.douyin.com/user/MS4wLjABAAAAi4WtqIxdAP5iqbT4BSEgUWPu6g9h_Pl7VXaQOLfDeFK1LgZo5O4IbIknTVeL6Zq-?from_tab_name=main&relation=0&vid=7654443992867786011"><img src="https://img.shields.io/badge/Douyin-000000?style=flat&logo=tiktok&logoColor=white" alt="Douyin" height="20"></a> <a href="https://www.xiaohongshu.com/user/profile/66e44fa8000000001d020784?xsec_token=ABnTSjc077y0Y9d7LrDkVdpR_IwBO36Dm_4eHTx1mXBE0=&xsec_source=pc_note"><img src="https://img.shields.io/badge/Xiaohongshu-FF2442?style=flat&logo=xiaohongshu&logoColor=white" alt="Xiaohongshu" height="20"></a> <a href="https://www.kuaishou.com/profile/3xvskq6dkc4puq6"><img src="https://img.shields.io/badge/Kuaishou-FF4906?style=flat&logo=kuaishou&logoColor=white" alt="Kuaishou" height="20"></a> <a href="https://x.com/LimX_Dynamics"><img src="https://img.shields.io/badge/X-000000?style=flat&logo=x&logoColor=white" alt="X" height="20"></a> <a href="https://github.com/limxdynamics/limxdynamics/blob/main/doc/wechat_qr.png"><img src="https://img.shields.io/badge/WeChat-green?logo=wechat&logoColor=white" alt="WeChat" height="20"></a></td></tr>
-    <tr><td valign="top"><b>AI 平台</b></td><td valign="top"><a href="https://huggingface.co/limxdynamics"><img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=flat&logo=huggingface&logoColor=black" alt="HuggingFace" height="20"></a> <a href="https://modelscope.cn/organization/LimXDynamics?tab=all"><img src="https://img.shields.io/badge/ModelScope-000000?style=flat&logo=modelscope&logoColor=white" alt="ModelScope" height="20"></a></td></tr>
-    <tr><td valign="top"><b>GitHub 数据</b></td><td valign="top"><a href="https://github.com/limxdynamics"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Flimxdynamics%2Flimxdynamics%2Fmain%2Fbadges%2Fstars.json&style=flat&logo=github" alt="Stars" height="20"></a> <a href="https://github.com/limxdynamics"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Flimxdynamics%2Flimxdynamics%2Fmain%2Fbadges%2Fforks.json&style=flat&logo=github" alt="Forks" height="20"></a> <a href="https://github.com/limxdynamics"><img src="https://badges.strrl.dev/years/limxdynamics?style=flat-square&logo=github" alt="" height="20"></a></td></tr>
-  </tbody>
-</table>
+<p align="center"><b>关注我们</b></p>
+<p align="center">
+  <a href="https://www.youtube.com/@LimXDynamics/featured"><img src="https://img.shields.io/badge/YouTube-FF0000?style=flat&logo=youtube&logoColor=white&logoSize=auto" alt="YouTube" height="24"></a>&nbsp;
+  <a href="https://space.bilibili.com/1172054289"><img src="https://img.shields.io/badge/Bilibili-00A1D6?style=flat&logo=bilibili&logoColor=white&logoSize=auto" alt="Bilibili" height="24"></a>&nbsp;
+  <a href="https://www.douyin.com/user/MS4wLjABAAAAi4WtqIxdAP5iqbT4BSEgUWPu6g9h_Pl7VXaQOLfDeFK1LgZo5O4IbIknTVeL6Zq-?from_tab_name=main&relation=0&vid=7654443992867786011"><img src="https://img.shields.io/badge/抖音-000000?style=flat&logo=tiktok&logoColor=white&logoSize=auto" alt="抖音" height="24"></a>&nbsp;
+  <a href="https://www.xiaohongshu.com/user/profile/66e44fa8000000001d020784?xsec_token=ABnTSjc077y0Y9d7LrDkVdpR_IwBO36Dm_4eHTx1mXBE0=&xsec_source=pc_note"><img src="https://img.shields.io/badge/小红书-FF2442?style=flat&logo=xiaohongshu&logoColor=white&logoSize=auto" alt="小红书" height="24"></a>&nbsp;
+  <a href="https://www.kuaishou.com/profile/3xvskq6dkc4puq6"><img src="https://img.shields.io/badge/快手-FF4906?style=flat&logo=android&logoColor=white" alt="快手" height="24"></a>&nbsp;
+  <a href="https://x.com/LimX_Dynamics"><img src="https://img.shields.io/badge/X-000000?style=flat&logo=x&logoColor=white&logoSize=auto" alt="X" height="24"></a>&nbsp;
+  <a href="https://github.com/limxdynamics/limxdynamics/blob/main/doc/wechat_qr.png"><img src="https://img.shields.io/badge/WeChat-07C160?style=flat&logo=wechat&logoColor=white&logoSize=auto" alt="微信" height="24"></a>
+</p>
+
+<p align="center"><b>AI 平台</b></p>
+<p align="center">
+  <a href="https://huggingface.co/limxdynamics"><img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=flat&logo=huggingface&logoColor=black&logoSize=auto" alt="HuggingFace" height="24"></a>&nbsp;
+  <a href="https://modelscope.cn/organization/LimXDynamics?tab=all"><img src="https://img.shields.io/badge/ModelScope-3F36FF?style=flat&logo=modelscope&logoColor=white&logoSize=auto" alt="ModelScope" height="24"></a>
+</p>
+
+<p align="center"><b>GitHub 数据</b></p>
+<p align="center">
+  <a href="https://github.com/limxdynamics"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Flimxdynamics%2Flimxdynamics%2Fmain%2Fbadges%2Fstars.json&style=flat&logo=github&logoSize=auto" alt="Stars" height="24"></a>&nbsp;
+  <a href="https://github.com/limxdynamics"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Flimxdynamics%2Flimxdynamics%2Fmain%2Fbadges%2Fforks.json&style=flat&logo=github&logoSize=auto" alt="Forks" height="24"></a>&nbsp;
+  <a href="https://github.com/limxdynamics"><img src="https://badges.strrl.dev/years/limxdynamics?style=flat&logo=github&logoColor=white&logoSize=auto" alt="Years" height="24"></a>
+</p>
 </div>
 
 
