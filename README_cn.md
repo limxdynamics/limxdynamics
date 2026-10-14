@@ -13,7 +13,6 @@ LimX Dynamics（逐际动力）是一家通用机器人公司，专注于全尺�
 LimX Dynamics 致力于以具身智能（Embodied AI）驱动颠覆式创新。我们的目标是让人工智能（AGI）的泛化能力在物理世界充分释放。基于革命性的核心软硬件技术，并为机器人构建首个基础模型（foundation model），我们希望为创新者与集成商提供可操作（loco-manipulation）的机器人平台与具身智能工具集，推动具身智能在 B2B 与 B2C 领域（包括研发、制造、商务与家庭服务）的广泛应用。
 
 <div align="center">
-  <p><a href="https://github.com/limxdynamics/limxdynamics/blob/main/doc/wechat_qr.png"><img src="https://img.shields.io/badge/%E5%BE%AE%E4%BF%A1%E5%BC%80%E5%8F%91%E8%80%85%E7%BE%A4-%E6%89%AB%E7%A0%81%E5%8A%A0%E5%85%A5%20%C2%B7%20%E8%A6%86%E7%9B%96%E5%85%A8%E9%83%A8%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE-07C160?style=for-the-badge&logo=wechat&logoColor=white" alt="WeChat Community"></a></p>
 <p align="center">
   <a href="https://www.youtube.com/@LimXDynamics/featured"><img src="https://img.shields.io/badge/YouTube-FF0000?style=flat&logo=youtube&logoColor=white&logoSize=auto" alt="YouTube" height="24"></a>&nbsp;
   <a href="https://space.bilibili.com/1172054289"><img src="https://img.shields.io/badge/Bilibili-00A1D6?style=flat&logo=bilibili&logoColor=white&logoSize=auto" alt="Bilibili" height="24"></a>&nbsp;
@@ -44,6 +43,8 @@ LimX Dynamics 致力于以具身智能（Embodied AI）驱动颠覆式创新。�
     <img src="https://raw.githubusercontent.com/limxdynamics/limxdynamics/main/stars.svg?v=202610130741" alt="全部项目总 Star 数" width="720">
   </picture>
 </p>
+
+<p align="center"><a href="https://github.com/limxdynamics/limxdynamics/blob/main/doc/wechat_qr.png"><img src="https://img.shields.io/badge/%E5%BE%AE%E4%BF%A1%E5%BC%80%E5%8F%91%E8%80%85%E7%BE%A4-%E6%89%AB%E7%A0%81%E5%8A%A0%E5%85%A5%20%C2%B7%20%E8%A6%86%E7%9B%96%E5%85%A8%E9%83%A8%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE-07C160?style=for-the-badge&logo=wechat&logoColor=white" alt="微信开发者社区"></a></p>
 
 <div>
     <img src="https://149753425.v2.pressablecdn.com/wp-content/uploads/2009/06/osi_symbol_100X100_0.png" width="20" height="20" style="display:inline-block; vertical-align:top;">
