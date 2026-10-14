@@ -52,6 +52,14 @@ LimX Dynamics is dedicated to disruptive innovations by Embodied AI. The goal is
 
 <p align="center"><a href="https://github.com/limxdynamics/limxdynamics/blob/main/doc/wechat_qr.png"><img src="https://img.shields.io/badge/Join%20Our%20WeChat%20Community-All%20Projects%20Welcome-07C160?style=for-the-badge&logo=wechat&logoColor=white" alt="WeChat Community"></a></p>
 
+## Quick Start
+
+New here? Pick a path that fits you:
+
+- **TronCamp** — hands-on tracks for learning LimX manipulation and locomotion. The browser-friendly web companions, [troncamp-web-locomotion](https://github.com/limxdynamics/troncamp-web-locomotion) and [troncamp-web-mani](https://github.com/limxdynamics/troncamp-web-mani), are a great low-barrier starting point.
+- **TRON2** — our flagship humanoid robotics platform. Start with the [TRON2 robot description](https://github.com/limxdynamics/tron2-robot-description), then explore [training](https://github.com/limxdynamics/tron2_rl_lab) or [deployment](https://github.com/limxdynamics/tron2_env) as you go deeper.
+- **Embodied AI Insights** — tracking the industry without writing code. Monthly ecosystem reports live in [embodied-ai-insights](https://github.com/limxdynamics/embodied-ai-insights).
+
 <div>
     <img src="https://149753425.v2.pressablecdn.com/wp-content/uploads/2009/06/osi_symbol_100X100_0.png" width="20" height="20" style="display:inline-block; vertical-align:top;">
     <span style="display:inline-block; vertical-align:top;">Open source projects</span> 

@@ -52,6 +52,14 @@ LimX Dynamics 致力于以具身智能（Embodied AI）驱动颠覆式创新。�
 
 <p align="center"><a href="https://github.com/limxdynamics/limxdynamics/blob/main/doc/wechat_qr.png"><img src="https://img.shields.io/badge/%E5%BE%AE%E4%BF%A1%E5%BC%80%E5%8F%91%E8%80%85%E7%BE%A4-%E6%89%AB%E7%A0%81%E5%8A%A0%E5%85%A5%20%C2%B7%20%E8%A6%86%E7%9B%96%E5%85%A8%E9%83%A8%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE-07C160?style=for-the-badge&logo=wechat&logoColor=white" alt="微信开发者社区"></a></p>
 
+## 快速上手
+
+初来乍到？按你的目标选一条路径：
+
+- **TronCamp** —— LimX 操作与步态的学习专题。浏览器友好的 web 配套，[troncamp-web-locomotion](https://github.com/limxdynamics/troncamp-web-locomotion) 与 [troncamp-web-mani](https://github.com/limxdynamics/troncamp-web-mani) 是低门槛的入门首选。
+- **TRON2** —— 逐际动力旗舰人形机器人平台。先从 [TRON2 机器人描述模型](https://github.com/limxdynamics/tron2-robot-description) 入手，深入后再看 [训练](https://github.com/limxdynamics/tron2_rl_lab) 或 [部署](https://github.com/limxdynamics/tron2_env)。
+- **embodied-ai-insights** —— 不想写代码只想了解行业？每月更新的具身智能生态报告见 [embodied-ai-insights](https://github.com/limxdynamics/embodied-ai-insights)。
+
 <div>
     <img src="https://149753425.v2.pressablecdn.com/wp-content/uploads/2009/06/osi_symbol_100X100_0.png" width="20" height="20" style="display:inline-block; vertical-align:top;">
     <span style="display:inline-block; vertical-align:top;">开源项目</span>
