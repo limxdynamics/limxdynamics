@@ -48,7 +48,7 @@ LimX Dynamics 致力于以具身智能（Embodied AI）驱动颠覆式创新。�
   </picture>
 </p>
 
-<p align="center"><a href="https://github.com/limxdynamics/limxdynamics/blob/main/doc/wechat_official_cn.png"><img src="https://img.shields.io/badge/%E5%BE%AE%E4%BF%A1%E5%BC%80%E5%8F%91%E8%80%85%E7%BE%A4-%E6%89%AB%E7%A0%81%E5%8A%A0%E5%85%A5%20%C2%B7%20%E8%A6%86%E7%9B%96%E5%85%A8%E9%83%A8%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE-07C160?style=for-the-badge&logo=wechat&logoColor=white" alt="微信开发者社区"></a></p>
+<p align="center"><a href="doc/wechat_qr.png"><img src="https://img.shields.io/badge/%E5%BE%AE%E4%BF%A1%E5%BC%80%E5%8F%91%E8%80%85%E7%BE%A4-%E6%89%AB%E7%A0%81%E5%8A%A0%E5%85%A5%20%C2%B7%20%E8%A6%86%E7%9B%96%E5%85%A8%E9%83%A8%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE-07C160?style=for-the-badge&logo=wechat&logoColor=white" alt="微信开发者社区"></a></p>
 
 <div>
     <img src="https://149753425.v2.pressablecdn.com/wp-content/uploads/2009/06/osi_symbol_100X100_0.png" width="20" height="20" style="display:inline-block; vertical-align:top;">
