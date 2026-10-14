@@ -390,10 +390,18 @@ def main():
             # random "invalid" from rate limiting).
             owner_r = r.split("/", 1)
             os.makedirs("badges/repos", exist_ok=True)
-            per_color = "yellow" if st >= 100 else "lightgrey"
+            # Same color as the previous shields /github/stars badge (uniform #007ec6).
+            per_color = "#007ec6"
             with open("badges/repos/%s__%s.json" % (owner_r[0], owner_r[1]),
                       "w", encoding="utf-8") as f:
-                json.dump(badge("Stars", st, per_color), f)
+                json.dump({
+                    "schemaVersion": 1,
+                    "label": "Stars",
+                    "message": str(st),
+                    "color": per_color,
+                    "style": "flat-square",
+                    "namedLogo": "github",
+                }, f)
         except Exception as e:  # noqa: BLE001
             errors.append("%s: %s" % (r, e))
             continue
