@@ -14,7 +14,6 @@ LimX Dynamics 致力于以具身智能（Embodied AI）驱动颠覆式创新。�
 
 <div align="center">
   <p><a href="https://github.com/limxdynamics/limxdynamics/blob/main/doc/wechat_qr.png"><img src="https://img.shields.io/badge/%E5%BE%AE%E4%BF%A1%E5%BC%80%E5%8F%91%E8%80%85%E7%BE%A4-%E6%89%AB%E7%A0%81%E5%8A%A0%E5%85%A5%20%C2%B7%20%E8%A6%86%E7%9B%96%E5%85%A8%E9%83%A8%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE-07C160?style=for-the-badge&logo=wechat&logoColor=white" alt="WeChat Community"></a></p>
-<p align="center"><b>关注我们</b></p>
 <p align="center">
   <a href="https://www.youtube.com/@LimXDynamics/featured"><img src="https://img.shields.io/badge/YouTube-FF0000?style=flat&logo=youtube&logoColor=white&logoSize=auto" alt="YouTube" height="24"></a>&nbsp;
   <a href="https://space.bilibili.com/1172054289"><img src="https://img.shields.io/badge/Bilibili-00A1D6?style=flat&logo=bilibili&logoColor=white&logoSize=auto" alt="Bilibili" height="24"></a>&nbsp;
@@ -25,13 +24,11 @@ LimX Dynamics 致力于以具身智能（Embodied AI）驱动颠覆式创新。�
   <a href="https://github.com/limxdynamics/limxdynamics/blob/main/doc/wechat_qr.png"><img src="https://img.shields.io/badge/WeChat-07C160?style=flat&logo=wechat&logoColor=white&logoSize=auto" alt="微信" height="24"></a>
 </p>
 
-<p align="center"><b>AI 平台</b></p>
 <p align="center">
   <a href="https://huggingface.co/limxdynamics"><img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=flat&logo=huggingface&logoColor=black&logoSize=auto" alt="HuggingFace" height="24"></a>&nbsp;
   <a href="https://modelscope.cn/organization/LimXDynamics?tab=all"><img src="https://img.shields.io/badge/ModelScope-3F36FF?style=flat&logo=modelscope&logoColor=white&logoSize=auto" alt="ModelScope" height="24"></a>
 </p>
 
-<p align="center"><b>GitHub 数据</b></p>
 <p align="center">
   <a href="https://github.com/limxdynamics"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Flimxdynamics%2Flimxdynamics%2Fmain%2Fbadges%2Fstars.json&style=flat&logo=github&logoSize=auto" alt="Stars" height="24"></a>&nbsp;
   <a href="https://github.com/limxdynamics"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Flimxdynamics%2Flimxdynamics%2Fmain%2Fbadges%2Fforks.json&style=flat&logo=github&logoSize=auto" alt="Forks" height="24"></a>&nbsp;
