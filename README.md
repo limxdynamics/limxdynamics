@@ -50,8 +50,6 @@ LimX Dynamics is dedicated to disruptive innovations by Embodied AI. The goal is
   </picture>
 </p>
 
-<p align="center"><a href="https://github.com/limxdynamics/limxdynamics/blob/main/doc/wechat_qr.png"><img src="https://img.shields.io/badge/Join%20Our%20WeChat%20Community-All%20Projects%20Welcome-07C160?style=for-the-badge&logo=wechat&logoColor=white" alt="WeChat Community"></a></p>
-
 ## Quick Start
 
 Every LimX stack follows the same pattern: a **MuJoCo simulator** and an **RL controller** run as two processes and talk through the LimX SDK ([limxsdk-lowlevel](https://github.com/limxdynamics/limxsdk-lowlevel)) on `127.0.0.1`. To go from simulation to a real robot, you only change that address. So the fastest way in is to watch a trained policy walk in simulation — no robot and no GPU needed.
@@ -96,6 +94,8 @@ python tron1-rl-deploy-python/main.py
 | Follow the industry without writing code | [embodied-ai-insights](https://github.com/limxdynamics/embodied-ai-insights) monthly reports |
 
 ## Open Source Projects
+
+<p align="center"><a href="https://github.com/limxdynamics/limxdynamics/blob/main/doc/wechat_qr.png"><img src="https://img.shields.io/badge/Join%20Our%20WeChat%20Community-All%20Projects%20Welcome-07C160?style=for-the-badge&logo=wechat&logoColor=white" alt="WeChat Community"></a></p>
 
 <table class="table table-striped table-bordered table-vcenter"/>
     <tbody>
