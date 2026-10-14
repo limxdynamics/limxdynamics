@@ -19,12 +19,12 @@ LimX Dynamics 致力于以具身智能（Embodied AI）驱动颠覆式创新。�
 <div align="center">
 <p align="center">
   <a href="https://www.youtube.com/@LimXDynamics/featured"><img src="https://img.shields.io/badge/YouTube-ff0000?style=flat&logo=youtube&logoColor=white&logoSize=auto" alt="YouTube" height="24"></a>&nbsp;
-  <a href="https://space.bilibili.com/1172054289"><img src="https://img.shields.io/badge/-bilibili-ff69b4?style=flat&labelColor=ff69b4&logo=bilibili&logoColor=white" alt="Bilibili" height="24"></a>&nbsp;
+  <a href="https://space.bilibili.com/1172054289"><img src="https://img.shields.io/badge/Bilibili-ff69b4?style=flat&logo=bilibili&logoColor=white&logoSize=auto" alt="Bilibili" height="24"></a>&nbsp;
   <a href="https://www.douyin.com/user/MS4wLjABAAAAi4WtqIxdAP5iqbT4BSEgUWPu6g9h_Pl7VXaQOLfDeFK1LgZo5O4IbIknTVeL6Zq-?from_tab_name=main&relation=0&vid=7654443992867786011"><img src="https://img.shields.io/badge/Douyin-000000?style=flat&logo=tiktok&logoColor=white&logoSize=auto" alt="Douyin" height="24"></a>&nbsp;
   <a href="https://www.xiaohongshu.com/user/profile/66e44fa8000000001d020784?xsec_token=ABnTSjc077y0Y9d7LrDkVdpR_IwBO36Dm_4eHTx1mXBE0=&xsec_source=pc_note"><img src="https://img.shields.io/badge/Xiaohongshu-FF2442?style=flat&logo=xiaohongshu&logoColor=white&logoSize=auto" alt="Xiaohongshu" height="24"></a>&nbsp;
-  <a href="https://www.kuaishou.com/profile/3xvskq6dkc4puq6"><img src="https://img.shields.io/badge/Kuaishou-FF4906?style=flat&logo=kuaishou&logoColor=white" alt="Kuaishou" height="24"></a>&nbsp;
+  <a href="https://www.kuaishou.com/profile/3xvskq6dkc4puq6"><img src="https://img.shields.io/badge/Kuaishou-FF4906?style=flat&logo=kuaishou&logoColor=white&logoSize=auto" alt="Kuaishou" height="24"></a>&nbsp;
   <a href="https://x.com/LimX_Dynamics"><img src="https://img.shields.io/badge/X-000000?style=flat&logo=x&logoColor=white&logoSize=auto" alt="X" height="24"></a>&nbsp;
-  <a href="https://github.com/limxdynamics/limxdynamics/blob/main/doc/wechat_qr.png"><img src="https://img.shields.io/badge/WeChat-green?style=flat&logo=wechat&logoColor=white&logoSize=auto" alt="微信" height="24"></a>
+  <a href="https://github.com/limxdynamics/limxdynamics/blob/main/doc/wechat_qr.png"><img src="https://img.shields.io/badge/WeChat-07C160?style=flat&logo=wechat&logoColor=white&logoSize=auto" alt="微信" height="24"></a>
 </p>
 
 <p align="center">
