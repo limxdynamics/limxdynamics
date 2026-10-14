@@ -58,7 +58,7 @@ Every LimX stack follows the same pattern: a **MuJoCo simulator** and an **RL co
 
 ### 1. Walk a robot in simulation (~10 min)
 
-Linux, Python ≥ 3.10. On ARM machines, replace `amd64` with `aarch64` in the wheel paths.
+Linux (x86_64 / aarch64) or Windows 10/11 x64, with **Python 3.10–3.12**. On ARM Linux, replace `amd64` with `aarch64` in the wheel paths. Windows commands are in the collapsible blocks below each section.
 
 **TRON1**
 
@@ -90,6 +90,36 @@ python tron1-rl-deploy-python/main.py
 > The robot falls over as soon as the simulator starts, because nothing is driving its joints yet. Once the controller is running, press **Backspace** in the MuJoCo window to reset it: the robot stands up and steps in place.
 
 <details>
+<summary>TRON1 on Windows (PowerShell)</summary>
+
+```powershell
+git clone --recurse-submodules https://github.com/limxdynamics/tron1-mujoco-sim
+git clone https://github.com/limxdynamics/tron1-rl-deploy-python
+
+py -3.12 -m venv $HOME\.venvs\limx-tron1
+& $HOME\.venvs\limx-tron1\Scripts\Activate.ps1   # if blocked: Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
+# PowerShell does not expand * for pip, so resolve the wheel path first
+pip install (Get-ChildItem tron1-mujoco-sim\limxsdk-lowlevel\python3\win\limxsdk-*.whl).FullName
+```
+
+```powershell
+# Terminal 1 — simulator
+& $HOME\.venvs\limx-tron1\Scripts\Activate.ps1
+$env:ROBOT_TYPE = "PF_TRON1A"
+python tron1-mujoco-sim\simulator.py
+
+# Terminal 2 — RL controller
+& $HOME\.venvs\limx-tron1\Scripts\Activate.ps1
+$env:ROBOT_TYPE = "PF_TRON1A"; $env:RL_TYPE = "isaaclab"
+python tron1-rl-deploy-python\main.py
+
+# Terminal 3 (optional) — virtual gamepad
+.\tron1-mujoco-sim\robot-joystick\robot-joystick.exe
+```
+
+</details>
+
+<details>
 <summary><b>TRON2</b> (simulator and controller use different SDK builds, so each gets its own venv)</summary>
 
 ```bash
@@ -113,7 +143,27 @@ export ROBOT_TYPE=SF_TRON2A
 python tron2_rl_deploy_python/main.py
 ```
 
-The controller starts in `IDLE` and is driven by a gamepad. A Logitech F710 (X mode) is read directly; without one, run `./tron2_mujoco_sim/robot-joystick/robot-joystick` in a third terminal. Then:
+On **Windows (PowerShell)**, the SDK wheels live in `python3\win\`. The simulator's Windows SDK build supports `SF_TRON2A` and `WF_TRON2A` only; `DASF_TRON2A` needs Linux.
+
+```powershell
+# Terminal 1 — simulator
+py -3.12 -m venv $HOME\.venvs\limx-tron2-sim
+& $HOME\.venvs\limx-tron2-sim\Scripts\Activate.ps1
+pip install "mujoco>=3.2.2" "pyyaml>=6.0"
+pip install --no-deps (Get-ChildItem tron2_mujoco_sim\limxsdk-lowlevel\python3\win\limxsdk-*.whl).FullName
+$env:ROBOT_TYPE = "SF_TRON2A"
+python tron2_mujoco_sim\simulator.py
+
+# Terminal 2 — RL controller
+py -3.12 -m venv $HOME\.venvs\limx-tron2-ctl
+& $HOME\.venvs\limx-tron2-ctl\Scripts\Activate.ps1
+pip install numpy scipy pyyaml onnxruntime pygame
+pip install (Get-ChildItem tron2_rl_deploy_python\limxsdk-lowlevel\python3\win\limxsdk-*.whl).FullName
+$env:ROBOT_TYPE = "SF_TRON2A"
+python tron2_rl_deploy_python\main.py
+```
+
+The controller starts in `IDLE` and is driven by a gamepad. A Logitech F710 (X mode) is read directly; without one, run the virtual gamepad in a third terminal (`./tron2_mujoco_sim/robot-joystick/robot-joystick`, or `robot-joystick.exe` on Windows). Then:
 
 1. `L1 + ○ (B)` — move the joints to the default pose.
 2. Press **R** in the MuJoCo window — put the fallen base back upright (joint angles are kept).
