@@ -29,7 +29,9 @@ LimX Dynamics 致力于以具身智能（Embodied AI）驱动颠覆式创新。�
 
 <p align="center">
   <a href="https://huggingface.co/limxdynamics"><img src="https://img.shields.io/badge/HuggingFace-24292f?style=flat&logo=huggingface&logoColor=white&logoSize=auto" alt="HuggingFace" height="24"></a>&nbsp;
-  <a href="https://modelscope.cn/organization/LimXDynamics?tab=all"><img src="https://img.shields.io/badge/ModelScope-24292f?style=flat&logo=modelscope&logoColor=white&logoSize=auto" alt="ModelScope" height="24"></a>
+  <a href="https://modelscope.cn/organization/LimXDynamics?tab=all"><img src="https://img.shields.io/badge/ModelScope-24292f?style=flat&logo=modelscope&logoColor=white&logoSize=auto" alt="ModelScope" height="24"></a>&nbsp;
+  <a href="https://www.limxdynamics.com/"><img src="https://img.shields.io/badge/Website-24292f?style=flat&logo=googlechrome&logoColor=white&logoSize=auto" alt="Website" height="24"></a>&nbsp;
+  <a href="https://career.limxdynamics.com/"><img src="https://img.shields.io/badge/Careers-24292f?style=flat&logo=linkedin&logoColor=white&logoSize=auto" alt="Careers" height="24"></a>
 </p>
 
 <p align="center">
