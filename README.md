@@ -12,9 +12,9 @@
   </picture>
 </p>
 
-LimX Dynamics is a general-purpose robotics company, focusing on full-size humanoid robots and have developed innovative products such as biped and quadruped robots.
+LimX Dynamics is a general-purpose robotics company, focusing on full-size humanoid robots, and has developed innovative products such as biped and quadruped robots.
 
-LimX Dynamics is dedicated to disruptive innovations by Embodied AI. The goal is to unleash the generalization of Artificial General Intelligence (AGI) in the physical world. Based on revolutionizing core software and hardware technologies, and building first-of-its-kind foundation model for humanoid robots, we aim to achieving loco-manipulation robotics platform and Embodied AI tool kits for innovators and integrators. We promote the widespread applications of Embodied AI across B2B & B2C sectors, including R&D, manufacturing, business and households services. 
+LimX Dynamics is dedicated to disruptive innovations by Embodied AI. The goal is to unleash the generalization of Artificial General Intelligence (AGI) in the physical world. Based on revolutionizing core software and hardware technologies, and building a first-of-its-kind foundation model for humanoid robots, we aim to achieve a loco-manipulation robotics platform and Embodied AI tool kits for innovators and integrators. We promote the widespread applications of Embodied AI across B2B & B2C sectors, including R&D, manufacturing, business and household services. 
 
 <div align="center">
 <p align="center">
@@ -253,6 +253,7 @@ python tron1-rl-deploy-python/main.py
         <td> LimX Dynamics fork of GMR (General Motion Retargeting) — retarget human motion (SMPL-X/BVH/Xsens/OptiTrack) into LimX humanoids (OLI EDU, Luna) and 17+ other robots in real time on CPU. </td>
         <td><a href="https://github.com/limxdynamics/GMR"><img alt="Stars" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Flimxdynamics%2Flimxdynamics%2Fmain%2Fbadges%2Frepos%2Flimxdynamics__GMR.json"/></a></td>
     </tr>
+    <tr></tr>
     <tr>
         <td rowspan="12" class="font-weight-bold">TRON1</td>
         <td align="center" >Description</td>
@@ -328,7 +329,6 @@ python tron1-rl-deploy-python/main.py
         <td> Real-time voice interaction agent for Tron robots with LLM-powered dialogue, speech recognition (FunASR), TTS, tool calling, and task management. </td>
         <td><a href="https://github.com/limxdynamics/tron1-agent"><img alt="Stars" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Flimxdynamics%2Flimxdynamics%2Fmain%2Fbadges%2Frepos%2Flimxdynamics__tron1-agent.json"/></a></td>
     </tr>
-    <tr></tr>
     <tr>
         <td rowspan="3" class="font-weight-bold">VLA</td>
         <td align="center" >Algorithm</td>
@@ -348,6 +348,7 @@ python tron1-rl-deploy-python/main.py
         <td> A model-decoupled DAgger pipeline for dual-arm robotic manipulation — human-in-the-loop data collection compatible with arbitrary VLA and reward models. </td>
         <td><a href="https://github.com/FluxVLA/FluxDAgger"><img alt="Stars" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Flimxdynamics%2Flimxdynamics%2Fmain%2Fbadges%2Frepos%2FFluxVLA__FluxDAgger.json"/></a></td>
     </tr>
+    <tr></tr>
     <tr>
         <td rowspan="7" class="font-weight-bold">SDK & Tools</td>
         <td align="center" >SDK</td>

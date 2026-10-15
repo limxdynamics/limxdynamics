@@ -14,7 +14,7 @@
 
 LimX Dynamics（逐际动力）是一家通用机器人公司，专注于全尺寸人形机器人，并已研发出双足、四足等系列创新产品。
 
-LimX Dynamics 致力于以具身智能（Embodied AI）驱动颠覆式创新。我们的目标是让人工智能（AGI）的泛化能力在物理世界充分释放。基于革命性的核心软硬件技术，并为机器人构建首个基础模型（foundation model），我们希望为创新者与集成商提供可操作（loco-manipulation）的机器人平台与具身智能工具集，推动具身智能在 B2B 与 B2C 领域（包括研发、制造、商务与家庭服务）的广泛应用。
+LimX Dynamics 致力于以具身智能（Embodied AI）驱动颠覆式创新。我们的目标是让通用人工智能（AGI）的泛化能力在物理世界充分释放。基于革命性的核心软硬件技术，并为人形机器人构建首创的基础模型（foundation model），我们希望为创新者与集成商提供移动操作（loco-manipulation）机器人平台与具身智能工具集，推动具身智能在 B2B 与 B2C 领域（包括研发、制造、商务与家庭服务）的广泛应用。
 
 <div align="center">
 <p align="center">
@@ -103,7 +103,7 @@ python tron1-rl-deploy-python/main.py
     <!-- 空的占位行用于让跨行分类单元格保持默认的白色条纹。 -->
     <tr></tr>
     <tr>
-        <td rowspan="1" class="font-weight-bold">观察</td>
+        <td rowspan="1" class="font-weight-bold">行业洞察</td>
         <td align="center" >月报</td>
         <td align="center" ><a href="https://github.com/limxdynamics/embodied-ai-insights"> embodied-ai-insights </a></td>
         <td> 基于 GitHub 公开数据的具身智能开源生态观察——逐月追踪各家机器人企业的 star 增长、新仓发布与社区活跃度，输出月报与专题分析。 </td>
@@ -253,6 +253,7 @@ python tron1-rl-deploy-python/main.py
         <td> LimX Dynamics 的 GMR（通用动作重定向）fork — 将人体动作（SMPL-X/BVH/Xsens/OptiTrack）实时重定向到 LimX 人形机器人（OLI EDU、Luna）及 17+ 种其他机器人，可在 CPU 上运行。 </td>
         <td><a href="https://github.com/limxdynamics/GMR"><img alt="Stars" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Flimxdynamics%2Flimxdynamics%2Fmain%2Fbadges%2Frepos%2Flimxdynamics__GMR.json"/></a></td>
     </tr>
+    <tr></tr>
     <tr>
         <td rowspan="12" class="font-weight-bold">TRON1</td>
         <td align="center" >描述</td>
@@ -326,7 +327,6 @@ python tron1-rl-deploy-python/main.py
         <td> 面向 Tron 机器人的实时语音交互智能体，具备基于 LLM 的对话、语音识别（FunASR）、TTS、工具调用与任务管理能力。 </td>
         <td><a href="https://github.com/limxdynamics/tron1-agent"><img alt="Stars" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Flimxdynamics%2Flimxdynamics%2Fmain%2Fbadges%2Frepos%2Flimxdynamics__tron1-agent.json"/></a></td>
     </tr>
-    <tr></tr>
     <tr>
         <td rowspan="3" class="font-weight-bold">VLA</td>
         <td align="center" >算法</td>
@@ -346,6 +346,7 @@ python tron1-rl-deploy-python/main.py
         <td> 面向双臂操作的模型解耦 DAgger 流水线 — 通过人在回路进行数据采集，兼容任意 VLA 与奖励模型。 </td>
         <td><a href="https://github.com/FluxVLA/FluxDAgger"><img alt="Stars" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Flimxdynamics%2Flimxdynamics%2Fmain%2Fbadges%2Frepos%2FFluxVLA__FluxDAgger.json"/></a></td>
     </tr>
+    <tr></tr>
     <tr>
         <td rowspan="7" class="font-weight-bold">SDK &amp; 工具</td>
         <td align="center" >SDK</td>
@@ -411,7 +412,7 @@ python tron1-rl-deploy-python/main.py
     </tr>
     <tr></tr>
     <tr>
-        <td rowspan="1" class="font-weight-bold">Profile</td>
+        <td rowspan="1" class="font-weight-bold">主页</td>
         <td align="center" >主页</td>
         <td align="center" ><a href="https://github.com/limxdynamics/limxdynamics/tree/main"> limxdynamics </a></td>
         <td> LimX Dynamics GitHub 主页仓库——本 README 仓库总览与每日自动更新的总 star / forks 增长曲线。 </td>
