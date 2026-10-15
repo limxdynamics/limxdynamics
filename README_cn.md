@@ -56,7 +56,7 @@ LimX 各条技术栈都是同一个结构：**MuJoCo 仿真器**和 **RL 控制�
 
 ### 1. 在仿真里让机器人走起来（约 10 分钟）
 
-以下为 TRON1 + Linux x86_64，Python 3.10–3.12。**Windows**、ARM Linux、**TRON2** 和 **Oli** 见[完整快速上手指南](doc/quick-start_cn.md)。
+以下为 TRON1 + Linux x86_64，Python 3.10–3.12。
 
 ```bash
 git clone --recurse-submodules https://github.com/limxdynamics/tron1-mujoco-sim

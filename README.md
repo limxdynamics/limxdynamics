@@ -56,7 +56,7 @@ Every LimX stack follows the same pattern: a **MuJoCo simulator** and an **RL co
 
 ### 1. Walk a robot in simulation (~10 min)
 
-TRON1 on Linux x86_64 with Python 3.10–3.12. For **Windows**, ARM Linux, **TRON2** and **Oli**, see the [full Quick Start guide](doc/quick-start.md).
+TRON1 on Linux x86_64 with Python 3.10–3.12.
 
 ```bash
 git clone --recurse-submodules https://github.com/limxdynamics/tron1-mujoco-sim
