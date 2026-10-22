@@ -90,6 +90,7 @@ python tron1-rl-deploy-python/main.py
 | 在 ROS / ROS 2 里部署 | 下表中的 `*-rl-deploy-ros` / `*-rl-deploy-ros2`，以及 [ros1-bridger](https://github.com/limxdynamics/ros1-bridger) / [ros2-bridger](https://github.com/limxdynamics/ros2-bridger) |
 | 写自己的控制器 | [limxsdk-lowlevel](https://github.com/limxdynamics/limxsdk-lowlevel) 里的 SDK 示例（C++ 和 Python） |
 | 在 TRON2 上做操作 / VLA | [tron2_manipulation_controller](https://github.com/limxdynamics/tron2_manipulation_controller)（仿真 + SDK）、[tron2_openpi](https://github.com/limxdynamics/tron2_openpi) + [tron2_env](https://github.com/limxdynamics/tron2_env)（真机运行 pi0/pi0.5）、[FluxVLA](https://github.com/FluxVLA/FluxVLA) |
+| 看一个完整的视觉抓取 demo 跑起来 | [tron2_visual_grasp](https://github.com/limxdynamics/tron2_visual_grasp)：TRON2 的网球抓取闭环（发现 → 驶近 → 下蹲 → 抓取），纯 OpenCV、纯 CPU，无硬件也能跑（`./run.sh demo`） |
 | 把人体动作重定向到人形机器人 | [GMR](https://github.com/limxdynamics/GMR) → [luna-beyondmimic](https://github.com/limxdynamics/luna-beyondmimic) |
 | 不写代码，只关注行业动态 | [embodied-ai-insights](https://github.com/limxdynamics/embodied-ai-insights) 月度报告 |
 
@@ -111,7 +112,7 @@ python tron1-rl-deploy-python/main.py
     </tr>
     <tr></tr>
     <tr>
-        <td rowspan="13" class="font-weight-bold">TRON2</td>
+        <td rowspan="14" class="font-weight-bold">TRON2</td>
         <td align="center" >描述</td>
         <td align="center" ><a href="https://github.com/limxdynamics/tron2-robot-description"> tron2-robot-description </a></td>
         <td> TRON2 各型号的机器人模型文件，包括 URDF/xacro、MuJoCo XML、网格（mesh）以及可选的 USD 资源，用于仿真、可视化与下游工具。 </td>
@@ -170,6 +171,12 @@ python tron1-rl-deploy-python/main.py
         <td align="center" ><a href="https://github.com/limxdynamics/tron2_manipulation_controller"> tron2_manipulation_controller </a></td>
         <td> TRON2 双臂机器人的本地仿真与 SDK 验证工作区：在一台机器上拉起 <a href="https://mujoco.org"> MuJoCo </a> 电机级仿真器、控制器运行包与 WebSocket SDK，并支持 VLA 轨迹回放与限位校验。 </td>
         <td><a href="https://github.com/limxdynamics/tron2_manipulation_controller"><img alt="Stars" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Flimxdynamics%2Flimxdynamics%2Fmain%2Fbadges%2Frepos%2Flimxdynamics__tron2_manipulation_controller.json"/></a></td>
+    </tr>
+    <tr>
+        <td align="center" >操作</td>
+        <td align="center" ><a href="https://github.com/limxdynamics/tron2_visual_grasp"> tron2_visual_grasp </a></td>
+        <td> 面向 TRON2 机器人的视觉引导移动抓取演示：用纯 OpenCV 找到网球，自行驶近、下蹲，并用腕部 RealSense D405 完成抓取，全程运行在 CPU 上，无需 GPU 与神经网络。 </td>
+        <td><a href="https://github.com/limxdynamics/tron2_visual_grasp"><img alt="Stars" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Flimxdynamics%2Flimxdynamics%2Fmain%2Fbadges%2Frepos%2Flimxdynamics__tron2_visual_grasp.json"/></a></td>
     </tr>
     <tr>
         <td align="center" >导航</td>

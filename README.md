@@ -90,6 +90,7 @@ python tron1-rl-deploy-python/main.py
 | Deploy inside ROS / ROS 2 | `*-rl-deploy-ros` / `*-rl-deploy-ros2` in the table below, plus [ros1-bridger](https://github.com/limxdynamics/ros1-bridger) / [ros2-bridger](https://github.com/limxdynamics/ros2-bridger) |
 | Write my own controller | SDK examples in [limxsdk-lowlevel](https://github.com/limxdynamics/limxsdk-lowlevel) (C++ and Python) |
 | Do manipulation / VLA on TRON2 | [tron2_manipulation_controller](https://github.com/limxdynamics/tron2_manipulation_controller) (sim + SDK), [tron2_openpi](https://github.com/limxdynamics/tron2_openpi) + [tron2_env](https://github.com/limxdynamics/tron2_env) (pi0/pi0.5 on the real robot), [FluxVLA](https://github.com/FluxVLA/FluxVLA) |
+| See a full visual-grasping demo run | [tron2_visual_grasp](https://github.com/limxdynamics/tron2_visual_grasp) — tennis-ball pick cycle on TRON2 (spot → approach → kneel → grasp), pure OpenCV, CPU-only, runs without hardware (`./run.sh demo`) |
 | Retarget human motion to a humanoid | [GMR](https://github.com/limxdynamics/GMR) → [luna-beyondmimic](https://github.com/limxdynamics/luna-beyondmimic) |
 | Follow the industry without writing code | [embodied-ai-insights](https://github.com/limxdynamics/embodied-ai-insights) monthly reports |
 
@@ -111,7 +112,7 @@ python tron1-rl-deploy-python/main.py
     </tr>
     <tr></tr>
     <tr>
-        <td rowspan="13" class="font-weight-bold">TRON2</td>
+        <td rowspan="14" class="font-weight-bold">TRON2</td>
         <td align="center" >Description</td>
         <td align="center" ><a href="https://github.com/limxdynamics/tron2-robot-description"> tron2-robot-description </a></td>
         <td> Robot model files for TRON2 variants, including URDF/xacro, MuJoCo XML, meshes, and optional USD assets for simulation, visualization, and downstream tooling. </td>
@@ -170,6 +171,12 @@ python tron1-rl-deploy-python/main.py
         <td align="center" ><a href="https://github.com/limxdynamics/tron2_manipulation_controller"> tron2_manipulation_controller </a></td>
         <td> A local simulation and SDK validation workspace for the TRON2 dual-arm robot, pairing a <a href="https://mujoco.org"> MuJoCo </a> motor-level simulator with the controller runtime and WebSocket SDK, and including VLA trajectory replay and limit checking. </td>
         <td><a href="https://github.com/limxdynamics/tron2_manipulation_controller"><img alt="Stars" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Flimxdynamics%2Flimxdynamics%2Fmain%2Fbadges%2Frepos%2Flimxdynamics__tron2_manipulation_controller.json"/></a></td>
+    </tr>
+    <tr>
+        <td align="center" >Manipulation</td>
+        <td align="center" ><a href="https://github.com/limxdynamics/tron2_visual_grasp"> tron2_visual_grasp </a></td>
+        <td> A vision-guided mobile grasping demo for TRON2 robots that finds a tennis ball with pure OpenCV, drives up, kneels and grasps it with a wrist RealSense D405 — running entirely on CPU with no GPU or neural network. </td>
+        <td><a href="https://github.com/limxdynamics/tron2_visual_grasp"><img alt="Stars" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Flimxdynamics%2Flimxdynamics%2Fmain%2Fbadges%2Frepos%2Flimxdynamics__tron2_visual_grasp.json"/></a></td>
     </tr>
     <tr>
         <td align="center" >Navigation</td>
