@@ -245,7 +245,7 @@ python tron1-rl-deploy-python/main.py
         <td rowspan="3" class="font-weight-bold">Luna</td>
         <td align="center" >Description</td>
         <td align="center" ><a href="https://github.com/limxdynamics/luna-description"> luna-description </a></td>
-        <td> Robot model files for the LimX Luna humanoid — URDF, MuJoCo MJCF, and NVIDIA USD (closed-loop variant) for simulation, visualization, and downstream tooling. </td>
+        <td> Robot model files for the LimX Luna humanoid — URDF, MuJoCo MJCF, and two NVIDIA USD variants (serial and closed-loop) for simulation, visualization, and downstream tooling. </td>
         <td><a href="https://github.com/limxdynamics/luna-description"><img alt="Stars" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Flimxdynamics%2Flimxdynamics%2Fmain%2Fbadges%2Frepos%2Flimxdynamics__luna-description.json"/></a></td>
     </tr>
     <tr>
