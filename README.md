@@ -127,13 +127,13 @@ python tron1-rl-deploy-python/main.py
     <tr>
         <td align="center" >Simulation</td>
         <td align="center" ><a href="https://github.com/limxdynamics/tron2_mujoco_sim"> tron2_mujoco_sim </a></td>
-        <td> A <a href="https://mujoco.org"> MuJoCo </a> simulation tool for TRON2 robots that supports SF/WF robot types and controller deployment through the LimX SDK. </td>
+        <td> A <a href="https://mujoco.org"> MuJoCo </a> simulation tool for TRON2 robots that supports SF, WF, DA, DACH and DASF robot types across TRON2A and TRON2B, and controller deployment through the LimX SDK. </td>
         <td><a href="https://github.com/limxdynamics/tron2_mujoco_sim"><img alt="Stars" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Flimxdynamics%2Flimxdynamics%2Fmain%2Fbadges%2Frepos%2Flimxdynamics__tron2_mujoco_sim.json"/></a></td>
     </tr>
     <tr>
         <td align="center" >Training</td>
         <td align="center" ><a href="https://github.com/limxdynamics/tron2_rl_lab"> tron2_rl_lab </a></td>
-        <td> An <a href="https://isaac-sim.github.io/IsaacLab/"> Isaac Lab </a> reinforcement learning training stack for TRON2 robots, supporting SF/WF (sole-foot and wheel-foot) variants. </td>
+        <td> An <a href="https://isaac-sim.github.io/IsaacLab/"> Isaac Lab </a> reinforcement learning training stack for TRON2A robots, supporting SF, WF and DASF (sole-foot, wheel-foot and top-bottom combined humanoid) variants. </td>
         <td><a href="https://github.com/limxdynamics/tron2_rl_lab"><img alt="Stars" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Flimxdynamics%2Flimxdynamics%2Fmain%2Fbadges%2Frepos%2Flimxdynamics__tron2_rl_lab.json"/></a></td>
     </tr>
     <tr>
