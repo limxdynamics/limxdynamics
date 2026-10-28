@@ -64,7 +64,7 @@ git clone https://github.com/limxdynamics/tron1-rl-deploy-python
 
 python3 -m venv ~/.venvs/limx-tron1 && source ~/.venvs/limx-tron1/bin/activate
 # SDK wheel 会一并装上 mujoco、onnxruntime、scipy、pyyaml、pygame
-pip install tron1-mujoco-sim/limxsdk-lowlevel/python3/amd64/limxsdk-*-py3-none-any.whl
+pip install tron1-mujoco-sim/limxsdk-lowlevel/python3/amd64/limxsdk-*.whl
 ```
 
 ```bash
