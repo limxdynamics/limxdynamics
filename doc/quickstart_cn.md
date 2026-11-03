@@ -2,11 +2,24 @@
 
 [English](quickstart.md) · [返回首页](../README_cn.md)
 
-LimX 各条技术栈都是同一个结构：**MuJoCo 仿真器**和 **RL 控制器**是两个进程，通过 LimX SDK（[limxsdk-lowlevel](https://github.com/limxdynamics/limxsdk-lowlevel)）在 `127.0.0.1` 上通信；把这个地址换成机器人 IP 就是真机部署。所以最快的入门方式，就是先在仿真里看一个训练好的策略走起来——不需要机器人，也不需要 GPU。
+LimX 各条技术栈都是同一个结构：**MuJoCo 仿真器**和 **RL 控制器**是两个进程，通过 LimX SDK（[limxsdk-lowlevel](https://github.com/limxdynamics/limxsdk-lowlevel)）在 `127.0.0.1` 上通信；把这个地址换成机器人 IP 就是真机部署。所以最快的入门方式，就是先在仿真里看一个训练好的策略跑起来——不需要机器人，也不需要 GPU。
 
-## 1. 在仿真里让机器人走起来（约 10 分钟）
+## 选择你的机器人
 
-以下为 TRON1 + Linux x86_64，Python 3.10–3.12。
+| 机型 | 简介 | 没有机器人也能试 |
+|---|---|---|
+| [**TRON1**](#tron1) | 双足机器人，有点足、足底、轮足三种形态 | 在 MuJoCo 里让它走起来（约 10 分钟） |
+| [**TRON2**](#tron2) | 模块化机器人：足底或轮足双足、双臂，以及 DASF 人形组合形态；分 TRON2A 和 TRON2B | 在 MuJoCo 里让它走起来 |
+| [**Oli**（HU_D04）](#oli) | 全尺寸人形机器人，31 个关节 | 在 MuJoCo 里站立、挥手、行走 |
+| [**Luna**（HU_L04）](#luna) | 人形机器人，27 个关节，可做跳舞等全身动作 | 30 秒看模型；动作训练需要 NVIDIA GPU |
+
+<a id="tron1"></a>
+
+## TRON1
+
+### 在仿真里让它走起来（约 10 分钟）
+
+Linux x86_64，Python 3.10–3.12。
 
 ```bash
 git clone --recurse-submodules https://github.com/limxdynamics/tron1-mujoco-sim
@@ -31,17 +44,131 @@ python tron1-rl-deploy-python/main.py
 
 > 仿真器一启动机器人就会倒地。等控制器跑起来后，在 MuJoCo 窗口按 **Backspace**，机器人就会站起来原地踏步。运行 `./tron1-mujoco-sim/robot-joystick/robot-joystick` 可以用虚拟手柄操控它。
 
-## 2. 下一步
+### 下一步
 
 | 我想… | 从这里开始 |
 |---|---|
-| 训练自己的运动策略（Isaac Lab，需 NVIDIA GPU） | TRON1：[tron1-rl-isaaclab](https://github.com/limxdynamics/tron1-rl-isaaclab)，任务 `Isaac-Limx-{PF,SF,WF}-Blind-Flat-v0`<br>TRON2：[tron2_rl_lab](https://github.com/limxdynamics/tron2_rl_lab)，任务 `Isaac-Limx-{SF,WF,DASF}-TRON2A-Blind-Flat-v0`<br>Oli：[humanoid-rl-isaaclab](https://github.com/limxdynamics/humanoid-rl-isaaclab) |
-| 在真机上跑策略 | 用上面同一个控制器，指向机器人：`python main.py <robot-ip>`。先把机器人吊起来，并阅读对应仓库的安全说明。 |
-| 在 ROS / ROS 2 里部署 | `*-rl-deploy-ros` / `*-rl-deploy-ros2` 仓库，以及 [ros1-bridger](https://github.com/limxdynamics/ros1-bridger) / [ros2-bridger](https://github.com/limxdynamics/ros2-bridger) |
+| 训练自己的运动策略（需 NVIDIA GPU） | [tron1-rl-isaaclab](https://github.com/limxdynamics/tron1-rl-isaaclab)，任务 `Isaac-Limx-{PF,SF,WF}-Blind-Flat-v0`；已经在用 Isaac Gym 的可以用 [tron1-rl-isaacgym](https://github.com/limxdynamics/tron1-rl-isaacgym) |
+| 在真机上跑策略 | 用同一个控制器，指向机器人：`python main.py <robot-ip>` |
+| 在 ROS / ROS 2 里部署 | [tron1-rl-deploy-ros](https://github.com/limxdynamics/tron1-rl-deploy-ros) · [tron1-rl-deploy-ros2](https://github.com/limxdynamics/tron1-rl-deploy-ros2) |
+| 建图、定位、导航 | [tron1-ss](https://github.com/limxdynamics/tron1-ss)（激光 SLAM 与路径规划） |
+| 和机器人对话 | [tron1-agent](https://github.com/limxdynamics/tron1-agent)（语音指令与大模型对话） |
+
+TRON1 全部仓库和它们之间的关系：[TRON1 开源生态](https://github.com/limxdynamics/tron1-rl-isaacgym/blob/master/README_cn.md#tron1-开源生态)。
+
+<a id="tron2"></a>
+
+## TRON2
+
+### 在仿真里让它走起来
+
+Linux x86_64，Python 3.10+。仿真器使用 [uv](https://docs.astral.sh/uv/)，机器人模型需要下载约 1.7 GB。
+
+```bash
+# 终端 1 —— 仿真器
+git clone https://github.com/limxdynamics/tron2_mujoco_sim.git
+cd tron2_mujoco_sim
+git submodule update --init --depth 1 robot-description limxsdk-lowlevel robot-joystick
+uv sync --extra sdk
+ROBOT_TYPE=SF_TRON2A uv run simulator.py
+```
+
+```bash
+# 终端 2 —— RL 控制器（仓库自带训练好的 ONNX 策略）
+git clone --recurse-submodules https://github.com/limxdynamics/tron2_rl_deploy_python.git
+cd tron2_rl_deploy_python
+python3 -m venv ~/.venvs/limx-tron2 && source ~/.venvs/limx-tron2/bin/activate
+pip install numpy scipy pyyaml onnxruntime pygame
+pip install limxsdk-lowlevel/python3/amd64/limxsdk-*.whl
+export ROBOT_TYPE=SF_TRON2A        # SF_TRON2A 足底，WF_TRON2A 轮足，DASF_TRON2A 带双臂；两个终端要一致
+python3 main.py
+```
+
+> 控制器连上之前，机器人的腿是软的。用手柄（罗技 F710，`X` 模式）先按 **L1 + B** 站起来，再按 **L1 + Y** 开始行走；左摇杆控制移动，右摇杆控制转向。没有手柄的话，在第三个终端运行 `tron2_mujoco_sim/robot-joystick/robot-joystick` 打开虚拟手柄。
+
+### 下一步
+
+| 我想… | 从这里开始 |
+|---|---|
+| 训练自己的运动策略（需 NVIDIA GPU） | [tron2_rl_lab](https://github.com/limxdynamics/tron2_rl_lab)，任务 `Isaac-Limx-{SF,WF,DASF}-TRON2A-Blind-Flat-v0`；6 自由度机械臂和夹爪版本用 [TRON2_YG_LAB](https://github.com/limxdynamics/TRON2_YG_LAB) |
+| 在真机上跑策略 | 用同一个控制器，指向机器人：`python3 main.py <robot-ip>` |
+| 在 ROS 里部署 | [tron2_rl_deploy_ros](https://github.com/limxdynamics/tron2_rl_deploy_ros)（ROS Noetic）· Gazebo 仿真：[tron2_gazebo_ros](https://github.com/limxdynamics/tron2_gazebo_ros) |
+| 做操作 / VLA | [tron2_manipulation_controller](https://github.com/limxdynamics/tron2_manipulation_controller)（双臂仿真 + SDK）、[tron2_openpi](https://github.com/limxdynamics/tron2_openpi) + [tron2_env](https://github.com/limxdynamics/tron2_env)（真机运行 pi0/pi0.5）、[FluxVLA](https://github.com/FluxVLA/FluxVLA) |
+| 看一个完整的视觉抓取 demo 跑起来 | [tron2_visual_grasp](https://github.com/limxdynamics/tron2_visual_grasp)：网球抓取闭环（发现 → 驶近 → 下蹲 → 抓取），纯 OpenCV、纯 CPU，无硬件也能跑（`./run.sh demo`） |
+| 自主导航 | [tron2-navigation-ros2](https://github.com/limxdynamics/tron2-navigation-ros2)（ROS 2 Humble） |
+| 获取机器人模型 | [tron2-robot-description](https://github.com/limxdynamics/tron2-robot-description)（TRON2A 和 TRON2B 的 URDF/xacro、MuJoCo XML、USD） |
+
+<a id="oli"></a>
+
+## Oli（HU_D04）
+
+### 在仿真里站立、挥手、行走
+
+Linux x86_64，Python 3.8+。
+
+```bash
+mkdir -p ~/limx_ws && cd ~/limx_ws
+git clone --recurse-submodules https://github.com/limxdynamics/humanoid-mujoco-sim
+git clone https://github.com/limxdynamics/humanoid-rl-deploy-python
+
+python3 -m venv ~/.venvs/limx-oli && source ~/.venvs/limx-oli/bin/activate
+pip install -r humanoid-mujoco-sim/requirements.txt
+# 控制器需要 click，但 SDK wheel 不会自动安装它
+pip install humanoid-mujoco-sim/limxsdk-lowlevel/python3/amd64/limxsdk-*.whl click
+```
+
+```bash
+# 每个终端先执行：cd ~/limx_ws && source ~/.venvs/limx-oli/bin/activate && export ROBOT_TYPE=HU_D04_01
+python humanoid-mujoco-sim/simulator.py            # 终端 1 —— 仿真器
+python humanoid-rl-deploy-python/main.py           # 终端 2 —— RL 控制器
+humanoid-mujoco-sim/robot-joystick/robot-joystick  # 终端 3 —— 虚拟手柄
+```
+
+> 在虚拟手柄里按住 **Q**（L1）再按 **I**（Y）站起来，然后按 **L**（B）挥手；**R1 + X** 切换到行走模式。机器人摔倒的话，在 MuJoCo 窗口点 **Reset**。
+
+### 下一步
+
+| 我想… | 从这里开始 |
+|---|---|
+| 训练自己的运动策略（需 NVIDIA GPU） | [humanoid-rl-isaaclab](https://github.com/limxdynamics/humanoid-rl-isaaclab) |
+| 试试自己训练的行走策略 | 导出为 `policy.onnx`，放到 `humanoid-rl-deploy-python/controllers/HU_D04_01/walk_controller/policy/default`，再按上面的步骤跑仿真 |
+| 在真机上跑策略 | [humanoid-rl-deploy-python](https://github.com/limxdynamics/humanoid-rl-deploy-python) 的"真机调试"一节 |
+| 在 ROS / ROS 2 里部署，或用纯 C++ | [humanoid-rl-deploy-ros](https://github.com/limxdynamics/humanoid-rl-deploy-ros) · [humanoid-rl-deploy-ros2](https://github.com/limxdynamics/humanoid-rl-deploy-ros2) · [humanoid-rl-deploy-cpp](https://github.com/limxdynamics/humanoid-rl-deploy-cpp) |
+| 把人体动作重定向到 Oli | [GMR](https://github.com/limxdynamics/GMR)（机器人名 `limx_oli_edu`） |
+| 获取机器人模型 | [humanoid-description](https://github.com/limxdynamics/humanoid-description)（URDF、MuJoCo MJCF、USD） |
+
+<a id="luna"></a>
+
+## Luna（HU_L04）
+
+### 30 秒看到机器人
+
+```bash
+git clone https://github.com/limxdynamics/luna-description.git
+cd luna-description
+pip install mujoco
+python -m mujoco.viewer --mjcf=HU_L04_description/xml/HU_L04_01.xml
+```
+
+### 教 Luna 学一段动作
+
+```
+人体动作（SMPL-X / BVH） ──►  GMR  ──►  动作 .npy  ──►  luna-beyondmimic  ──►  policy.onnx  ──►  Luna
+                            （重定向）                   （训练，Isaac Lab）     + reference + param.yaml
+```
+
+- [luna-beyondmimic](https://github.com/limxdynamics/luna-beyondmimic) 在 Isaac Lab 上训练全身动作跟踪策略（需 NVIDIA GPU），并导出机器人运行所需的文件。仓库自带一段 22.9 秒的舞蹈动作，不用先做重定向就能把整条流程跑通。从它的 `QuickStart.md` 开始。
+- [GMR](https://github.com/limxdynamics/GMR)（机器人名 `limx_luna`）把你自己的动捕或 SMPL-X 数据重定向到 Luna。
+- [luna-description](https://github.com/limxdynamics/luna-description) 提供 URDF、MuJoCo MJCF 和 USD 模型。
+
+## 所有机型通用
+
+| 我想… | 从这里开始 |
+|---|---|
 | 写自己的控制器 | [limxsdk-lowlevel](https://github.com/limxdynamics/limxsdk-lowlevel) 里的 SDK 示例（C++ 和 Python） |
-| 在 TRON2 上做操作 / VLA | [tron2_manipulation_controller](https://github.com/limxdynamics/tron2_manipulation_controller)（仿真 + SDK）、[tron2_openpi](https://github.com/limxdynamics/tron2_openpi) + [tron2_env](https://github.com/limxdynamics/tron2_env)（真机运行 pi0/pi0.5）、[FluxVLA](https://github.com/FluxVLA/FluxVLA) |
-| 看一个完整的视觉抓取 demo 跑起来 | [tron2_visual_grasp](https://github.com/limxdynamics/tron2_visual_grasp)：TRON2 的网球抓取闭环（发现 → 驶近 → 下蹲 → 抓取），纯 OpenCV、纯 CPU，无硬件也能跑（`./run.sh demo`） |
-| 把人体动作重定向到人形机器人 | [GMR](https://github.com/limxdynamics/GMR) → [luna-beyondmimic](https://github.com/limxdynamics/luna-beyondmimic) |
+| 跨机器桥接 ROS | [ros1-bridger](https://github.com/limxdynamics/ros1-bridger) · [ros2-bridger](https://github.com/limxdynamics/ros2-bridger) |
 | 不写代码，只关注行业动态 | [embodied-ai-insights](https://github.com/limxdynamics/embodied-ai-insights) 月度报告 |
+
+> **上真机之前：** 先在仿真里验证策略，把机器人吊起来，并阅读你所部署仓库里的安全说明。
 
 完整项目清单：[首页 README](../README_cn.md#开源项目)
