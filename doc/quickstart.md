@@ -62,7 +62,7 @@ All TRON1 repositories and how they fit together: [TRON1 open-source ecosystem](
 
 ### Walk it in simulation
 
-Linux x86_64 with Python 3.10+. The simulator uses [uv](https://docs.astral.sh/uv/); its robot models are about 1.7 GB to download.
+Linux x86_64 with Python 3.10+. The simulator uses [uv](https://docs.astral.sh/uv/) (install it with `curl -LsSf https://astral.sh/uv/install.sh | sh` if you don't have it); its robot models are about 1.7 GB to download.
 
 ```bash
 # Terminal 1 — simulator
@@ -84,7 +84,9 @@ export ROBOT_TYPE=SF_TRON2A        # SF_TRON2A sole-foot, WF_TRON2A wheel-foot, 
 python3 main.py
 ```
 
-> The legs sag until the controller connects. On a gamepad (Logitech F710 in `X` mode), press **L1 + B** to stand, then **L1 + Y** to walk; the left stick moves the robot and the right stick turns it. Without a gamepad, run `tron2_mujoco_sim/robot-joystick/robot-joystick` in a third terminal for a virtual one.
+> The robot falls over before the controller connects. Press **L1 + B** (prepare), then **L1 + Y** (start), then press **Backspace** in the MuJoCo window: the robot restarts upright and keeps its balance. The left stick moves it and the right stick turns it.
+>
+> No gamepad? Run `tron2_mujoco_sim/robot-joystick/robot-joystick` in a third terminal for a virtual one, and type into its window: **Q** is L1, **L** is B, **I** is Y, and the **arrow keys** are the left stick. A real gamepad should be a Logitech F710 in `X` mode.
 
 ### Next steps
 
@@ -124,7 +126,9 @@ python humanoid-rl-deploy-python/main.py           # Terminal 2 — RL controlle
 humanoid-mujoco-sim/robot-joystick/robot-joystick  # Terminal 3 — virtual gamepad
 ```
 
-> In the virtual gamepad, hold **Q** (L1) and press **I** (Y) to stand, then **L** (B) to wave. **R1 + X** switches to walking. If the robot has fallen, click **Reset** in the MuJoCo window.
+> The robot falls over before the controller connects. In the virtual gamepad window, hold **Q** (L1) and press **I** (Y) to switch to standing, wait a few seconds, then click **Reset** in the MuJoCo window: the robot restarts upright. From standing, **Q + L** (L1 + B) waves, and **U + J** (R1 + X) switches to walking; the **arrow keys** steer.
+>
+> The humanoid simulator needs a reasonably fast multi-core computer. If the robot keeps falling, the simulator is probably running slower than real time: close other programs, switch to standing, wait, and click **Reset** again.
 
 ### Next steps
 
@@ -149,6 +153,8 @@ cd luna-description
 pip install mujoco
 python -m mujoco.viewer --mjcf=HU_L04_description/xml/HU_L04_01.xml
 ```
+
+> Nothing is controlling the robot, so it collapses as soon as the window opens. Press **Space** to pause, then **Backspace** to put it back in its standing pose.
 
 ### Teach Luna a motion
 

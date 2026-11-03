@@ -62,7 +62,7 @@ TRON1 全部仓库和它们之间的关系：[TRON1 开源生态](https://github
 
 ### 在仿真里让它走起来
 
-Linux x86_64，Python 3.10+。仿真器使用 [uv](https://docs.astral.sh/uv/)，机器人模型需要下载约 1.7 GB。
+Linux x86_64，Python 3.10+。仿真器使用 [uv](https://docs.astral.sh/uv/)（没有的话先运行 `curl -LsSf https://astral.sh/uv/install.sh | sh` 安装），机器人模型需要下载约 1.7 GB。
 
 ```bash
 # 终端 1 —— 仿真器
@@ -84,7 +84,9 @@ export ROBOT_TYPE=SF_TRON2A        # SF_TRON2A 足底，WF_TRON2A 轮足，DASF_
 python3 main.py
 ```
 
-> 控制器连上之前，机器人的腿是软的。用手柄（罗技 F710，`X` 模式）先按 **L1 + B** 站起来，再按 **L1 + Y** 开始行走；左摇杆控制移动，右摇杆控制转向。没有手柄的话，在第三个终端运行 `tron2_mujoco_sim/robot-joystick/robot-joystick` 打开虚拟手柄。
+> 控制器连上之前，机器人会先倒地。依次按 **L1 + B**（进入准备）、**L1 + Y**（启动），然后在 MuJoCo 窗口按 **Backspace**：机器人会以站立姿态重新开始，并保持平衡。左摇杆控制移动，右摇杆控制转向。
+>
+> 没有手柄的话，在第三个终端运行 `tron2_mujoco_sim/robot-joystick/robot-joystick` 打开虚拟手柄，在它的窗口里用键盘操作：**Q** 是 L1，**L** 是 B，**I** 是 Y，**方向键**是左摇杆。实体手柄请用罗技 F710（`X` 模式）。
 
 ### 下一步
 
@@ -124,7 +126,9 @@ python humanoid-rl-deploy-python/main.py           # 终端 2 —— RL 控制�
 humanoid-mujoco-sim/robot-joystick/robot-joystick  # 终端 3 —— 虚拟手柄
 ```
 
-> 在虚拟手柄里按住 **Q**（L1）再按 **I**（Y）站起来，然后按 **L**（B）挥手；**R1 + X** 切换到行走模式。机器人摔倒的话，在 MuJoCo 窗口点 **Reset**。
+> 控制器连上之前，机器人会先倒地。在虚拟手柄窗口里按住 **Q**（L1）再按 **I**（Y）切换到站立，等几秒，然后在 MuJoCo 窗口点 **Reset**：机器人会以站立姿态重新开始。站稳后，**Q + L**（L1 + B）挥手，**U + J**（R1 + X）切换到行走，**方向键**控制方向。
+>
+> 人形仿真对电脑性能要求较高，建议用多核、性能较好的电脑。如果机器人反复摔倒，多半是仿真跑得比真实时间慢：关掉其他程序，切回站立，等几秒，再点一次 **Reset**。
 
 ### 下一步
 
@@ -149,6 +153,8 @@ cd luna-description
 pip install mujoco
 python -m mujoco.viewer --mjcf=HU_L04_description/xml/HU_L04_01.xml
 ```
+
+> 没有控制器驱动，窗口一打开机器人就会瘫倒。按 **空格** 暂停，再按 **Backspace** 让它回到站立姿态。
 
 ### 教 Luna 学一段动作
 
