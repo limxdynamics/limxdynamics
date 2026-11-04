@@ -54,7 +54,25 @@ python tron1-rl-deploy-python/main.py
 | 建图、定位、导航 | [tron1-ss](https://github.com/limxdynamics/tron1-ss)（激光 SLAM 与路径规划） |
 | 和机器人对话 | [tron1-agent](https://github.com/limxdynamics/tron1-agent)（语音指令与大模型对话） |
 
-TRON1 全部仓库和它们之间的关系：[TRON1 开源生态](https://github.com/limxdynamics/tron1-rl-isaacgym/blob/master/README_cn.md#tron1-开源生态)。
+### TRON1 全部仓库
+
+```
+tron1-robot-description ──► tron1-rl-isaaclab / tron1-rl-isaacgym ──► ONNX 策略 ──► tron1-mujoco-sim ──► tron1-rl-deploy-{ros, ros2, python} ──► TRON1
+      （机器人模型）                    （训练）                                     （sim-to-sim 验证）           （在真机上运行）
+```
+
+| 阶段 | 仓库 | 作用 |
+|---|---|---|
+| 机器人模型 | [tron1-robot-description](https://github.com/limxdynamics/tron1-robot-description) | 适用于 ROS 1/2、MuJoCo 和 Gazebo 的 URDF / Xacro / MJCF 模型 |
+| 仿真 | [tron1-mujoco-sim](https://github.com/limxdynamics/tron1-mujoco-sim) | MuJoCo 仿真器，接口与真机的 `limxsdk` 相同 |
+| 仿真 | [tron1-gazebo-ros](https://github.com/limxdynamics/tron1-gazebo-ros) · [tron1-gazebo-ros2](https://github.com/limxdynamics/tron1-gazebo-ros2) | 基于 ROS Noetic · ROS 2 Iron 的 Gazebo 仿真 |
+| 训练 | [tron1-rl-isaaclab](https://github.com/limxdynamics/tron1-rl-isaaclab) | 基于 Isaac Lab 的强化学习训练，新项目推荐使用 |
+| 训练 | [tron1-rl-isaacgym](https://github.com/limxdynamics/tron1-rl-isaacgym) | 基于 Isaac Gym 的强化学习训练 |
+| 部署 | [tron1-rl-deploy-python](https://github.com/limxdynamics/tron1-rl-deploy-python) | Python 部署，附带预训练策略 |
+| 部署 | [tron1-rl-deploy-ros](https://github.com/limxdynamics/tron1-rl-deploy-ros) · [tron1-rl-deploy-ros2](https://github.com/limxdynamics/tron1-rl-deploy-ros2) | 基于 ROS Noetic · ROS 2 Iron 的部署 |
+| 部署 | [tron1-rl-deploy-arm](https://github.com/limxdynamics/tron1-rl-deploy-arm) | 带机械臂 TRON1 的强化学习部署 |
+| 应用 | [tron1-ss](https://github.com/limxdynamics/tron1-ss) | 激光雷达 SLAM 与导航：建图、定位、路径规划 |
+| 应用 | [tron1-agent](https://github.com/limxdynamics/tron1-agent) | 语音交互 AI 智能体：语音指令、大模型对话、机器人动作 |
 
 <a id="tron2"></a>
 

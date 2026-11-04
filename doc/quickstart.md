@@ -54,7 +54,25 @@ python tron1-rl-deploy-python/main.py
 | Map, localize and navigate | [tron1-ss](https://github.com/limxdynamics/tron1-ss) (LiDAR SLAM and path planning) |
 | Talk to the robot | [tron1-agent](https://github.com/limxdynamics/tron1-agent) (voice commands and LLM dialogue) |
 
-All TRON1 repositories and how they fit together: [TRON1 open-source ecosystem](https://github.com/limxdynamics/tron1-rl-isaacgym#tron1-open-source-ecosystem).
+### All TRON1 repositories
+
+```
+tron1-robot-description ──► tron1-rl-isaaclab / tron1-rl-isaacgym ──► ONNX policy ──► tron1-mujoco-sim ──► tron1-rl-deploy-{ros, ros2, python} ──► TRON1
+      (robot models)                  (train)                                       (sim-to-sim check)          (run on the real robot)
+```
+
+| Stage | Repository | What it does |
+|---|---|---|
+| Robot model | [tron1-robot-description](https://github.com/limxdynamics/tron1-robot-description) | URDF / Xacro / MJCF models for ROS 1/2, MuJoCo and Gazebo |
+| Simulation | [tron1-mujoco-sim](https://github.com/limxdynamics/tron1-mujoco-sim) | MuJoCo simulator with the same `limxsdk` interface as the robot |
+| Simulation | [tron1-gazebo-ros](https://github.com/limxdynamics/tron1-gazebo-ros) · [tron1-gazebo-ros2](https://github.com/limxdynamics/tron1-gazebo-ros2) | Gazebo simulation on ROS Noetic · ROS 2 Iron |
+| Training | [tron1-rl-isaaclab](https://github.com/limxdynamics/tron1-rl-isaaclab) | RL training on Isaac Lab, recommended for new projects |
+| Training | [tron1-rl-isaacgym](https://github.com/limxdynamics/tron1-rl-isaacgym) | RL training on Isaac Gym |
+| Deployment | [tron1-rl-deploy-python](https://github.com/limxdynamics/tron1-rl-deploy-python) | Python deployment, with pre-trained policies |
+| Deployment | [tron1-rl-deploy-ros](https://github.com/limxdynamics/tron1-rl-deploy-ros) · [tron1-rl-deploy-ros2](https://github.com/limxdynamics/tron1-rl-deploy-ros2) | Deployment on ROS Noetic · ROS 2 Iron |
+| Deployment | [tron1-rl-deploy-arm](https://github.com/limxdynamics/tron1-rl-deploy-arm) | RL deployment for TRON1 with the arm |
+| Applications | [tron1-ss](https://github.com/limxdynamics/tron1-ss) | LiDAR SLAM and navigation: mapping, localization, path planning |
+| Applications | [tron1-agent](https://github.com/limxdynamics/tron1-agent) | Voice-interactive AI agent: speech commands, LLM dialogue, robot actions |
 
 <a id="tron2"></a>
 
