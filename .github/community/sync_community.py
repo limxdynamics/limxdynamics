@@ -31,6 +31,11 @@ WECHAT_EN = ("WeChat Community",
 WECHAT_ZH = ("微信开发者社区",
              "https://img.shields.io/badge/%E5%BE%AE%E4%BF%A1-%E5%BC%80%E5%8F%91%E8%80%85%E7%A4%BE%E5%8C%BA-07C160?logo=wechat&logoColor=white")
 
+CONTACT_URL = "mailto:opensource@limxdynamics.com"
+CONTACT_EN = 'For partnership and procurement inquiries, contact <a href="mailto:opensource@limxdynamics.com">opensource@limxdynamics.com</a>'
+CONTACT_ZH = '合作采购请联系 <a href="mailto:opensource@limxdynamics.com">opensource@limxdynamics.com</a>'
+CONTACT_LINE_RE = re.compile(r'(?m)^\n?<p( align="center")?><sub>[^\n]*?mailto:opensource@limxdynamics\.com[^\n]*?</sub></p>\n')
+
 # Repositories derived from an upstream project -> upstream owner/repo.
 FORKS = {
     "GMR": "YanjieZe/GMR",
@@ -108,7 +113,10 @@ def managed(repo, zh):
 
 def strip_managed(text, repo):
     text = OLD_BLOCK_RE.sub("", text)
-    links = [re.escape(QR_URL)] + [re.escape("https://github.com/" + FORKS[repo])] if repo in FORKS else [re.escape(QR_URL)]
+    text = CONTACT_LINE_RE.sub("", text)
+    links = [re.escape(QR_URL), re.escape(CONTACT_URL)]
+    if repo in FORKS:
+        links.append(re.escape("https://github.com/" + FORKS[repo]))
     for link in links:
         # whole line that only holds the badge (HTML or Markdown)
         text = re.sub(r"(?m)^[ \t]*(<a href=\"%s\">[^\n]*?</a>|\[!\[[^\]]*\]\([^)]*\)\]\(%s\))[ \t]*\n" % (link, link), "", text)
@@ -143,7 +151,7 @@ def find_md_row(text):
     return last
 
 
-def insert(text, repo):
+def insert_badges(text, repo):
     zh = is_chinese(text)
     text = strip_managed(text, repo)
     badges = managed(repo, zh)
@@ -193,6 +201,33 @@ def insert(text, repo):
                 k += 1
             return "".join(lines[:j + 1]) + "\n" + block + "".join(lines[k:])
     return block + text
+
+
+def contact_line(zh, center):
+    return '<p%s><sub>%s</sub></p>\n' % (' align="center"' if center else "", CONTACT_ZH if zh else CONTACT_EN)
+
+
+def insert(text, repo):
+    zh = is_chinese(text)
+    text = insert_badges(text, repo)
+    # the WeChat badge marks the row; put the contact line right under that row
+    i = text.find(QR_URL)
+    row = find_html_row(text)
+    if row and row.start() <= i < row.end():
+        end = row.end()
+        nl = text.find("\n", end)
+        end = len(text) if nl < 0 else nl + 1
+        return text[:end] + contact_line(zh, True) + text[end:]
+    # Markdown badge row: after its last badge line
+    pos = find_md_row(text)
+    if pos is not None:
+        before = text[:pos]
+        center = before.rfind('<div align="center">') > before.rfind("</div>")
+        line = "\n" + contact_line(zh, center)
+        if not text[pos:].startswith("\n"):
+            line += "\n"
+        return text[:pos] + line + text[pos:]
+    return text
 
 
 def main():
