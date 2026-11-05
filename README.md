@@ -60,6 +60,7 @@ Every LimX stack is the same two-process pattern — a **MuJoCo simulator** and 
 ## Open Source Projects
 
 <p align="center"><a href="https://github.com/limxdynamics/limxdynamics/blob/main/doc/wechat_qr.png"><img src="https://img.shields.io/badge/Join%20Our%20WeChat%20Community-All%20Projects%20Welcome-07C160?style=for-the-badge&logo=wechat&logoColor=white" alt="WeChat Community"></a></p>
+<p align="center"><sub>For partnership and procurement inquiries, contact <a href="mailto:opensource@limxdynamics.com">opensource@limxdynamics.com</a></sub></p>
 
 <table class="table table-striped table-bordered table-vcenter"/>
     <tbody>
