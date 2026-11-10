@@ -74,19 +74,23 @@ Find work for your robot: [TRON1](https://github.com/limxdynamics/awesome-limx/b
     <!-- Empty rows keep rowspan category cells on the default white stripe. -->
     <tr></tr>
     <tr>
-        <td rowspan="1" class="font-weight-bold">Insights</td>
-        <td align="center" >Report</td>
-        <td align="center" ><a href="https://github.com/limxdynamics/embodied-ai-insights"> embodied-ai-insights </a></td>
-        <td> Monthly reports on the embodied AI open-source ecosystem, built from public GitHub data — tracking star growth, new repositories and community activity across leading robotics companies. </td>
-        <td><a href="https://github.com/limxdynamics/embodied-ai-insights"><img alt="Stars" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Flimxdynamics%2Flimxdynamics%2Fmain%2Fbadges%2Frepos%2Flimxdynamics__embodied-ai-insights.json"/></a></td>
+        <td rowspan="3" class="font-weight-bold">Ecosystem</td>
+        <td align="center" >Homepage</td>
+        <td align="center" ><a href="https://github.com/limxdynamics/limxdynamics"> limxdynamics </a></td>
+        <td> The LimX Dynamics open-source home: every official project in one place, plus a 10-minute quick start. </td>
+        <td><a href="https://github.com/limxdynamics/limxdynamics"><img alt="Stars" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Flimxdynamics%2Flimxdynamics%2Fmain%2Fbadges%2Frepos%2Flimxdynamics__limxdynamics.json"/></a></td>
     </tr>
-    <tr></tr>
     <tr>
-        <td rowspan="1" class="font-weight-bold">Ecosystem</td>
         <td align="center" >Awesome list</td>
         <td align="center" ><a href="https://github.com/limxdynamics/awesome-limx"> awesome-limx </a></td>
         <td> A curated list of public work built on LimX robots and the LimX SDK: papers, open-source code, datasets, competition results and industry deployments, with one page per robot. </td>
         <td><a href="https://github.com/limxdynamics/awesome-limx"><img alt="Stars" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Flimxdynamics%2Flimxdynamics%2Fmain%2Fbadges%2Frepos%2Flimxdynamics__awesome-limx.json"/></a></td>
+    </tr>
+    <tr>
+        <td align="center" >Report</td>
+        <td align="center" ><a href="https://github.com/limxdynamics/embodied-ai-insights"> embodied-ai-insights </a></td>
+        <td> Monthly reports on the embodied AI open-source ecosystem, built from public GitHub data — tracking star growth, new repositories and community activity across leading robotics companies. </td>
+        <td><a href="https://github.com/limxdynamics/embodied-ai-insights"><img alt="Stars" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Flimxdynamics%2Flimxdynamics%2Fmain%2Fbadges%2Frepos%2Flimxdynamics__embodied-ai-insights.json"/></a></td>
     </tr>
     <tr></tr>
     <tr>

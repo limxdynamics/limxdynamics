@@ -74,19 +74,23 @@ LimX 各条技术栈都是同一个结构：**MuJoCo 仿真器**和 **RL 控制�
     <!-- 空的占位行用于让跨行分类单元格保持默认的白色条纹。 -->
     <tr></tr>
     <tr>
-        <td rowspan="1" class="font-weight-bold">行业洞察</td>
-        <td align="center" >月报</td>
-        <td align="center" ><a href="https://github.com/limxdynamics/embodied-ai-insights"> embodied-ai-insights </a></td>
-        <td> 基于 GitHub 公开数据的具身智能开源生态观察——逐月追踪各家机器人企业的 star 增长、新仓发布与社区活跃度，输出月报与专题分析。 </td>
-        <td><a href="https://github.com/limxdynamics/embodied-ai-insights"><img alt="Stars" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Flimxdynamics%2Flimxdynamics%2Fmain%2Fbadges%2Frepos%2Flimxdynamics__embodied-ai-insights.json"/></a></td>
+        <td rowspan="3" class="font-weight-bold">生态</td>
+        <td align="center" >主页</td>
+        <td align="center" ><a href="https://github.com/limxdynamics/limxdynamics"> limxdynamics </a></td>
+        <td> 逐际动力开源主页：汇总全部官方项目，附十分钟上手指南。 </td>
+        <td><a href="https://github.com/limxdynamics/limxdynamics"><img alt="Stars" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Flimxdynamics%2Flimxdynamics%2Fmain%2Fbadges%2Frepos%2Flimxdynamics__limxdynamics.json"/></a></td>
     </tr>
-    <tr></tr>
     <tr>
-        <td rowspan="1" class="font-weight-bold">生态</td>
         <td align="center" >精选列表</td>
         <td align="center" ><a href="https://github.com/limxdynamics/awesome-limx"> awesome-limx </a></td>
         <td> 基于逐际动力机器人和 LimX SDK 的公开成果精选：论文、开源代码、数据集、比赛成绩和行业应用，每个机型都有单独页面。 </td>
         <td><a href="https://github.com/limxdynamics/awesome-limx"><img alt="Stars" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Flimxdynamics%2Flimxdynamics%2Fmain%2Fbadges%2Frepos%2Flimxdynamics__awesome-limx.json"/></a></td>
+    </tr>
+    <tr>
+        <td align="center" >月报</td>
+        <td align="center" ><a href="https://github.com/limxdynamics/embodied-ai-insights"> embodied-ai-insights </a></td>
+        <td> 基于 GitHub 公开数据的具身智能开源生态观察——逐月追踪各家机器人企业的 star 增长、新仓发布与社区活跃度，输出月报与专题分析。 </td>
+        <td><a href="https://github.com/limxdynamics/embodied-ai-insights"><img alt="Stars" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Flimxdynamics%2Flimxdynamics%2Fmain%2Fbadges%2Frepos%2Flimxdynamics__embodied-ai-insights.json"/></a></td>
     </tr>
     <tr></tr>
     <tr>
