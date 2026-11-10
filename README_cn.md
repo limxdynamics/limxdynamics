@@ -57,6 +57,12 @@ LimX Dynamics 致力于以具身智能（Embodied AI）驱动颠覆式创新。�
 
 LimX 各条技术栈都是同一个结构：**MuJoCo 仿真器**和 **RL 控制器**是两个进程，通过 [LimX SDK](https://github.com/limxdynamics/limxsdk-lowlevel) 在 `127.0.0.1` 上通信；把地址换成机器人 IP，同一份代码就能驱动真机。
 
+## 用 LimX 做了什么
+
+**[Awesome LimX：基于逐际动力机器人的论文、代码、数据集、比赛成绩和行业应用 →](https://github.com/limxdynamics/awesome-limx/blob/main/README_cn.md)**
+
+按机型查找：[TRON1](https://github.com/limxdynamics/awesome-limx/blob/main/robots/TRON1_cn.md) · [TRON2](https://github.com/limxdynamics/awesome-limx/blob/main/robots/TRON2_cn.md) · [Oli](https://github.com/limxdynamics/awesome-limx/blob/main/robots/Oli_cn.md) · [Luna](https://github.com/limxdynamics/awesome-limx/blob/main/robots/Luna_cn.md) · [P1](https://github.com/limxdynamics/awesome-limx/blob/main/robots/P1_cn.md) · [W1](https://github.com/limxdynamics/awesome-limx/blob/main/robots/W1_cn.md)
+
 ## 开源项目
 
 <p align="center"><a href="https://github.com/limxdynamics/limxdynamics/blob/main/doc/wechat_qr.png"><img src="https://img.shields.io/badge/%E5%BE%AE%E4%BF%A1%E5%BC%80%E5%8F%91%E8%80%85%E7%BE%A4-%E6%89%AB%E7%A0%81%E5%8A%A0%E5%85%A5%20%C2%B7%20%E8%A6%86%E7%9B%96%E5%85%A8%E9%83%A8%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE-07C160?style=for-the-badge&logo=wechat&logoColor=white" alt="微信开发者社区"></a></p>
@@ -73,6 +79,14 @@ LimX 各条技术栈都是同一个结构：**MuJoCo 仿真器**和 **RL 控制�
         <td align="center" ><a href="https://github.com/limxdynamics/embodied-ai-insights"> embodied-ai-insights </a></td>
         <td> 基于 GitHub 公开数据的具身智能开源生态观察——逐月追踪各家机器人企业的 star 增长、新仓发布与社区活跃度，输出月报与专题分析。 </td>
         <td><a href="https://github.com/limxdynamics/embodied-ai-insights"><img alt="Stars" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Flimxdynamics%2Flimxdynamics%2Fmain%2Fbadges%2Frepos%2Flimxdynamics__embodied-ai-insights.json"/></a></td>
+    </tr>
+    <tr></tr>
+    <tr>
+        <td rowspan="1" class="font-weight-bold">生态</td>
+        <td align="center" >精选列表</td>
+        <td align="center" ><a href="https://github.com/limxdynamics/awesome-limx"> awesome-limx </a></td>
+        <td> 基于逐际动力机器人和 LimX SDK 的公开成果精选：论文、开源代码、数据集、比赛成绩和行业应用，每个机型都有单独页面。 </td>
+        <td><a href="https://github.com/limxdynamics/awesome-limx"><img alt="Stars" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Flimxdynamics%2Flimxdynamics%2Fmain%2Fbadges%2Frepos%2Flimxdynamics__awesome-limx.json"/></a></td>
     </tr>
     <tr></tr>
     <tr>

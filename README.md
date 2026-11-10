@@ -57,6 +57,12 @@ LimX Dynamics is dedicated to disruptive innovations by Embodied AI. The goal is
 
 Every LimX stack is the same two-process pattern — a **MuJoCo simulator** and an **RL controller** talking over the [LimX SDK](https://github.com/limxdynamics/limxsdk-lowlevel) on `127.0.0.1`. Point the controller at a robot IP instead and the same code drives real hardware.
 
+## Built with LimX
+
+**[Awesome LimX: papers, code, datasets, competition results and industry deployments built on LimX robots →](https://github.com/limxdynamics/awesome-limx)**
+
+Find work for your robot: [TRON1](https://github.com/limxdynamics/awesome-limx/blob/main/robots/TRON1.md) · [TRON2](https://github.com/limxdynamics/awesome-limx/blob/main/robots/TRON2.md) · [Oli](https://github.com/limxdynamics/awesome-limx/blob/main/robots/Oli.md) · [Luna](https://github.com/limxdynamics/awesome-limx/blob/main/robots/Luna.md) · [P1](https://github.com/limxdynamics/awesome-limx/blob/main/robots/P1.md) · [W1](https://github.com/limxdynamics/awesome-limx/blob/main/robots/W1.md)
+
 ## Open Source Projects
 
 <p align="center"><a href="https://github.com/limxdynamics/limxdynamics/blob/main/doc/wechat_qr.png"><img src="https://img.shields.io/badge/Join%20Our%20WeChat%20Community-All%20Projects%20Welcome-07C160?style=for-the-badge&logo=wechat&logoColor=white" alt="WeChat Community"></a></p>
@@ -73,6 +79,14 @@ Every LimX stack is the same two-process pattern — a **MuJoCo simulator** and 
         <td align="center" ><a href="https://github.com/limxdynamics/embodied-ai-insights"> embodied-ai-insights </a></td>
         <td> Monthly reports on the embodied AI open-source ecosystem, built from public GitHub data — tracking star growth, new repositories and community activity across leading robotics companies. </td>
         <td><a href="https://github.com/limxdynamics/embodied-ai-insights"><img alt="Stars" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Flimxdynamics%2Flimxdynamics%2Fmain%2Fbadges%2Frepos%2Flimxdynamics__embodied-ai-insights.json"/></a></td>
+    </tr>
+    <tr></tr>
+    <tr>
+        <td rowspan="1" class="font-weight-bold">Ecosystem</td>
+        <td align="center" >Awesome list</td>
+        <td align="center" ><a href="https://github.com/limxdynamics/awesome-limx"> awesome-limx </a></td>
+        <td> A curated list of public work built on LimX robots and the LimX SDK: papers, open-source code, datasets, competition results and industry deployments, with one page per robot. </td>
+        <td><a href="https://github.com/limxdynamics/awesome-limx"><img alt="Stars" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Flimxdynamics%2Flimxdynamics%2Fmain%2Fbadges%2Frepos%2Flimxdynamics__awesome-limx.json"/></a></td>
     </tr>
     <tr></tr>
     <tr>
