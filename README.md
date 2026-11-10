@@ -77,7 +77,7 @@ Find work for your robot: [TRON1](https://github.com/limxdynamics/awesome-limx/b
         <td rowspan="3" class="font-weight-bold">Ecosystem</td>
         <td align="center" >Homepage</td>
         <td align="center" ><a href="https://github.com/limxdynamics/limxdynamics"> limxdynamics </a></td>
-        <td> The LimX Dynamics open-source home: every official project in one place, plus a 10-minute quick start. </td>
+        <td> The LimX Dynamics open-source home: every official project in one place, a 10-minute quick start and auto-updating star and fork charts. </td>
         <td><a href="https://github.com/limxdynamics/limxdynamics"><img alt="Stars" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Flimxdynamics%2Flimxdynamics%2Fmain%2Fbadges%2Frepos%2Flimxdynamics__limxdynamics.json"/></a></td>
     </tr>
     <tr>
@@ -400,14 +400,6 @@ Find work for your robot: [TRON1](https://github.com/limxdynamics/awesome-limx/b
         <td align="center" ><a href="https://github.com/limxdynamics/troncamp-web-locomotion"> troncamp-web-locomotion </a></td>
         <td> TronCamp locomotion track web companion for the TRON2 robot. </td>
         <td><a href="https://github.com/limxdynamics/troncamp-web-locomotion"><img alt="Stars" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Flimxdynamics%2Flimxdynamics%2Fmain%2Fbadges%2Frepos%2Flimxdynamics__troncamp-web-locomotion.json"/></a></td>
-    </tr>
-    <tr></tr>
-    <tr>
-        <td rowspan="1" class="font-weight-bold">Profile</td>
-        <td align="center" >Profile</td>
-        <td align="center" ><a href="https://github.com/limxdynamics/limxdynamics/tree/main"> limxdynamics </a></td>
-        <td> GitHub profile page for LimX Dynamics — this README overview plus auto-updating total-star / forks growth charts. </td>
-        <td><a href="https://github.com/limxdynamics/limxdynamics"><img alt="Stars" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Flimxdynamics%2Flimxdynamics%2Fmain%2Fbadges%2Frepos%2Flimxdynamics__limxdynamics.json"/></a></td>
     </tr>
     </tbody>
 </table>

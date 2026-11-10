@@ -77,7 +77,7 @@ LimX 各条技术栈都是同一个结构：**MuJoCo 仿真器**和 **RL 控制�
         <td rowspan="3" class="font-weight-bold">生态</td>
         <td align="center" >主页</td>
         <td align="center" ><a href="https://github.com/limxdynamics/limxdynamics"> limxdynamics </a></td>
-        <td> 逐际动力开源主页：汇总全部官方项目，附十分钟上手指南。 </td>
+        <td> 逐际动力开源主页：汇总全部官方项目，附十分钟上手指南和自动更新的 star / fork 增长曲线。 </td>
         <td><a href="https://github.com/limxdynamics/limxdynamics"><img alt="Stars" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Flimxdynamics%2Flimxdynamics%2Fmain%2Fbadges%2Frepos%2Flimxdynamics__limxdynamics.json"/></a></td>
     </tr>
     <tr>
@@ -398,14 +398,6 @@ LimX 各条技术栈都是同一个结构：**MuJoCo 仿真器**和 **RL 控制�
         <td align="center" ><a href="https://github.com/limxdynamics/troncamp-web-locomotion"> troncamp-web-locomotion </a></td>
         <td> TronCamp 运动（locomotion）赛道的网页配套站点，面向 TRON2 机器人。 </td>
         <td><a href="https://github.com/limxdynamics/troncamp-web-locomotion"><img alt="Stars" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Flimxdynamics%2Flimxdynamics%2Fmain%2Fbadges%2Frepos%2Flimxdynamics__troncamp-web-locomotion.json"/></a></td>
-    </tr>
-    <tr></tr>
-    <tr>
-        <td rowspan="1" class="font-weight-bold">主页</td>
-        <td align="center" >主页</td>
-        <td align="center" ><a href="https://github.com/limxdynamics/limxdynamics/tree/main"> limxdynamics </a></td>
-        <td> LimX Dynamics GitHub 主页仓库——本 README 仓库总览与每日自动更新的总 star / forks 增长曲线。 </td>
-        <td><a href="https://github.com/limxdynamics/limxdynamics"><img alt="Stars" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Flimxdynamics%2Flimxdynamics%2Fmain%2Fbadges%2Frepos%2Flimxdynamics__limxdynamics.json"/></a></td>
     </tr>
     </tbody>
 </table>
