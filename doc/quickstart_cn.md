@@ -212,6 +212,6 @@ python -m mujoco.viewer --mjcf=HU_L04_description/xml/HU_L04_01.xml
 | 看看大家用 LimX 机器人做了什么，或收录我的项目 | [Awesome LimX](https://github.com/limxdynamics/awesome-limx/blob/main/README_cn.md)，每个机型一页 |
 | 不写代码，只关注行业动态 | [embodied-ai-insights](https://github.com/limxdynamics/embodied-ai-insights) 月度报告 |
 
-> **上真机之前：** 先在仿真里验证策略，把机器人吊起来，并阅读你所部署仓库里的安全说明。
+> **上真机之前：** 策略要先在仿真里验证通过；第一次在真机上运行时，先用吊架把机器人悬空吊起再启动；部署前请读一遍所用仓库里的安全说明。
 
 完整项目清单：[首页 README](../README_cn.md#开源项目)
