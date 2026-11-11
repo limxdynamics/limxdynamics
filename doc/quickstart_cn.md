@@ -56,6 +56,10 @@ python tron1-rl-deploy-python/main.py
 | 建图、定位、导航 | [tron1-ss](https://github.com/limxdynamics/tron1-ss)（激光 SLAM 与路径规划） |
 | 和机器人对话 | [tron1-agent](https://github.com/limxdynamics/tron1-agent)（语音指令与大模型对话） |
 
+### 看看别人用 TRON1 做了什么
+
+[Awesome LimX 的 TRON1 页面](https://github.com/limxdynamics/awesome-limx/blob/main/robots/TRON1_cn.md)汇总了基于 TRON1 的公开论文、代码、数据集、比赛方案和行业应用。可以先找一个和你方向接近的项目，从它的代码起步；标了「仿真」的只在仿真中展示过。自己做了项目？欢迎[提交收录](https://github.com/limxdynamics/awesome-limx/issues/new?template=add-project.yml)。
+
 ### TRON1 全部仓库
 
 ```
@@ -120,6 +124,10 @@ python3 main.py
 | 自主导航 | [tron2-navigation-ros2](https://github.com/limxdynamics/tron2-navigation-ros2)（ROS 2 Humble） |
 | 获取机器人模型 | [tron2-robot-description](https://github.com/limxdynamics/tron2-robot-description)（TRON2A 和 TRON2B 的 URDF/xacro、MuJoCo XML、USD） |
 
+### 看看别人用 TRON2 做了什么
+
+[Awesome LimX 的 TRON2 页面](https://github.com/limxdynamics/awesome-limx/blob/main/robots/TRON2_cn.md)汇总了基于 TRON2 的公开论文、代码、数据集、比赛方案和行业应用。可以先找一个和你方向接近的项目，从它的代码起步；标了「仿真」的只在仿真中展示过。自己做了项目？欢迎[提交收录](https://github.com/limxdynamics/awesome-limx/issues/new?template=add-project.yml)。
+
 <a id="oli"></a>
 
 ## Oli（HU_D04）
@@ -161,6 +169,10 @@ humanoid-mujoco-sim/robot-joystick/robot-joystick  # 终端 3 —— 虚拟手�
 | 把人体动作重定向到 Oli | [GMR](https://github.com/limxdynamics/GMR)（机器人名 `limx_oli_edu`） |
 | 获取机器人模型 | [humanoid-description](https://github.com/limxdynamics/humanoid-description)（URDF、MuJoCo MJCF、USD） |
 
+### 看看别人用 Oli 做了什么
+
+[Awesome LimX 的 Oli 页面](https://github.com/limxdynamics/awesome-limx/blob/main/robots/Oli_cn.md)汇总了基于 Oli 的公开论文、代码、数据集、比赛方案和行业应用。可以先找一个和你方向接近的项目，从它的代码起步；标了「仿真」的只在仿真中展示过。自己做了项目？欢迎[提交收录](https://github.com/limxdynamics/awesome-limx/issues/new?template=add-project.yml)。
+
 <a id="luna"></a>
 
 ## Luna（HU_L04）
@@ -187,12 +199,17 @@ python -m mujoco.viewer --mjcf=HU_L04_description/xml/HU_L04_01.xml
 - [GMR](https://github.com/limxdynamics/GMR)（机器人名 `limx_luna`）把你自己的动捕或 SMPL-X 数据重定向到 Luna。
 - [luna-description](https://github.com/limxdynamics/luna-description) 提供 URDF、MuJoCo MJCF 和 USD 模型。
 
+### 看看别人用 Luna 做了什么
+
+[Awesome LimX 的 Luna 页面](https://github.com/limxdynamics/awesome-limx/blob/main/robots/Luna_cn.md)汇总了基于 Luna 的公开论文、代码、数据集、比赛方案和行业应用。可以先找一个和你方向接近的项目，从它的代码起步；标了「仿真」的只在仿真中展示过。自己做了项目？欢迎[提交收录](https://github.com/limxdynamics/awesome-limx/issues/new?template=add-project.yml)。
+
 ## 所有机型通用
 
 | 我想… | 从这里开始 |
 |---|---|
 | 写自己的控制器 | [limxsdk-lowlevel](https://github.com/limxdynamics/limxsdk-lowlevel) 里的 SDK 示例（C++ 和 Python） |
 | 跨机器桥接 ROS | [ros1-bridger](https://github.com/limxdynamics/ros1-bridger) · [ros2-bridger](https://github.com/limxdynamics/ros2-bridger) |
+| 看看大家用 LimX 机器人做了什么，或收录我的项目 | [Awesome LimX](https://github.com/limxdynamics/awesome-limx/blob/main/README_cn.md)，每个机型一页 |
 | 不写代码，只关注行业动态 | [embodied-ai-insights](https://github.com/limxdynamics/embodied-ai-insights) 月度报告 |
 
 > **上真机之前：** 先在仿真里验证策略，把机器人吊起来，并阅读你所部署仓库里的安全说明。

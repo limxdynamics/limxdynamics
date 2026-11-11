@@ -56,6 +56,10 @@ python tron1-rl-deploy-python/main.py
 | Map, localize and navigate | [tron1-ss](https://github.com/limxdynamics/tron1-ss) (LiDAR SLAM and path planning) |
 | Talk to the robot | [tron1-agent](https://github.com/limxdynamics/tron1-agent) (voice commands and LLM dialogue) |
 
+### See what others built with TRON1
+
+[TRON1 on Awesome LimX](https://github.com/limxdynamics/awesome-limx/blob/main/robots/TRON1.md) collects public papers, code, datasets, competition entries and industry deployments that use TRON1. Find a project close to what you want to do and start from its code; rows marked *sim* were shown only in simulation. Built something yourself? [Submit it](https://github.com/limxdynamics/awesome-limx/issues/new?template=add-project.yml).
+
 ### All TRON1 repositories
 
 ```
@@ -120,6 +124,10 @@ python3 main.py
 | Navigate autonomously | [tron2-navigation-ros2](https://github.com/limxdynamics/tron2-navigation-ros2) (ROS 2 Humble) |
 | Get the robot models | [tron2-robot-description](https://github.com/limxdynamics/tron2-robot-description) (URDF/xacro, MuJoCo XML, USD for TRON2A and TRON2B) |
 
+### See what others built with TRON2
+
+[TRON2 on Awesome LimX](https://github.com/limxdynamics/awesome-limx/blob/main/robots/TRON2.md) collects public papers, code, datasets, competition entries and industry deployments that use TRON2. Find a project close to what you want to do and start from its code; rows marked *sim* were shown only in simulation. Built something yourself? [Submit it](https://github.com/limxdynamics/awesome-limx/issues/new?template=add-project.yml).
+
 <a id="oli"></a>
 
 ## Oli (HU_D04)
@@ -161,6 +169,10 @@ humanoid-mujoco-sim/robot-joystick/robot-joystick  # Terminal 3 — virtual game
 | Retarget human motion to Oli | [GMR](https://github.com/limxdynamics/GMR) (robot key `limx_oli_edu`) |
 | Get the robot models | [humanoid-description](https://github.com/limxdynamics/humanoid-description) (URDF, MuJoCo MJCF, USD) |
 
+### See what others built with Oli
+
+[Oli on Awesome LimX](https://github.com/limxdynamics/awesome-limx/blob/main/robots/Oli.md) collects public papers, code, datasets, competition entries and industry deployments that use Oli. Find a project close to what you want to do and start from its code; rows marked *sim* were shown only in simulation. Built something yourself? [Submit it](https://github.com/limxdynamics/awesome-limx/issues/new?template=add-project.yml).
+
 <a id="luna"></a>
 
 ## Luna (HU_L04)
@@ -187,12 +199,17 @@ human motion (SMPL-X / BVH)  ──►  GMR  ──►  motion .npy  ──►  
 - [GMR](https://github.com/limxdynamics/GMR) (robot key `limx_luna`) retargets your own motion capture or SMPL-X data to Luna.
 - [luna-description](https://github.com/limxdynamics/luna-description) has the URDF, MuJoCo MJCF and USD models.
 
+### See what others built with Luna
+
+[Luna on Awesome LimX](https://github.com/limxdynamics/awesome-limx/blob/main/robots/Luna.md) collects public papers, code, datasets, competition entries and industry deployments that use Luna. Find a project close to what you want to do and start from its code; rows marked *sim* were shown only in simulation. Built something yourself? [Submit it](https://github.com/limxdynamics/awesome-limx/issues/new?template=add-project.yml).
+
 ## For every robot
 
 | I want to… | Start here |
 |---|---|
 | Write my own controller | SDK examples in [limxsdk-lowlevel](https://github.com/limxdynamics/limxsdk-lowlevel) (C++ and Python) |
 | Bridge ROS across machines | [ros1-bridger](https://github.com/limxdynamics/ros1-bridger) · [ros2-bridger](https://github.com/limxdynamics/ros2-bridger) |
+| See what people built on LimX robots, or add my project | [Awesome LimX](https://github.com/limxdynamics/awesome-limx) — one page per robot |
 | Follow the industry without writing code | [embodied-ai-insights](https://github.com/limxdynamics/embodied-ai-insights) monthly reports |
 
 > **Before running on a real robot:** check the policy in simulation first, suspend the robot, and read the safety notes in the repository you deploy from.
