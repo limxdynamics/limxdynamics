@@ -317,7 +317,7 @@ LimX 各条技术栈都是同一个结构：**MuJoCo 仿真器**和 **RL 控制�
         <td><a href="https://github.com/limxdynamics/tron1-agent"><img alt="Stars" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Flimxdynamics%2Flimxdynamics%2Fmain%2Fbadges%2Frepos%2Flimxdynamics__tron1-agent.json"/></a></td>
     </tr>
     <tr>
-        <td rowspan="3" class="font-weight-bold">VLA</td>
+        <td rowspan="5" class="font-weight-bold">VLA</td>
         <td align="center" >算法</td>
         <td align="center" ><a href="https://github.com/FluxVLA/FluxVLA"> FluxVLA </a></td>
         <td> 面向具身智能的一体化 VLA 工程平台 — 从数据采集到真机部署。 </td>
@@ -334,6 +334,18 @@ LimX 各条技术栈都是同一个结构：**MuJoCo 仿真器**和 **RL 控制�
         <td align="center" ><a href="https://github.com/FluxVLA/FluxDAgger"> FluxDAgger </a></td>
         <td> 面向双臂操作的模型解耦 DAgger 流水线 — 通过人在回路进行数据采集，兼容任意 VLA 与奖励模型。 </td>
         <td><a href="https://github.com/FluxVLA/FluxDAgger"><img alt="Stars" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Flimxdynamics%2Flimxdynamics%2Fmain%2Fbadges%2Frepos%2FFluxVLA__FluxDAgger.json"/></a></td>
+    </tr>
+    <tr>
+        <td align="center" >数据</td>
+        <td align="center" ><a href="https://github.com/FluxVLA/FluxMimir"> FluxMimir </a></td>
+        <td> 离线数据工具链 — 把原始机器人录制数据转成带版本的规范化数据集，含格式转换、第一视角到机器人视角的视觉合成与自动标注。 </td>
+        <td><a href="https://github.com/FluxVLA/FluxMimir"><img alt="Stars" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Flimxdynamics%2Flimxdynamics%2Fmain%2Fbadges%2Frepos%2FFluxVLA__FluxMimir.json"/></a></td>
+    </tr>
+    <tr>
+        <td align="center" >评测</td>
+        <td align="center" ><a href="https://github.com/FluxVLA/FluxThemis"> FluxThemis </a></td>
+        <td> VLA 策略的统一评测框架 — 同一份模型接口下仿真与真机共用一套评测流程，支持断点续跑与评测留档。 </td>
+        <td><a href="https://github.com/FluxVLA/FluxThemis"><img alt="Stars" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Flimxdynamics%2Flimxdynamics%2Fmain%2Fbadges%2Frepos%2FFluxVLA__FluxThemis.json"/></a></td>
     </tr>
     <tr></tr>
     <tr>

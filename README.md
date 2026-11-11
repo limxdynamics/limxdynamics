@@ -319,7 +319,7 @@ Find work for your robot: [TRON1](https://github.com/limxdynamics/awesome-limx/b
         <td><a href="https://github.com/limxdynamics/tron1-agent"><img alt="Stars" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Flimxdynamics%2Flimxdynamics%2Fmain%2Fbadges%2Frepos%2Flimxdynamics__tron1-agent.json"/></a></td>
     </tr>
     <tr>
-        <td rowspan="3" class="font-weight-bold">VLA</td>
+        <td rowspan="5" class="font-weight-bold">VLA</td>
         <td align="center" >Algorithm</td>
         <td align="center" ><a href="https://github.com/FluxVLA/FluxVLA"> FluxVLA </a></td>
         <td> All-in-one VLA engineering platform for embodied intelligence — from data collection to real-robot deployment. </td>
@@ -336,6 +336,18 @@ Find work for your robot: [TRON1](https://github.com/limxdynamics/awesome-limx/b
         <td align="center" ><a href="https://github.com/FluxVLA/FluxDAgger"> FluxDAgger </a></td>
         <td> A model-decoupled DAgger pipeline for dual-arm robotic manipulation — human-in-the-loop data collection compatible with arbitrary VLA and reward models. </td>
         <td><a href="https://github.com/FluxVLA/FluxDAgger"><img alt="Stars" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Flimxdynamics%2Flimxdynamics%2Fmain%2Fbadges%2Frepos%2FFluxVLA__FluxDAgger.json"/></a></td>
+    </tr>
+    <tr>
+        <td align="center" >Data</td>
+        <td align="center" ><a href="https://github.com/FluxVLA/FluxMimir"> FluxMimir </a></td>
+        <td> Offline data pipeline that turns raw robot recordings into versioned canonical datasets — format conversion, ego-to-robot visual synthesis and automated annotation. </td>
+        <td><a href="https://github.com/FluxVLA/FluxMimir"><img alt="Stars" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Flimxdynamics%2Flimxdynamics%2Fmain%2Fbadges%2Frepos%2FFluxVLA__FluxMimir.json"/></a></td>
+    </tr>
+    <tr>
+        <td align="center" >Evaluation</td>
+        <td align="center" ><a href="https://github.com/FluxVLA/FluxThemis"> FluxThemis </a></td>
+        <td> A benchmarking framework that evaluates VLA policies in simulation and on real robots through the same versioned model interface, with resumable episode scheduling. </td>
+        <td><a href="https://github.com/FluxVLA/FluxThemis"><img alt="Stars" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Flimxdynamics%2Flimxdynamics%2Fmain%2Fbadges%2Frepos%2FFluxVLA__FluxThemis.json"/></a></td>
     </tr>
     <tr></tr>
     <tr>
