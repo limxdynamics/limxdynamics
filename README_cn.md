@@ -318,16 +318,16 @@ LimX 各条技术栈都是同一个结构：**MuJoCo 仿真器**和 **RL 控制�
     </tr>
     <tr>
         <td rowspan="5" class="font-weight-bold">VLA</td>
+        <td align="center" >数据</td>
+        <td align="center" ><a href="https://github.com/FluxVLA/FluxMimir"> FluxMimir </a></td>
+        <td> 离线数据工具链 — 把原始机器人录制数据转成带版本的规范化数据集，含格式转换、第一视角到机器人视角的视觉合成与自动标注。 </td>
+        <td><a href="https://github.com/FluxVLA/FluxMimir"><img alt="Stars" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Flimxdynamics%2Flimxdynamics%2Fmain%2Fbadges%2Frepos%2FFluxVLA__FluxMimir.json"/></a></td>
+    </tr>
+    <tr>
         <td align="center" >算法</td>
         <td align="center" ><a href="https://github.com/FluxVLA/FluxVLA"> FluxVLA </a></td>
         <td> 面向具身智能的一体化 VLA 工程平台 — 从数据采集到真机部署。 </td>
         <td><a href="https://github.com/FluxVLA/FluxVLA"><img alt="Stars" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Flimxdynamics%2Flimxdynamics%2Fmain%2Fbadges%2Frepos%2FFluxVLA__FluxVLA.json"/></a></td>
-    </tr>
-    <tr>
-        <td align="center" >仿真</td>
-        <td align="center" ><a href="https://github.com/FluxVLA/FluxBisim"> FluxBisim </a></td>
-        <td> 基于 IsaacSim 的 FluxVLA 双臂操作仿真平台。 </td>
-        <td><a href="https://github.com/FluxVLA/FluxBisim"><img alt="Stars" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Flimxdynamics%2Flimxdynamics%2Fmain%2Fbadges%2Frepos%2FFluxVLA__FluxBisim.json"/></a></td>
     </tr>
     <tr>
         <td align="center" >算法</td>
@@ -336,10 +336,10 @@ LimX 各条技术栈都是同一个结构：**MuJoCo 仿真器**和 **RL 控制�
         <td><a href="https://github.com/FluxVLA/FluxDAgger"><img alt="Stars" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Flimxdynamics%2Flimxdynamics%2Fmain%2Fbadges%2Frepos%2FFluxVLA__FluxDAgger.json"/></a></td>
     </tr>
     <tr>
-        <td align="center" >数据</td>
-        <td align="center" ><a href="https://github.com/FluxVLA/FluxMimir"> FluxMimir </a></td>
-        <td> 离线数据工具链 — 把原始机器人录制数据转成带版本的规范化数据集，含格式转换、第一视角到机器人视角的视觉合成与自动标注。 </td>
-        <td><a href="https://github.com/FluxVLA/FluxMimir"><img alt="Stars" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Flimxdynamics%2Flimxdynamics%2Fmain%2Fbadges%2Frepos%2FFluxVLA__FluxMimir.json"/></a></td>
+        <td align="center" >仿真</td>
+        <td align="center" ><a href="https://github.com/FluxVLA/FluxBisim"> FluxBisim </a></td>
+        <td> 基于 IsaacSim 的 FluxVLA 双臂操作仿真平台。 </td>
+        <td><a href="https://github.com/FluxVLA/FluxBisim"><img alt="Stars" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Flimxdynamics%2Flimxdynamics%2Fmain%2Fbadges%2Frepos%2FFluxVLA__FluxBisim.json"/></a></td>
     </tr>
     <tr>
         <td align="center" >评测</td>

@@ -320,16 +320,16 @@ Find work for your robot: [TRON1](https://github.com/limxdynamics/awesome-limx/b
     </tr>
     <tr>
         <td rowspan="5" class="font-weight-bold">VLA</td>
+        <td align="center" >Data</td>
+        <td align="center" ><a href="https://github.com/FluxVLA/FluxMimir"> FluxMimir </a></td>
+        <td> Offline data pipeline that turns raw robot recordings into versioned canonical datasets — format conversion, ego-to-robot visual synthesis and automated annotation. </td>
+        <td><a href="https://github.com/FluxVLA/FluxMimir"><img alt="Stars" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Flimxdynamics%2Flimxdynamics%2Fmain%2Fbadges%2Frepos%2FFluxVLA__FluxMimir.json"/></a></td>
+    </tr>
+    <tr>
         <td align="center" >Algorithm</td>
         <td align="center" ><a href="https://github.com/FluxVLA/FluxVLA"> FluxVLA </a></td>
         <td> All-in-one VLA engineering platform for embodied intelligence — from data collection to real-robot deployment. </td>
         <td><a href="https://github.com/FluxVLA/FluxVLA"><img alt="Stars" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Flimxdynamics%2Flimxdynamics%2Fmain%2Fbadges%2Frepos%2FFluxVLA__FluxVLA.json"/></a></td>
-    </tr>
-    <tr>
-        <td align="center" >Simulation</td>
-        <td align="center" ><a href="https://github.com/FluxVLA/FluxBisim"> FluxBisim </a></td>
-        <td> IsaacSim-based bimanual manipulation simulation for FluxVLA. </td>
-        <td><a href="https://github.com/FluxVLA/FluxBisim"><img alt="Stars" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Flimxdynamics%2Flimxdynamics%2Fmain%2Fbadges%2Frepos%2FFluxVLA__FluxBisim.json"/></a></td>
     </tr>
     <tr>
         <td align="center" >Algorithm</td>
@@ -338,10 +338,10 @@ Find work for your robot: [TRON1](https://github.com/limxdynamics/awesome-limx/b
         <td><a href="https://github.com/FluxVLA/FluxDAgger"><img alt="Stars" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Flimxdynamics%2Flimxdynamics%2Fmain%2Fbadges%2Frepos%2FFluxVLA__FluxDAgger.json"/></a></td>
     </tr>
     <tr>
-        <td align="center" >Data</td>
-        <td align="center" ><a href="https://github.com/FluxVLA/FluxMimir"> FluxMimir </a></td>
-        <td> Offline data pipeline that turns raw robot recordings into versioned canonical datasets — format conversion, ego-to-robot visual synthesis and automated annotation. </td>
-        <td><a href="https://github.com/FluxVLA/FluxMimir"><img alt="Stars" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Flimxdynamics%2Flimxdynamics%2Fmain%2Fbadges%2Frepos%2FFluxVLA__FluxMimir.json"/></a></td>
+        <td align="center" >Simulation</td>
+        <td align="center" ><a href="https://github.com/FluxVLA/FluxBisim"> FluxBisim </a></td>
+        <td> IsaacSim-based bimanual manipulation simulation for FluxVLA. </td>
+        <td><a href="https://github.com/FluxVLA/FluxBisim"><img alt="Stars" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Flimxdynamics%2Flimxdynamics%2Fmain%2Fbadges%2Frepos%2FFluxVLA__FluxBisim.json"/></a></td>
     </tr>
     <tr>
         <td align="center" >Evaluation</td>
